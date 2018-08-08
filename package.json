@@ -3,7 +3,8 @@
   "description": "Shareable config for Renovate (renovatebot.com)",
   "version": "1.0.0",
   "author": "azu <azuciao@gmail.com>",
-  "files": [],
+  "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
     "test": "mocha --require intelli-espower-loader test",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
