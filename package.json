@@ -41,7 +41,6 @@
         "config:base",
         ":ignoreModulesAndTests",
         ":label(renovate)",
-        ":prConcurrentLimit10",
         ":prNotPending",
         ":timezone(Asia/Tokyo)",
         "group:monorepos"
