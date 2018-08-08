@@ -1,10 +1,12 @@
 {
   "name": "@azu/renovate-config",
   "description": "Shareable config for Renovate (renovatebot.com)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "azu <azuciao@gmail.com>",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "mocha --require intelli-espower-loader test",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
