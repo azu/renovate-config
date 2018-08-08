@@ -1,0 +1,94 @@
+{
+  "name": "@azu/renovate-config",
+  "description": "Shareable config for Renovate (renovatebot.com)",
+  "version": "1.0.0",
+  "author": "azu <azuciao@gmail.com>",
+  "files": [],
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader test",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "precommit": "lint-staged",
+    "postcommit": "git reset"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "intelli-espower-loader": "^1.0.1",
+    "lint-staged": "^7.2.0",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.0",
+    "prettier": "^1.8.1",
+    "renovate": "^13.22.1"
+  },
+  "homepage": "https://github.com/azu/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/azu/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/renovate-config/issues"
+  },
+  "keywords": [
+    "npm",
+    "renovate"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":ignoreModulesAndTests",
+        ":label(renovate)",
+        ":prConcurrentLimit10",
+        ":prNotPending",
+        ":timezone(Asia/Tokyo)",
+        "group:monorepos"
+      ],
+      "npm": {
+        "extends": [
+          ":automergePatch",
+          ":noUnscheduledUpdates",
+          ":semanticPrefixFixDepsChoreOthers",
+          ":separatePatchReleases",
+          ":unpublishSafe",
+          "helpers:disableTypesNodeMajor"
+        ],
+        "rangeStrategy": "bump",
+        "lockFileMaintenance": {
+          "enabled": true
+        },
+        "packageRules": [
+          {
+            "groupName": "Manuall updates",
+            "packageNames": [
+              "eslint",
+              "prettier",
+              "typescript"
+            ],
+            "enabled": false
+          },
+          {
+            "description": "disable package.json > engines update",
+            "depTypeList": [
+              "engines"
+            ],
+            "enabled": false
+          }
+        ]
+      }
+    }
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 120,
+    "tabWidth": 4
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
