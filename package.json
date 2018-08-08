@@ -39,11 +39,7 @@
     "default": {
       "extends": [
         "config:base",
-        ":ignoreModulesAndTests",
-        ":label(renovate)",
-        ":prNotPending",
-        ":timezone(Asia/Tokyo)",
-        "group:monorepos"
+        ":timezone(Asia/Tokyo)"
       ],
       "npm": {
         "extends": [
