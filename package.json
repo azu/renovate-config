@@ -51,6 +51,7 @@
           ":semanticPrefixFixDepsChoreOthers",
           ":separatePatchReleases",
           ":unpublishSafe",
+          ":prNotPending",
           "helpers:disableTypesNodeMajor"
         ],
         "rangeStrategy": "bump",
