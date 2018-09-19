@@ -12,7 +12,7 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 }
 ```
 
-Note: Don't have to do `npm i -D @teppeis/renovate-config`
+Note: Don't have to do `npm i -D @azu/renovate-config`
 
 ## Preset
 
