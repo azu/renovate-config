@@ -46,6 +46,7 @@
       ],
       "npm": {
         "extends": [
+          ":automergePatch",
           ":noUnscheduledUpdates",
           ":semanticPrefixFixDepsChoreOthers",
           ":separatePatchReleases",
@@ -54,10 +55,6 @@
           "helpers:disableTypesNodeMajor"
         ],
         "rangeStrategy": "bump",
-        "automerge": true,
-        "major": {
-          "automerge": false
-        },
         "lockFileMaintenance": {
           "enabled": true,
           "automerge": true
