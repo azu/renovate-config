@@ -55,6 +55,10 @@
           "helpers:disableTypesNodeMajor"
         ],
         "rangeStrategy": "bump",
+        "lockFileMaintenance": {
+          "enabled": true,
+          "automerge": true
+        },
         "packageRules": [
           {
             "groupName": "Manuall updates",
