@@ -55,6 +55,7 @@
         ],
         "rangeStrategy": "bump",
         "automerge": true,
+        "automergeType": "branch",
         "major": {
           "automerge": false
         },
