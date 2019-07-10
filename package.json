@@ -16,7 +16,7 @@
   "devDependencies": {
     "husky": "^0.14.3",
     "intelli-espower-loader": "^1.0.1",
-    "lint-staged": "^7.2.0",
+    "lint-staged": "^7.3.0",
     "mocha": "^5.2.0",
     "power-assert": "^1.6.0",
     "prettier": "^1.8.1",
