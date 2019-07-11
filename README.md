@@ -14,11 +14,9 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 
 Note: Don't have to do `npm i -D @azu/renovate-config`
 
-## Preset
+## Features
 
-### Default
-
-- Extend `config:base`
+- Support [dependabot compatibility-score](https://dependabot.com/compatibility-score/)
 
 ## References
 
