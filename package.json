@@ -8,19 +8,14 @@
     "index.js"
   ],
   "scripts": {
-    "test": "mocha --require intelli-espower-loader test",
-    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
-    "precommit": "lint-staged",
-    "postcommit": "git reset"
+    "test": "renovate-config-validator",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
   },
   "devDependencies": {
-    "husky": "^0.14.3",
-    "intelli-espower-loader": "^1.0.1",
-    "lint-staged": "^7.3.0",
-    "mocha": "^5.2.0",
-    "power-assert": "^1.6.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.2.0",
     "prettier": "^1.8.1",
-    "renovate": "^13.22.1"
+    "renovate": "^18.23.0"
   },
   "homepage": "https://github.com/azu/renovate-config",
   "repository": {
@@ -104,5 +99,11 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "post-commit": "git reset",
+      "pre-commit": "lint-staged"
+    }
   }
 }
