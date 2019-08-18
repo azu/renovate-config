@@ -12,7 +12,7 @@
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
   },
   "devDependencies": {
-    "husky": "^3.0.3",
+    "husky": "^3.0.4",
     "lint-staged": "^9.2.1",
     "prettier": "^1.8.1",
     "renovate": "^19.30.7"
