@@ -59,14 +59,22 @@
           "CompatibilityScore"
         ],
         "rangeStrategy": "bump",
-        "automerge": true,
         "automergeType": "branch",
         "major": {
           "automerge": false
         },
+        "minor": {
+          "automerge": true,
+          "groupName": "Minor updates"
+        },
+        "patch": {
+          "automerge": true,
+          "groupName": "Patch updates"
+        },
         "lockFileMaintenance": {
           "enabled": true,
-          "automerge": true
+          "automerge": true,
+          "groupName": "LockFile Maintenance"
         },
         "packageRules": [
           {
