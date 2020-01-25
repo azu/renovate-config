@@ -4133,13 +4133,12 @@ regenerator-runtime@^0.13.2:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
   integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
 
-registry-auth-token@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-4.1.0.tgz#b17f4763c53785b5342fadb0a35d9825be976cfb"
-  integrity sha512-7uxS951DeOBOwsv8deX+l7HcjY2VZxaOgHtM6RKzg3HhpE+bJ0O7VbuMJLosC1T5WSFpHm0DuFIbqUl43jHpsA==
+registry-auth-token@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-4.1.1.tgz#40a33be1e82539460f94328b0f7f0f84c16d9479"
+  integrity sha512-9bKS7nTl9+/A1s7tnPeGrUpRcVY+LUh7bfFgzpndALdPfXQBfQV77rQVtqgUV3ti4vc/Ik81Ex8UJDWDQ12zQA==
   dependencies:
     rc "^1.2.8"
-    safe-buffer "^5.0.1"
 
 registry-auth-token@^3.0.1:
   version "3.4.0"
@@ -4217,10 +4216,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.108.0:
-  version "19.108.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.108.0.tgz#0cc8597aee8d0715ccdfc2aed2c75922dd9c5855"
-  integrity sha512-temCfHbl+mFw5pfM6cazAjitPCHjKzC1wc5wHEvVeEuwoAUkFrG20O2h+DAhqJhAqQGViF38uQZz0NCUpZdNNA==
+renovate@^19.109.1:
+  version "19.109.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.109.1.tgz#cca6616b5133e1c4051fe5b6477b263e7fb69ab4"
+  integrity sha512-WRxwLE3DLwKyZ9YcMKyAEvPkIUU6lhUjRScGWUqndHiCoyiWPxpGi58umqXGwQftxkQxg4mS4jIDE53GN25fQQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -4268,7 +4267,7 @@ renovate@^19.108.0:
     parse-diff "0.6.0"
     parse-link-header "1.0.1"
     pnpm "3.8.1"
-    registry-auth-token "4.1.0"
+    registry-auth-token "4.1.1"
     semver "7.1.1"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
