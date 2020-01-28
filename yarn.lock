@@ -4217,10 +4217,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.112.3:
-  version "19.112.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.112.3.tgz#dccc5703449bd8c99babde626494a62a25b3e657"
-  integrity sha512-l5ZGPqYCn4Cnqukh77OjhC90ajWKekqEhyJwMbeuTWJD9wJ5YfFdPCVzwPMJ8m6ifrn35w0QjXi2cLPKWZqUdw==
+renovate@^19.112.4:
+  version "19.112.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.112.4.tgz#f974a1edc137e187e7431431397452373dde1bbe"
+  integrity sha512-9hmJmAre1ediXq3mD+tx6Gsk54ZJAv/iJ4bhjwKDmNwy9vV9zYBGoJHe3xrV1JQ+BqVYaMQ6bM+Pq+QXahw26g==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -4278,7 +4278,7 @@ renovate@^19.112.3:
     traverse "0.6.6"
     upath "1.2.0"
     validate-npm-package-name "3.0.0"
-    validator "12.1.0"
+    validator "12.2.0"
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
     yarn "1.21.1"
@@ -5248,10 +5248,10 @@ validate-npm-package-name@3.0.0, validate-npm-package-name@^3.0.0, validate-npm-
   dependencies:
     builtins "^1.0.3"
 
-validator@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-12.1.0.tgz#a3a7315d5238cbc15e46ad8d5e479aafa7119925"
-  integrity sha512-gIC2RBuFRi574Rb9vewGCJ7TCLxHXNx6EKthEgs+Iz0pYa9a9Te1VLG/bGLsAyGWrqR5FfR7tbFUI7FEF2LiGA==
+validator@12.2.0:
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-12.2.0.tgz#660d47e96267033fd070096c3b1a6f2db4380a0a"
+  integrity sha512-jJfE/DW6tIK1Ek8nCfNFqt8Wb3nzMoAbocBF6/Icgg1ZFSBpObdnwVY2jQj6qUqzhx5jc71fpvBWyLGO7Xl+nQ==
 
 verror@1.10.0:
   version "1.10.0"
