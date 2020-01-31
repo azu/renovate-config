@@ -4217,10 +4217,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.116.1:
-  version "19.116.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.116.1.tgz#68a184ce587637e6e009616b59467e5c86b0bb48"
-  integrity sha512-CITnm8fTWdTIIb1Lcbk4v0uyH1rteGzqTW2GNlnTfrLZvH3n0/ER6WnawK+iTwovAKDGt6cXWK/TXCZliaKEOA==
+renovate@^19.116.2:
+  version "19.116.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.116.2.tgz#a524a7e98d6e81047ea5c823cbf2b522b22ed40a"
+  integrity sha512-vptBDrCpEmEAL/4lTKY3SBbSVmnGqUCPY2x7a/HgCiqRxtenm0PfOdyfCx+Fkos2nBjo6HsZAq4a3RN/Vz0Zlw==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -4282,7 +4282,7 @@ renovate@^19.116.1:
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
     yarn "1.21.1"
-    yawn-yaml "1.4.0"
+    yawn-yaml "1.5.0"
   optionalDependencies:
     re2 "1.10.5"
 
@@ -5495,10 +5495,10 @@ yarn@1.21.1:
   resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.21.1.tgz#1d5da01a9a03492dc4a5957befc1fd12da83d89c"
   integrity sha512-dQgmJv676X/NQczpbiDtc2hsE/pppGDJAzwlRiADMTvFzYbdxPj2WO4PcNyriSt2c4jsCMpt8UFRKHUozt21GQ==
 
-yawn-yaml@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/yawn-yaml/-/yawn-yaml-1.4.0.tgz#46513da9d017f411680731968d48322004974a91"
-  integrity sha512-aSnPQaFrr+YsHqD+D5PAAdDIQcCtbYOJ7xFDIJDlNCxw3dEgE0wltLJgdHhe4QSLoTVhwRBe6ZJIt1x0oDsRqg==
+yawn-yaml@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/yawn-yaml/-/yawn-yaml-1.5.0.tgz#95fba7544d5375fce3dc84514f12218ed0d2ebcb"
+  integrity sha512-sH2zX9K1QiWhWh9U19pye660qlzrEAd5c4ebw/6lqz17LZw7xYi7nqXlBoVLVtc2FZFXDKiJIsvVcKGYbLVyFQ==
   dependencies:
     js-yaml "^3.4.2"
     lodash "^4.17.11"
