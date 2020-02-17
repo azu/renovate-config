@@ -3776,10 +3776,10 @@ parent-module@^1.0.0:
   dependencies:
     callsites "^3.0.0"
 
-parse-diff@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/parse-diff/-/parse-diff-0.6.0.tgz#baacd256351b744031e27e445898e0854c3dff5b"
-  integrity sha512-mBWyN71+ZbwTwqWpwxkOIy2qEi5mT3EGMeFGLqAtDqj6t1zlLyIkPkEwROSQ7ZdTuvaebFURAMKEZH9fOg4f1Q==
+parse-diff@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/parse-diff/-/parse-diff-0.7.0.tgz#f11128d3aa02381b46ebc8320b470c2c327e67dc"
+  integrity sha512-88ar4IU2Fx+KgiyvVul0Y+YprMArTgLscO0nEKaEvWvhzRSSYefdf1M9PUmpx1pu5crUoVl2QNDMqjxfCeKptQ==
 
 parse-entities@^1.0.2, parse-entities@^1.1.0:
   version "1.2.2"
@@ -4305,10 +4305,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.135.0:
-  version "19.135.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.135.0.tgz#1b3f115bdafa43e203af341463c2c41954b7777d"
-  integrity sha512-Mml0HU2bD3kKkUjxDpsgDQ2niCXwfP/ZRyIzV6V8o4/GREYHDmg7Nz8GZU5Ldl3IytHZxWpLtBoAJMAMdFE+eA==
+renovate@^19.136.2:
+  version "19.136.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.136.2.tgz#16a28bce8acdfbf4893078ed34adcfde8fe3cce8"
+  integrity sha512-3NaDnDYOU2TIyRcJQlrjsSOVYrBJlclOIOyQsKMLx/qnrvuuP8waqo/UUgCe0mJGAGDdwKDZQwikfK4y/j2gjA==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -4353,7 +4353,7 @@ renovate@^19.135.0:
     node-html-parser "1.2.4"
     npm "6.13.7"
     p-all "2.1.0"
-    parse-diff "0.6.0"
+    parse-diff "0.7.0"
     parse-link-header "1.0.1"
     pnpm "3.8.1"
     registry-auth-token "4.1.1"
