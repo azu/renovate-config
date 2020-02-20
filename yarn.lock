@@ -1821,10 +1821,10 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hasha@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/hasha/-/hasha-5.1.0.tgz#dd05ccdfcfe7dab626247ce2a58efe461922f4ca"
-  integrity sha512-OFPDWmzPN1l7atOV1TgBVmNtBxaIysToK6Ve9DK+vT6pYuklw/nPNT+HJbZi0KDcI6vWB+9tgvZ5YD7fA3CXcA==
+hasha@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/hasha/-/hasha-5.2.0.tgz#33094d1f69c40a4a6ac7be53d5fe3ff95a269e0c"
+  integrity sha512-2W+jKdQbAdSIrggA8Q35Br8qKadTrqCTC8+XZvBWepKDK6m9XkX6Iz1a2yh2KP01kzAR/dpuMeUnocoLYDcskw==
   dependencies:
     is-stream "^2.0.0"
     type-fest "^0.8.0"
@@ -4305,10 +4305,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.141.2:
-  version "19.141.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.141.2.tgz#e835e28c71cc531a192dd3912f93c908933d1f36"
-  integrity sha512-DDUnlzV6qQbYAEDXBLMTn3BkD713BlEa4cWgkRvIk+fCkn9Gt4XYRI48To63hVAtW8ovW52BWToedhahivxRmQ==
+renovate@^19.144.0:
+  version "19.144.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.144.0.tgz#3022a0eb199826d87709b67f4eaae82eac07b3a9"
+  integrity sha512-pQszvBdQnUj93CYU2DSbRyRi3su7mVouMGwdhO6hbUVwSCDbrlsgQeZrpzMbaVYX+cOWdw9vsw4HgusMOuuxgw==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -4334,7 +4334,7 @@ renovate@^19.141.2:
     global-agent "2.1.8"
     got "9.6.0"
     handlebars "4.7.3"
-    hasha "5.1.0"
+    hasha "5.2.0"
     ini "1.3.5"
     js-yaml "3.13.1"
     json-dup-key-validator "1.0.2"
