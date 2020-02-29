@@ -1,12 +1,12 @@
 {
-  "extends": ["@azu"],
-  "npm": {
-    "schedule": []
-  },
+  "extends": [
+    "@azu"
+  ],
   "packageRules": [
     {
-      "packageNames": ["renovate"],
-      "extends": [":unpublishSafeDisabled"]
+      "packageNames": [
+        "renovate"
+      ]
     }
   ]
 }
