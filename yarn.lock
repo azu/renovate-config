@@ -2372,10 +2372,10 @@ linkify-markdown@1.0.0:
     remark-github "^7.0.3"
     to-vfile "^2.2.0"
 
-lint-staged@^10.0.10:
-  version "10.0.10"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.0.10.tgz#d14d33ee02a31a31ad36cf9aa7973fc156c461b5"
-  integrity sha512-91vNy3eYStExElLWw1Idva5lghKpFaXh9AJqjcyrJXf7AYZrThi4EhQ+GpmiHdPmJJauKhZMMSzQR1bMB90MtA==
+lint-staged@^10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.1.1.tgz#1c8569b66d684e6e3553cd760c03053f41fca152"
+  integrity sha512-wAeu/ePaBAOfwM2+cVbgPWDtn17B0Sxiv0NvNEqDAIvB8Yhvl60vafKFiK4grcYn87K1iK+a0zVoETvKbdT9/Q==
   dependencies:
     chalk "^3.0.0"
     commander "^4.0.1"
@@ -3034,10 +3034,10 @@ node-gyp@^5.0.2, node-gyp@^5.1.0:
     tar "^4.4.12"
     which "^1.3.1"
 
-node-html-parser@1.2.13:
-  version "1.2.13"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.13.tgz#8f59c7654ed317e58064423095e2be5d976658ef"
-  integrity sha512-RTG5oDk3nh1oXQGYtQQa9w0v9LjltgzzO1tv3cpXzb9M/UkpFIZ5v4osx3OYAcnWx/ETBXjxs2cgtD9fhn6Bjw==
+node-html-parser@1.2.14:
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.14.tgz#5570fe4ad03744f80dde3b470aa980fefc6893a1"
+  integrity sha512-Jzdpk6xrZGgR4zB2L85uPvcGN9Z667RxN5mS9RHpv7I0ACcNOS3x8dbKMkQrKMl6N4+xveuQNfxXL4RZRib7Mw==
   dependencies:
     he "1.1.1"
 
@@ -3212,7 +3212,6 @@ npm@6.14.4:
     cmd-shim "^3.0.3"
     columnify "~1.5.4"
     config-chain "^1.1.12"
-    debuglog "*"
     detect-indent "~5.0.0"
     detect-newline "^2.1.0"
     dezalgo "~1.0.3"
@@ -3227,7 +3226,6 @@ npm@6.14.4:
     has-unicode "~2.0.1"
     hosted-git-info "^2.8.8"
     iferr "^1.0.2"
-    imurmurhash "*"
     infer-owner "^1.0.4"
     inflight "~1.0.6"
     inherits "^2.0.4"
@@ -3246,14 +3244,8 @@ npm@6.14.4:
     libnpx "^10.2.2"
     lock-verify "^2.1.0"
     lockfile "^1.0.4"
-    lodash._baseindexof "*"
     lodash._baseuniq "~4.6.0"
-    lodash._bindcallback "*"
-    lodash._cacheindexof "*"
-    lodash._createcache "*"
-    lodash._getnative "*"
     lodash.clonedeep "~4.5.0"
-    lodash.restparam "*"
     lodash.union "~4.6.0"
     lodash.uniq "~4.5.0"
     lodash.without "~4.4.0"
@@ -3754,10 +3746,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier@^1.8.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
-  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+prettier@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.2.tgz#1ba8f3eb92231e769b7fcd7cb73ae1b6b74ade08"
+  integrity sha512-5xJQIPT8BraI7ZnaDwSbu5zLrB6vvi8hVV58yHQ+QK64qrY40dULy0HSRlQ2/2IdzeBpjhDkqdcFBnFeDEMVdg==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
@@ -4126,10 +4118,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^19.176.3:
-  version "19.187.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.187.1.tgz#71e7bedc82ac34a921fd01c933f54ffbde69272e"
-  integrity sha512-ah+k19kr01jSeXomBsPphBkRam1qXL6vDTGgQl1PSepzTggoZpzVXbeAT74deC6wRFeNm9meLFRf2QBYXpCF+A==
+renovate@^19.193.0:
+  version "19.193.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-19.193.0.tgz#ad02b2858606058c73de438ae25be0d6653909bf"
+  integrity sha512-FJSm+HAjFgCiO95GB/L3x7T1cuAhE+F9YziO6msHXchikgrtmpc3G0l2OIkaiSIch8yELZUIGhOfsTFap1PcMg==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@sindresorhus/is" "1.2.0"
@@ -4171,7 +4163,7 @@ renovate@^19.176.3:
     moment "2.24.0"
     moment-timezone "0.5.28"
     node-emoji "1.10.0"
-    node-html-parser "1.2.13"
+    node-html-parser "1.2.14"
     npm "6.14.4"
     p-all "2.1.0"
     parse-diff "0.7.0"
