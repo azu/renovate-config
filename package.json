@@ -12,8 +12,8 @@
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
   },
   "devDependencies": {
-    "husky": "^4.2.3",
-    "lint-staged": "^10.1.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.3",
     "prettier": "^2.0.2",
     "renovate": "^19.193.0"
   },
