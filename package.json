@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "husky": "^4.2.5",
-    "lint-staged": "^10.1.7",
+    "lint-staged": "^10.2.2",
     "prettier": "^2.0.2",
-    "renovate": "^19.193.0"
+    "renovate": "^19.234.1"
   },
   "homepage": "https://github.com/azu/renovate-config",
   "repository": {
