@@ -1,4 +1,4 @@
-# @azu/renovate-config [![Build Status](https://travis-ci.org/azu/renovate-config.svg?branch=master)](https://travis-ci.org/azu/renovate-config)
+# @azu/renovate-config [![Actions Status](https://github.com/azu/renovate-config/workflows/test/badge.svg)](https://github.com/azu/renovate-config/actions?query=workflow%3A"test")
 
 [Shareable config](https://renovatebot.com/docs/config-presets/) for [Renovate](https://renovatebot.com)
 
