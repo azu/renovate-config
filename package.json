@@ -49,14 +49,16 @@
           "helpers:disableTypesNodeMajor"
         ],
         "prBodyDefinitions": {
-          "CompatibilityScore": "[![compatibility-score for {{{depNameEscaped}}}](https://api.dependabot.com/badges/compatibility_score?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})](https://dependabot.com/compatibility-score/?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})"
+          "CompatibilityScore": "[![compatibility-score for {{{depNameEscaped}}}](https://api.dependabot.com/badges/compatibility_score?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})](https://dependabot.com/compatibility-score/?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})",
+          "Sourcegraph": "[![code search for \"{{{depName}}}\"](https://sourcegraph.com/search/badge?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+-file:package%28-lock%29%3F%5C.json+{{{depName}}}&label=matches)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+-file:package%28-lock%29%3F%5C.json+{{{depName}}})"
         },
         "prBodyColumns": [
           "Package",
           "Update",
           "Type",
           "Change",
-          "CompatibilityScore"
+          "CompatibilityScore",
+          "Sourcegraph"
         ],
         "rangeStrategy": "bump",
         "automergeType": "branch",
@@ -73,6 +75,9 @@
         },
         "lockFileMaintenance": {
           "enabled": true,
+          "schedule": [
+            "at any time"
+          ],
           "automerge": true,
           "groupName": "LockFile Maintenance"
         },
