@@ -6,6 +6,8 @@
 
 Enable Renovate in your repo and just `extends` in `renovate.json`.
 
+### Default preset
+
 ```json5
 {
   "extends": ["@azu"]
@@ -14,12 +16,28 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 
 Note: Don't nessary to do `npm i -D @azu/renovate-config`
 
-## Features
+#### Features
 
 - Auto merge patch and major version
+- Support Node.js
 - It defined packages that require manually updates like TypeScript, Prettier, Linters
 - Support [dependabot compatibility-score](https://dependabot.com/compatibility-score/)
 - Support [Source Graph Search](https://about.sourcegraph.com/)
+
+### Maintenance preset
+
+```json5
+{
+  "extends": ["@azu/maintenance"]
+}
+```
+
+#### Features
+
+Same features with Default preset.
+The only difference from efault preset, It does not update major update
+
+- Add `{ major: { enabled: false }}`
 
 ## References
 
