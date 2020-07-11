@@ -28,7 +28,9 @@ Note: Don't nessary to do `npm i -D @azu/renovate-config`
 
 ```json5
 {
-  "extends": ["@azu/maintenance"]
+  "extends": [
+    "@azu:maintenance"
+  ]
 }
 ```
 
