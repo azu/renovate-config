@@ -107,7 +107,7 @@
       ],
       "npm": {
         "major": {
-          "automerge": false
+          "enabled": false
         }
       }
     }
