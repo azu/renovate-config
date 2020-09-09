@@ -37,11 +37,11 @@ Note: Don't nessary to do `npm i -D @azu/renovate-config`
 #### Features
 
 Same features with Default preset.
-The only difference from default preset, It does not update major update
+The only difference from default preset, It does not update major updates.
 
 - Add `{ major: { enabled: false }}`
 
-Less to create Pull Request by renovatebot.
+It aim to less create Pull Request by renovatebot.
 
 ## References
 
