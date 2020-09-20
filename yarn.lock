@@ -415,10 +415,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-sdk@2.747.0:
-  version "2.747.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.747.0.tgz#487776536a7f8e4e18d57ff22dd50d777f1d0fe8"
-  integrity sha512-JA2ygLXFw0tLjc6nlauH3wnc6haoPU023fJCZN01xrw22l+s4rRjVGxJmG83VrfCmq+lrqCv0kVwlzyxbixGhA==
+aws-sdk@2.754.0:
+  version "2.754.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.754.0.tgz#8a224d24d8597b084d01a76e2496533c73a45630"
+  integrity sha512-87WVpDOY9LlJtbN6/RszHrr8NxN/M/Qb5luNX3IayUUt+emkBrl6ZKPrG+N1s+WXEyLxkNE4fxiBkiS/5/TiEg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -1985,10 +1985,10 @@ linkify-markdown@1.0.0:
     remark-github "^7.0.3"
     to-vfile "^2.2.0"
 
-lint-staged@^10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.3.0.tgz#388c3d440590c45c339e7163f669ea69ae90b1e0"
-  integrity sha512-an3VgjHqmJk0TORB/sdQl0CTkRg4E5ybYCXTTCSJ5h9jFwZbcgKIx5oVma5e7wp/uKt17s1QYFmYqT9MGVosGw==
+lint-staged@^10.4.0:
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.4.0.tgz#d18628f737328e0bbbf87d183f4020930e9a984e"
+  integrity sha512-uaiX4U5yERUSiIEQc329vhCTDDwUcSvKdRLsNomkYLRzijk3v8V9GWm2Nz0RMVB87VcuzLvtgy6OsjoH++QHIg==
   dependencies:
     chalk "^4.1.0"
     cli-truncate "^2.1.0"
@@ -2161,10 +2161,10 @@ markdown-escapes@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.4.tgz#c95415ef451499d7602b91095f3c8e8975f78535"
   integrity sha512-8z4efJYk43E0upd0NbVXwgSTQs6cT3T06etieCMEg7dRbzCbxUCK/GHlX8mhHRDcp+OLlHkPKsvqQTCvsRl2cg==
 
-markdown-it@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-11.0.0.tgz#dbfc30363e43d756ebc52c38586b91b90046b876"
-  integrity sha512-+CvOnmbSubmQFSA9dKz1BRiaSMV7rhexl3sngKqFyXSagoA3fBdJQ8oZWtRy2knXdpDXaBw44euz37DeJQ9asg==
+markdown-it@11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-11.0.1.tgz#b54f15ec2a2193efa66dda1eb4173baea08993d6"
+  integrity sha512-aU1TzmBKcWNNYvH9pjq6u92BML+Hz3h5S/QpfTFwiQF852pLT+9qHsrhM9JYipkOXZxGn+sGH8oyJE9FD9WezQ==
   dependencies:
     argparse "^1.0.7"
     entities "~2.0.0"
@@ -2389,12 +2389,7 @@ moment-timezone@0.5.31:
   dependencies:
     moment ">= 2.9.0"
 
-moment@2.27.0:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
-  integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
-
-"moment@>= 2.9.0", moment@^2.19.3:
+moment@2.28.0, "moment@>= 2.9.0", moment@^2.19.3:
   version "2.28.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.28.0.tgz#cdfe73ce01327cee6537b0fafac2e0f21a237d75"
   integrity sha512-Z5KOjYmnHyd/ukynmFd/WwyXHd7L4J9vTI/nn5Ap9AVUgaAE15VvQ9MOGmJJygEUklupqIrFnor/tjTwRU+tQw==
@@ -3097,17 +3092,17 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^23.18.1:
-  version "23.26.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.26.2.tgz#1f506b9fbb4eb0e88944af6bab6e4f2e738bffd7"
-  integrity sha512-NUws6hi2HyZOZx1Xa9jmYza2VDIM/cHgaGbpbWXBraiJMmjTpIAKszaGmppW7xuYRNn2wxorJBpnwXrIOCGxOQ==
+renovate@^23.31.3:
+  version "23.31.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.31.3.tgz#3649b3d6e0a8f830b554243f88c1e5444ddcf3a3"
+  integrity sha512-3C16auv4CQBjNQ9rCCSTMcddfQJAiKAbG2/5xLtdmAtIruKNq0NC209ggaYnsJzFmkDZxfufj6Nrt/6nWJsfzQ==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/ruby-semver" "0.2.1"
     "@sindresorhus/is" "3.1.2"
     "@yarnpkg/core" "2.2.2"
     "@yarnpkg/parsers" "2.2.0"
-    aws-sdk "2.747.0"
+    aws-sdk "2.754.0"
     azure-devops-node-api "10.1.1"
     bunyan "1.8.14"
     cacache "15.0.5"
@@ -3140,10 +3135,10 @@ renovate@^23.18.1:
     later "1.2.0"
     linkify-markdown "1.0.0"
     luxon "1.25.0"
-    markdown-it "11.0.0"
+    markdown-it "11.0.1"
     markdown-table "2.0.0"
     minimatch "3.0.4"
-    moment "2.27.0"
+    moment "2.28.0"
     moment-timezone "0.5.31"
     node-emoji "1.10.0"
     p-all "3.0.0"
@@ -3161,6 +3156,7 @@ renovate@^23.18.1:
     toml "3.0.0"
     traverse "0.6.6"
     upath "1.2.0"
+    url-join "4.0.1"
     validate-npm-package-name "3.0.0"
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
@@ -3991,6 +3987,11 @@ uri-js@^4.2.2:
   integrity sha512-B0yRTzYdUCCn9n+F4+Gh4yIDtMQcaJsmYBDsTSG8g/OejKBodLQ2IHfN3bM7jUsRXndopT7OIXWdYqc1fjmV6g==
   dependencies:
     punycode "^2.1.0"
+
+url-join@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.1.tgz#b642e21a2646808ffa178c4c5fda39844e12cde7"
+  integrity sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==
 
 url@0.10.3:
   version "0.10.3"
