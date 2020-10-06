@@ -162,22 +162,35 @@
   dependencies:
     "@types/node" "*"
 
-"@yarnpkg/core@2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-2.2.2.tgz#dd38f074f07e0f6739b488411854674cc8cacc40"
-  integrity sha512-TQ0wqQjbZQDrf31N5v4NtE4Juw1c16hYu9QwNloUxRgY/Z+AQIuqa6Jgv9BbAghchZkSIXDWp6bFGD7C+q7cuA==
+"@types/semver@^7.1.0":
+  version "7.3.4"
+  resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.4.tgz#43d7168fec6fa0988bb1a513a697b29296721afb"
+  integrity sha512-+nVsLKlcUCeMzD2ufHEYuJ9a2ovstb6Dp52A5VsoKxDXgvE051XgHI/33I1EymwkRGQkwnA0LkhnUzituGs4EQ==
+
+"@types/treeify@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/treeify/-/treeify-1.0.0.tgz#f04743cb91fc38254e8585d692bd92503782011c"
+  integrity sha512-ONpcZAEYlbPx4EtJwfTyCDQJGUpKf4sEcuySdCVjK5Fj/3vHp5HII1fqa1/+qrsLnpYELCQTfVW/awsGJePoIg==
+
+"@yarnpkg/core@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-2.3.0.tgz#1ab6cf72f627592d84648795253b3bd54770e2e3"
+  integrity sha512-a2I7PW3NfCLb5PyTIQUkJm5jSBgose5oYhvh+M+hES36PbkAIOIB0Oal4aNSXhHNeUsIrc9AG7hSA4UbZt3pCw==
   dependencies:
     "@arcanis/slice-ansi" "^1.0.2"
-    "@yarnpkg/fslib" "^2.2.1"
+    "@types/semver" "^7.1.0"
+    "@types/treeify" "^1.0.0"
+    "@yarnpkg/fslib" "^2.2.2"
     "@yarnpkg/json-proxy" "^2.1.0"
-    "@yarnpkg/libzip" "^2.2.0"
-    "@yarnpkg/parsers" "^2.2.0"
-    "@yarnpkg/pnp" "^2.2.1"
-    "@yarnpkg/shell" "^2.2.0"
+    "@yarnpkg/libzip" "^2.2.1"
+    "@yarnpkg/parsers" "^2.2.1"
+    "@yarnpkg/pnp" "^2.3.0"
+    "@yarnpkg/shell" "^2.3.0"
+    binjumper "^0.1.0"
     camelcase "^5.3.1"
     chalk "^3.0.0"
     ci-info "^2.0.0"
-    clipanion "^2.4.4"
+    clipanion "^2.6.2"
     cross-spawn "7.0.3"
     diff "^4.0.1"
     globby "^11.0.1"
@@ -193,10 +206,11 @@
     semver "^7.1.2"
     stream-to-promise "^2.2.0"
     tar-stream "^2.0.1"
+    treeify "^1.1.0"
     tslib "^1.13.0"
     tunnel "^0.0.6"
 
-"@yarnpkg/fslib@^2.1.0", "@yarnpkg/fslib@^2.2.1", "@yarnpkg/fslib@^2.2.2":
+"@yarnpkg/fslib@^2.1.0", "@yarnpkg/fslib@^2.2.2":
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-2.2.2.tgz#d5566521a9b612fc345d8491b61c39a802ed207f"
   integrity sha512-SRDuFP5u/AqxP6DZ0p8fVjVk5Ue8gOxRXb0w36vduMoGWCUKS8G4W14bPjlyzOWCMTRXSqL8F7qovtEpB9IgUQ==
@@ -212,7 +226,7 @@
     "@yarnpkg/fslib" "^2.1.0"
     tslib "^1.13.0"
 
-"@yarnpkg/libzip@^2.2.0", "@yarnpkg/libzip@^2.2.1":
+"@yarnpkg/libzip@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@yarnpkg/libzip/-/libzip-2.2.1.tgz#61c9b8b2499ee6bd9c4fcbf8248f68e07bd89948"
   integrity sha512-AYDJXrkzayoDd3ZlVgFJ+LyDX+Zj/cki3vxIpcYxejtgkl3aquVWOxlC0DD9WboBWsJFIP1MjrUbchLyh++/7A==
@@ -220,15 +234,7 @@
     "@types/emscripten" "^1.38.0"
     tslib "^1.13.0"
 
-"@yarnpkg/parsers@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-2.2.0.tgz#3e17defcea2b4771c9b7ceb499b2552491b66655"
-  integrity sha512-k1XZaWYRHl7wCj04hcbtzKfPAZbKbsEi7xsB1Ka8obdS6DRnAw7n0gZPvvGjOoqkH95IqWf+Vi7vV5RhlGz63Q==
-  dependencies:
-    js-yaml "^3.10.0"
-    tslib "^1.13.0"
-
-"@yarnpkg/parsers@^2.2.0", "@yarnpkg/parsers@^2.2.1":
+"@yarnpkg/parsers@2.2.1", "@yarnpkg/parsers@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-2.2.1.tgz#414ffb70571a17206c1efa1cff5fbd01e44c4f59"
   integrity sha512-1hZ6EQKuNFWNJ/FhYNZwW3TrAnFwb2j3lFqCZpnJJ9l0BGnF/2BHVXU3JMNaqrPcrwZAaBjjmgUNGosVLuVoqg==
@@ -236,7 +242,7 @@
     js-yaml "^3.10.0"
     tslib "^1.13.0"
 
-"@yarnpkg/pnp@^2.2.1":
+"@yarnpkg/pnp@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@yarnpkg/pnp/-/pnp-2.3.0.tgz#92a4925621ff8df8f7edbe6caac02ae3103b11b1"
   integrity sha512-aW6dvt/UGRpGAhSKoDRCUdIi2LVBqG/FN4iU9QGLvmVMPok8O1C5Js7+PbxQMz6/1aqyrkEzhYJs0GpCvpaTXg==
@@ -245,7 +251,7 @@
     "@yarnpkg/fslib" "^2.2.2"
     tslib "^1.13.0"
 
-"@yarnpkg/shell@^2.2.0":
+"@yarnpkg/shell@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-2.3.0.tgz#ce128fb65516ffd64cc1217ba6176d8da5943997"
   integrity sha512-k2K4i06E6sbu+A7wu3e4l4CDXjXxibr3ZiamWuFNhiXTnuuQzKBI0xz5MnLKZ+v/9XncB1FLfGU+SKMWypRXfg==
@@ -478,6 +484,11 @@ bcrypt-pbkdf@^1.0.0:
   integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
   dependencies:
     tweetnacl "^0.14.3"
+
+binjumper@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/binjumper/-/binjumper-0.1.2.tgz#a82beb255c51ee631330f69897bc191169905023"
+  integrity sha512-zZrQaKsC0h5HflYWM9G9Jisx+XNPs9WU3yMizdcYL91Aw1NNaLze3tKjyNRZPorQLBNDvkavZjB/wxXUZe/8gA==
 
 bl@^4.0.3:
   version "4.0.3"
@@ -714,7 +725,7 @@ cli-truncate@^2.1.0:
     slice-ansi "^3.0.0"
     string-width "^4.2.0"
 
-clipanion@^2.4.4, clipanion@^2.6.2:
+clipanion@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/clipanion/-/clipanion-2.6.2.tgz#820e7440812052442455b248f927b187ed732f71"
   integrity sha512-0tOHJNMF9+4R3qcbBL+4IxLErpaYSYvzs10aXuECDbZdJOuJHdagJMAqvLdeaUQTI/o2uSCDRpet6ywDiKOAYw==
@@ -3095,16 +3106,16 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^23.41.0:
-  version "23.41.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.41.0.tgz#166e7bd1e9e3228fda667cc2cc8f435453c372d2"
-  integrity sha512-pKSm0M1pWx0LVKi/MQpo0gSqwzEu/QRyyyZPRpn9Gy5oFWZRXZ3DD0HO9VxZJNGGOCepTO5yNEN1mE1N7ht5AQ==
+renovate@^23.41.2:
+  version "23.41.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.41.2.tgz#469753f20639735ef209d11dc04f132c23fe3a8e"
+  integrity sha512-OnhJMUEl9ooLdSt2EvuEUfAbG0FyRaENWZI29bodnqbNg4q0MyynXzpbls1pniOSKmEEJgpFjahWIlHWfOu22Q==
   dependencies:
     "@renovate/pep440" "0.4.1"
     "@renovatebot/ruby-semver" "0.2.1"
     "@sindresorhus/is" "3.1.2"
-    "@yarnpkg/core" "2.2.2"
-    "@yarnpkg/parsers" "2.2.0"
+    "@yarnpkg/core" "2.3.0"
+    "@yarnpkg/parsers" "2.2.1"
     aws-sdk "2.759.0"
     azure-devops-node-api "10.1.1"
     bunyan "1.8.14"
@@ -3800,6 +3811,11 @@ traverse@0.6.6:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
   integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
+
+treeify@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/treeify/-/treeify-1.1.0.tgz#4e31c6a463accd0943879f30667c4fdaff411bb8"
+  integrity sha512-1m4RA7xVAJrSGrrXGs0L3YTwyvBs2S8PbRHaLZAkFw7JR8oIFwYtysxlBZhYIa7xSyiYJKZ3iGrrk55cGA3i9A==
 
 trim-newlines@^2.0.0:
   version "2.0.0"
