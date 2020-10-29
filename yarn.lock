@@ -793,12 +793,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.1.0.tgz#f8d722b78103141006b66f4c7ba1e97315ba75bc"
-  integrity sha512-wl7PNrYWd2y5mp1OK/LhTlv8Ff4kQJQRXXAvF+uU/TPNiVJUxZLRYGj/B0y/lPGAVcSbJqH2Za/cvHmrPMC8mA==
-
-commander@^6.0.0:
+commander@6.2.0, commander@^6.0.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.0.tgz#b990bfb8ac030aedc6d11bc04d1488ffef56db75"
   integrity sha512-zP4jEKbe8SHzKJYQmq8Y9gYjtO/POJLgIdKgV7B9qNmABVFVc+ctqSX6iXh4mCpJfRBOabiZ2YKPg8ciDw6C+Q==
@@ -3074,10 +3069,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^23.61.0:
-  version "23.61.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.61.0.tgz#9c8030d07089b0ee70afb4347acc263cf55e4232"
-  integrity sha512-Y95o/2PHWTDBh8TeSN63YijCykNmTt0acxomaxxMrHJGMhozMvd4PkZapztpuR+kcyrBP64Sb96B9bpN8CkQKA==
+renovate@^23.61.6:
+  version "23.61.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.61.6.tgz#5d4bec0e359c274e5232b412cf6722fad1bcebb7"
+  integrity sha512-t1jGNytwcSIM4i4KO6yfnJR98CHoPCURXe9c5bKUicJ6emIcEeD5tnbU1/Mrg5o/IaZ1oIIlhTxSOjjUSQ4zLw==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -3093,7 +3088,7 @@ renovate@^23.61.0:
     chalk "4.1.0"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "6.1.0"
+    commander "6.2.0"
     conventional-commits-detector "1.0.3"
     deepmerge "4.2.2"
     delay "4.4.0"
