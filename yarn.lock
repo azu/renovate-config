@@ -3064,10 +3064,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^23.73.2:
-  version "23.73.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.73.2.tgz#e3321d797340202ae6e856d31d481a823cf542a8"
-  integrity sha512-MQGaE5zbidnmN1XYmA+VhUybl/GJZbfMKvQvAzKNHo1X+Eh/foo3VN7p+IzjpNND22rt+KG7A7rSwT/99C8W3w==
+renovate@^23.74.1:
+  version "23.74.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.74.1.tgz#45e297ef400d5116c1c4118f5027af178cefb874"
+  integrity sha512-io1cZQkLwze1PmIrNA1VII1mZ+7QY2jyjztlYoS/iS7gPrZRWx17Dp8HSVBJ4LcjdF78eN6fBAv1miD8ubunKw==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -3124,7 +3124,7 @@ renovate@^23.73.2:
     shlex "2.0.2"
     shortid "2.2.16"
     simple-git "2.21.0"
-    slugify "1.4.5"
+    slugify "1.4.6"
     traverse "0.6.6"
     upath "2.0.0"
     url-join "4.0.1"
@@ -3409,10 +3409,10 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
-slugify@1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.5.tgz#a7517acf5f4c02a4df41e735354b660a4ed1efcf"
-  integrity sha512-WpECLAgYaxHoEAJ8Q1Lo8HOs1ngn7LN7QjXgOLbmmfkcWvosyk4ZTXkTzKyhngK640USTZUlgoQJfED1kz5fnQ==
+slugify@1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.4.6.tgz#ef288d920a47fb01c2be56b3487b6722f5e34ace"
+  integrity sha512-ZdJIgv9gdrYwhXqxsH9pv7nXxjUEyQ6nqhngRxoAAOlmMGA28FDq5O4/5US4G2/Nod7d1ovNcgURQJ7kHq50KQ==
 
 source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
