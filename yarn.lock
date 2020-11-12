@@ -3065,9 +3065,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^23.74.1:
-  version "23.79.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.79.0.tgz#98bcb6da5cb6b6dd5a36b96ff9f6a286d1097cf7"
-  integrity sha512-IbvfLVjri29ziEv+/HYr7XDCsB5JPaD74saQanCdEtmPmEZecEknxUKj8a3DYipHgJQaIY9/RKaEg346FEJvpQ==
+  version "23.80.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.80.0.tgz#a57db55d9e35d5fd7be3075d493abdade141041b"
+  integrity sha512-VKsmdQMGoY8iXOBgq0pqyLA4b9dlZ0NE4EdIf25qOMRNH35eFLiMZWDEFiQTNqn47ZIc7VYWW+SNypwsXGa/MA==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
