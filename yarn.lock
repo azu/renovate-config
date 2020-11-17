@@ -2996,10 +2996,10 @@ redis@3.0.2:
     redis-errors "^1.2.0"
     redis-parser "^3.0.0"
 
-registry-auth-token@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-4.2.0.tgz#1d37dffda72bbecd0f581e4715540213a65eb7da"
-  integrity sha512-P+lWzPrsgfN+UEpDS3U8AQKg/UjZX6mQSJueZj3EK+vNESoqBSpBUD3gmu4sF9lOsjXWjF11dQKUqemf3veq1w==
+registry-auth-token@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-4.2.1.tgz#6d7b4006441918972ccd5fedcd41dc322c79b250"
+  integrity sha512-6gkSb4U6aWJB4SF2ZvLb76yCBjcvufXBqvvEx1HbmKPkutswjW1xNVRY0+daljIYRbogN7O0etYSlbiaEQyMyw==
   dependencies:
     rc "^1.2.8"
 
@@ -3065,9 +3065,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^23.83.3:
-  version "23.84.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.84.1.tgz#41801fe53ea14e40db5bfbff7c4645b0905eb3f4"
-  integrity sha512-YIZ8Ar1m106RcIGb3tgBsstdqWPdVpNcQprqAceqwgKAXU5H+ZTM2F6ry/dafI2KKENaSYegxlM1SBFCr1BBZA==
+  version "23.84.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.84.3.tgz#26a540ffc938deb3958dde1643e879aafc46f733"
+  integrity sha512-RkdPfDnzwmnWeg4Z5ysss540I2ZQGnzFBQv6urch3J6eLwxfoQKECSn11WZIcRDn7llXw1eBXmhNsFWMfLkJOA==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -3117,7 +3117,7 @@ renovate@^23.83.3:
     parse-diff "0.7.1"
     parse-link-header "1.0.1"
     redis "3.0.2"
-    registry-auth-token "4.2.0"
+    registry-auth-token "4.2.1"
     semver "7.3.2"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
@@ -3126,7 +3126,7 @@ renovate@^23.83.3:
     simple-git "2.21.0"
     slugify "1.4.6"
     traverse "0.6.6"
-    upath "2.0.0"
+    upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "3.0.0"
     www-authenticate "0.6.2"
@@ -3934,10 +3934,10 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-upath@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.0.tgz#7234f3c1e7fd2bcb4f6aaba3e5565ee13ce6d287"
-  integrity sha512-ghi1XxsVYPOZPDsOZrfOJIwQU5I3JVYB3Q6IbBGn1KFeOa89i0nUy5tCEkY9pVm83U83qZ1QG40RQKGknllV4w==
+upath@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
+  integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
 
 uri-js@^4.2.2:
   version "4.4.0"
