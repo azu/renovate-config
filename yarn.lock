@@ -1642,7 +1642,7 @@ ini@1.3.5, ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-install-artifact-from-github@^1.1.3:
+install-artifact-from-github@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.2.0.tgz#adcbd123c16a4337ec44ea76d0ebf253cc16b074"
   integrity sha512-3OxCPcY55XlVM3kkfIpeCgmoSKnMsz2A3Dbhsq0RXpIknKQmrX1YiznCeW9cD2ItFmDxziA3w6Eg8d80AoL3oA==
@@ -2878,12 +2878,12 @@ rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re2@1.15.8:
-  version "1.15.8"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.8.tgz#654dfbd889acc2649773a2b32dfb9feb357ca9bc"
-  integrity sha512-CZm4HMuNbY+LP5LjFQvBxbQmvS7iJiVR3w23Bk3jYxZFUj6wPiYRvDikyVpqHYLioVAWcgjG6F90Pk4z7ehUSg==
+re2@1.15.9:
+  version "1.15.9"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.9.tgz#9ed16171edcb0bc4f0e239bf55229ff3f26acbe3"
+  integrity sha512-AXWEhpMTBdC+3oqbjdU07dk0pBCvxh5vbOMLERL6Y8FYBSGn4vXlLe8cYszn64Yy7H8keVMrgPzoSvOd4mePpg==
   dependencies:
-    install-artifact-from-github "^1.1.3"
+    install-artifact-from-github "^1.2.0"
     nan "^2.14.2"
     node-gyp "^7.1.2"
 
@@ -3065,9 +3065,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^23.84.3:
-  version "23.84.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.84.7.tgz#68b9099d676dd07ca5f8668861a6c15f893992b9"
-  integrity sha512-q+WvfOW9U32/OLJybvidzVUKk95EqD3LYXjCIVLmrgMZ7pAAHr5NTSXL7WX6FpEoFnLbGA054vSBuZ7kUOCjlA==
+  version "23.84.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.84.8.tgz#bd9027ca3cbbdc35d6f282e8aca302a1e68b4a51"
+  integrity sha512-MlzEveV8iAhyfKH0ZgcGSXiW1RQ/axQTf7DQpKT30evoqHEksMyLVIf7Qx34YSyvyKgDToH/5hSrR+UP/Cpjxg==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -3132,7 +3132,7 @@ renovate@^23.84.3:
     www-authenticate "0.6.2"
     xmldoc "1.1.2"
   optionalDependencies:
-    re2 "1.15.8"
+    re2 "1.15.9"
 
 repeat-string@^1.0.0, repeat-string@^1.5.4:
   version "1.6.1"
