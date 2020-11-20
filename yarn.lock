@@ -2774,9 +2774,9 @@ prelude-ls@~1.1.2:
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
 prettier@^2.0.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
-  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.0.tgz#8a03c7777883b29b37fb2c4348c66a78e980418b"
+  integrity sha512-yYerpkvseM4iKD/BXLYUkQV5aKt4tQPqaGW6EsZjzyu0r7sVZZNPJW4Y8MyKmicp6t42XUPcBVA+H6sB3gqndw==
 
 pretty-bytes@^5.1.0:
   version "5.4.1"
@@ -3065,9 +3065,9 @@ remark@^9.0.0:
     unified "^6.0.0"
 
 renovate@^23.84.3:
-  version "23.84.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.84.6.tgz#26fafb209fb60f3270c1fb5bac065bcbcb31c628"
-  integrity sha512-/92z5vfxE0CYewWktp91hf8SJdoCmjl1mFt6hlNjPs6PhbecwE88jMUAvGtnMSTo5D1RCHsFsWlTCdoCgphsUg==
+  version "23.84.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-23.84.7.tgz#68b9099d676dd07ca5f8668861a6c15f893992b9"
+  integrity sha512-q+WvfOW9U32/OLJybvidzVUKk95EqD3LYXjCIVLmrgMZ7pAAHr5NTSXL7WX6FpEoFnLbGA054vSBuZ7kUOCjlA==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
