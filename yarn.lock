@@ -221,9 +221,9 @@
     tunnel "^0.0.6"
 
 "@yarnpkg/fslib@^2.1.0", "@yarnpkg/fslib@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-2.3.0.tgz#448445d43d52252eba757b8e25a78f0333f806d8"
-  integrity sha512-QaaymZ7syTT7S3xUeK2iH7YDRxxdjGT5166mebk/Y/egtNLIMX7oNbVlw2TszwbK2iizyUKSGSFpLgmF6ahVUg==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-2.4.0.tgz#a265b737cd089ef293ad964e06c143f5efd411a9"
+  integrity sha512-CwffYY9owtl3uImNOn1K4jl5iIb/L16a9UZ9Q3lkBARk6tlUsPrNFX00eoUlFcLn49TTfd3zdN6higloGCyncw==
   dependencies:
     "@yarnpkg/libzip" "^2.2.1"
     tslib "^1.13.0"
