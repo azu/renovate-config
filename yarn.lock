@@ -220,7 +220,7 @@
     tslib "^1.13.0"
     tunnel "^0.0.6"
 
-"@yarnpkg/fslib@^2.1.0", "@yarnpkg/fslib@^2.3.0":
+"@yarnpkg/fslib@^2.1.0", "@yarnpkg/fslib@^2.3.0", "@yarnpkg/fslib@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-2.4.0.tgz#a265b737cd089ef293ad964e06c143f5efd411a9"
   integrity sha512-CwffYY9owtl3uImNOn1K4jl5iIb/L16a9UZ9Q3lkBARk6tlUsPrNFX00eoUlFcLn49TTfd3zdN6higloGCyncw==
@@ -253,20 +253,20 @@
     tslib "^1.13.0"
 
 "@yarnpkg/pnp@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/pnp/-/pnp-2.3.1.tgz#385dbc96ca31086e2620f5f4f8966293d730fa97"
-  integrity sha512-eFcAwIXgFIaoLz8DbeMEEDqoEHk0E7y57xUAsk4R3xThbFZ/DUFyk8LrypXBXN1hwfAsznR208Yiuk6NwP0eWw==
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/pnp/-/pnp-2.3.2.tgz#9a052a06bf09c9f0b7c31e0867a7e725cb6401ed"
+  integrity sha512-JdwHu1WBCISqJEhIwx6Hbpe8MYsYbkGMxoxolkDiAeJ9IGEe08mQcbX1YmUDV1ozSWlm9JZE90nMylcDsXRFpA==
   dependencies:
     "@types/node" "^13.7.0"
-    "@yarnpkg/fslib" "^2.3.0"
+    "@yarnpkg/fslib" "^2.4.0"
     tslib "^1.13.0"
 
 "@yarnpkg/shell@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-2.4.0.tgz#e325d7ecb413bd6932552932cb48e0ab2999eb63"
-  integrity sha512-6c7v9bfNrYrAq3Zxz05dEIpcCZzTNzGAio5HCjsxwPsEiW2D4W+yOEQYP7TQtZ00HRCaxnA1gSICw6mp1I2MLg==
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-2.4.1.tgz#abc557f8924987c9c382703e897433a82780265d"
+  integrity sha512-oNNJkH8ZI5uwu0dMkJf737yMSY1WXn9gp55DqSA5wAOhKvV5DJTXFETxkVgBQhO6Bow9tMGSpvowTMD/oAW/9g==
   dependencies:
-    "@yarnpkg/fslib" "^2.3.0"
+    "@yarnpkg/fslib" "^2.4.0"
     "@yarnpkg/parsers" "^2.3.0"
     clipanion "^2.6.2"
     cross-spawn "7.0.3"
