@@ -42,7 +42,6 @@
       "npm": {
         "extends": [
           ":noUnscheduledUpdates",
-          ":semanticPrefixFixDepsChoreOthers",
           ":separatePatchReleases",
           ":unpublishSafe",
           ":prNotPending",
