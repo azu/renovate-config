@@ -72,14 +72,6 @@
           "automerge": true,
           "groupName": "Patch updates"
         },
-        "lockFileMaintenance": {
-          "enabled": true,
-          "schedule": [
-            "at any time"
-          ],
-          "automerge": true,
-          "groupName": "LockFile Maintenance"
-        },
         "packageRules": [
           {
             "groupName": "Manuall updates",
