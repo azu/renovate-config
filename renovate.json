@@ -1,12 +1,5 @@
 {
   "extends": [
     "@azu"
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "renovate"
-      ]
-    }
   ]
 }
