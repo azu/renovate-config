@@ -75,7 +75,7 @@
         "packageRules": [
           {
             "groupName": "Manuall updates",
-            "packageNames": [
+            "matchPackageNames": [
               "eslint",
               "prettier",
               "typescript"
