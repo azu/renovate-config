@@ -15,7 +15,7 @@
     "husky": "^4.3.8",
     "lint-staged": "^11.0.0",
     "prettier": "^2.0.2",
-    "renovate": "^25.21.8"
+    "renovate": "^25.21.10"
   },
   "homepage": "https://github.com/azu/renovate-config",
   "repository": {
