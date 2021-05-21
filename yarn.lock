@@ -2362,10 +2362,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-luxon@1.26.0:
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.26.0.tgz#d3692361fda51473948252061d0f8561df02b578"
-  integrity sha512-+V5QIQ5f6CDXQpWNICELwjwuHdqeJM1UenlZWx5ujcRMc9venvluCjFb4t5NYLhb6IhkbMVOxzVuOqkgMxee2A==
+luxon@1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.27.0.tgz#ae10c69113d85dab8f15f5e8390d0cbeddf4f00f"
+  integrity sha512-VKsFsPggTA0DvnxtJdiExAucKdAnwbCCNlMM5ENvHlxubqWd0xhZcdb4XgZ7QFNhaRhilXCFxHuoObP5BNA4PA==
 
 make-fetch-happen@^8.0.14:
   version "8.0.14"
@@ -3280,10 +3280,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^25.26.1:
-  version "25.26.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.26.1.tgz#9dae8107ace58583d8e9c479e6b90adce915ed42"
-  integrity sha512-cG/WFrNogMWdRqFgqapwxX9ek6KBWUHIsU3rHDWqyirzq0lrcZP38BOqJFV7CK0Dy5gpDMLQgfKE5WhPWgWRbQ==
+renovate@^25.26.5:
+  version "25.26.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.26.5.tgz#6bb62e1ef108d85172d80c3b5badf9895232ee06"
+  integrity sha512-SkNxFbmcSy7D4+VZik+8bpoCj8HQuZYynb+9AtpDsRTtX/kpKQ6ROtgKVvwILopeYbUv6Fc/EMcFzxnFFZDeIQ==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -3323,7 +3323,7 @@ renovate@^25.26.1:
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "2.0.0"
     json5 "2.2.0"
-    luxon "1.26.0"
+    luxon "1.27.0"
     markdown-it "12.0.6"
     markdown-table "2.0.0"
     minimatch "3.0.4"
@@ -3344,7 +3344,7 @@ renovate@^25.26.1:
     semver-utils "1.1.4"
     shlex "2.0.2"
     shortid "2.2.16"
-    simple-git "2.38.1"
+    simple-git "2.39.0"
     slugify "1.5.3"
     traverse "0.6.6"
     upath "2.0.1"
@@ -3560,10 +3560,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-simple-git@2.38.1:
-  version "2.38.1"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.38.1.tgz#6c3ce211777a65482598f4bd93c66443465228c0"
-  integrity sha512-SeMgUEA6Cmk7Ta57ZzMbkBcAfh8A+DZ6ACZ2onfCp/9UklC9yMJgvcH+GGI3QDTv0lTDIbWtl5LSbBk1UtEfeg==
+simple-git@2.39.0:
+  version "2.39.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.39.0.tgz#6320e01675c6ee5272aec00727549a5d2617e35e"
+  integrity sha512-VOsrmc3fpp1lGVIpo+1SKNqJzrdVJeSGZCeenPKnJPNo5UouAlSkWFc037pfm9wRYtfxBdwp2deVJGCG8J6C8A==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
