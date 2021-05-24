@@ -8,14 +8,10 @@
     "index.js"
   ],
   "scripts": {
-    "test": "renovate-config-validator",
-    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
+    "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "husky": "^4.3.8",
-    "lint-staged": "^11.0.0",
-    "prettier": "^2.0.2",
-    "renovate": "^25.26.1"
+    "renovate": "^25.30.0"
   },
   "homepage": "https://github.com/azu/renovate-config",
   "repository": {
@@ -46,18 +42,6 @@
           ":unpublishSafe",
           ":prNotPending",
           "helpers:disableTypesNodeMajor"
-        ],
-        "prBodyDefinitions": {
-          "CompatibilityScore": "[![compatibility-score for {{{depNameEscaped}}}](https://api.dependabot.com/badges/compatibility_score?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})](https://dependabot.com/compatibility-score/?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})",
-          "Sourcegraph": "[![code search for \"{{{depName}}}\"](https://sourcegraph.com/search/badge?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+{{{depName}}}&label=matches)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+{{{depName}}})"
-        },
-        "prBodyColumns": [
-          "Package",
-          "Update",
-          "Type",
-          "Change",
-          "CompatibilityScore",
-          "Sourcegraph"
         ],
         "rangeStrategy": "bump",
         "automergeType": "branch",
@@ -101,22 +85,6 @@
           "enabled": false
         }
       }
-    }
-  },
-  "prettier": {
-    "singleQuote": false,
-    "printWidth": 120,
-    "tabWidth": 4
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,css}": [
-      "prettier --write"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "post-commit": "git reset",
-      "pre-commit": "lint-staged"
     }
   }
 }
