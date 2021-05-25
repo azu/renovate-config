@@ -72,6 +72,13 @@
               "engines"
             ],
             "enabled": false
+          },
+          {
+            "groupName": "ts-node",
+            "matchPackagePrefixes": [
+              "ts-node",
+              "ts-node-test-register"
+            ]
           }
         ]
       }
