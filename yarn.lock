@@ -1301,10 +1301,10 @@ dequal@2.0.2:
   resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.2.tgz#85ca22025e3a87e65ef75a7a437b35284a7e319d"
   integrity sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==
 
-detect-indent@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
-  integrity sha512-oSyFlqaTHCItVRGK5RmrmjB+CmaMOW7IaNA/kdxqhoa6d17j/5ce9O9eWXmV/KEdRwqpQA+Vqe8a8Bsybu4YnA==
+detect-indent@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.1.0.tgz#592485ebbbf6b3b1ab2be175c8393d04ca0d57e6"
+  integrity sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==
 
 detect-node@^2.0.4:
   version "2.0.4"
@@ -2999,10 +2999,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^25.36.0:
-  version "25.36.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.36.0.tgz#18bd444dbb72a47b99f9856c32fa374a3eb3f19d"
-  integrity sha512-ooPQ15BJUbNgOilk6HlLXGtg6XD3KL/TwKFQgtane+LR0VmQX+DDhA5h3yGQuH8eflaK4BB/LEVdQfs0JWFSNA==
+renovate@^25.36.1:
+  version "25.36.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.36.1.tgz#d1e9319d03cda2be4dd63a3e247d9e24fe862676"
+  integrity sha512-uS+9+HsqZz9DaAfl+qpP4/7OkdPkZjeW4Z1xq+fuBpqSuu99bFxntNS0RB3gawUTfqYknujqGbvir62ZC9cMAg==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -3024,7 +3024,7 @@ renovate@^25.36.0:
     deepmerge "4.2.2"
     delay "5.0.0"
     dequal "2.0.2"
-    detect-indent "6.0.0"
+    detect-indent "6.1.0"
     email-addresses "4.0.0"
     emoji-regex "9.2.2"
     emojibase "5.2.0"
