@@ -2353,10 +2353,10 @@ map-obj@^4.0.0:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.1.0.tgz#b91221b542734b9f14256c0132c897c5d7256fd5"
   integrity sha512-glc9y00wgtwcDmp7GaE/0b0OnxpNJsVf3ael/An6Fe2Q51LLwN1er6sdomLRzz5h0+yMpiYLhWYF5R7HeqVd4g==
 
-markdown-it@12.0.6:
-  version "12.0.6"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.6.tgz#adcc8e5fe020af292ccbdf161fe84f1961516138"
-  integrity sha512-qv3sVLl4lMT96LLtR7xeRJX11OUFjsaD5oVat2/SNBIb21bJXwal2+SklcRbTwGwqWpWH/HRtYavOoJE+seL8w==
+markdown-it@12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.1.0.tgz#7ad572caddd336bd27a68d20e86bac1fafe8fb20"
+  integrity sha512-7temG6IFOOxfU0SgzhqR+vr2diuMhyO5uUIEZ3C5NbXhqC9uFUHoU41USYuDFoZRsaY7BEIEei874Z20VMLF6A==
   dependencies:
     argparse "^2.0.1"
     entities "~2.1.0"
@@ -3143,10 +3143,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^25.52.8:
-  version "25.52.8"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.52.8.tgz#77a7986a917d7bc88acdf4114716cb6b6a3e8409"
-  integrity sha512-sZLmkchUmmmUHjvYK7ykMIvqgphjEKzfLTI2jjZ0vw++edwCJAsMfo+JUCWQsVDwn8OompOfXBeh8d04RIK9+Q==
+renovate@^25.52.9:
+  version "25.52.9"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.52.9.tgz#9b8b966f4f127b2a658066c019b2ab6e77d0f316"
+  integrity sha512-RaWlvZ7yRhnIusr6BO7KW5me2hExmm/Y7xU8Q9HwX4uNu4MMDLtPJJwt5Zp6QcWfr4mgt+i3yLVxwxMShOQsVA==
   dependencies:
     "@aws-sdk/client-ecr" "3.18.0"
     "@breejs/later" "4.0.2"
@@ -3191,7 +3191,7 @@ renovate@^25.52.8:
     json-stringify-pretty-compact "3.0.0"
     json5 "2.2.0"
     luxon "1.27.0"
-    markdown-it "12.0.6"
+    markdown-it "12.1.0"
     markdown-table "2.0.0"
     minimatch "3.0.4"
     moo "0.5.1"
