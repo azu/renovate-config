@@ -1173,10 +1173,10 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-chalk@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
-  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
+chalk@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -3151,10 +3151,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^25.69.0:
-  version "25.69.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.69.0.tgz#55549e420422bde4f413e9e52d2a0b1685f377c7"
-  integrity sha512-FDOu58nE3stOI7BqZ9WI/S8sP+9V4HZTxUAZ/WoKsyzs+8mER17OJtRL3/UpQPpUm/ZbZqqufLeuPQcWT0fL1w==
+renovate@^25.69.1:
+  version "25.69.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.69.1.tgz#259d834e36a7934bb4ba8338456d20b00cd28606"
+  integrity sha512-+naPJID1hnThslHj43vXS/yFykSxFp6ZesnyJ5FVhRLEo3IRnVLMWBKi8VMOkpOlH0/34OVKB2gljYX6M4Fzgg==
   dependencies:
     "@aws-sdk/client-ecr" "3.18.0"
     "@breejs/later" "4.0.2"
@@ -3167,7 +3167,7 @@ renovate@^25.69.0:
     azure-devops-node-api "10.2.2"
     bunyan "1.8.15"
     cacache "15.2.0"
-    chalk "4.1.1"
+    chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
     commander "7.2.0"
