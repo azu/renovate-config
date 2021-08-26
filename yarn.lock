@@ -3176,10 +3176,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^26.8.0:
-  version "26.8.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-26.8.0.tgz#4ad894d825004f192bf619e99a008cab7c4116d5"
-  integrity sha512-8DstTdaEWHO/il8+JmZOr/TfwTkORsVLezvOHYHjM2P8ctiHBf6X30azZxdwsBmvpKacOiDGVpgld6qHyLtPhw==
+renovate@^26.9.0:
+  version "26.9.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-26.9.0.tgz#f1f9590619e62dff6320b3bda8fb16555840ba97"
+  integrity sha512-/F+D2uWKmU98EYWg4aZg4oY9qr+ZGmrfMrnzCUSTQci+ZMU8LLMOuinWDfFxnbnaRZ7+MRBIaT3ndC9f0FEJaQ==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
     "@breejs/later" "4.0.2"
