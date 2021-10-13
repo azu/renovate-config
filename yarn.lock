@@ -701,10 +701,10 @@
   dependencies:
     tslib "2.1.0"
 
-"@sindresorhus/is@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.1.tgz#d26729db850fa327b7cacc5522252194404226f5"
-  integrity sha512-Qm9hBEBu18wt1PO2flE7LPb30BHMQt1eQgbV76YntdNk73XZGpn3izvGTYxbGgzXKgbCjiia0uxTd3aTNQrY/g==
+"@sindresorhus/is@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.2.0.tgz#667bfc6186ae7c9e0b45a08960c551437176e1ca"
+  integrity sha512-VkE3KLBmJwcCaVARtQpfuKcKv8gcBmUubrfHGF84dXuuW6jgsRYxPtzcIhPyK9WAPpRt2/xY6zkD9MnRaJzSyw==
 
 "@sindresorhus/is@^4.0.0":
   version "4.0.0"
@@ -1011,6 +1011,21 @@ asap@~2.0.3:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
+asn1.js@^5.0.0:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/asn1.js/-/asn1.js-5.4.1.tgz#11a980b84ebb91781ce35b0fdc2ee294e3783f07"
+  integrity sha512-+I//4cYPccV8LdmBLiX8CYvf9Sp3vQsrqu2QNXRcrbiWvcx/UdlFiqUJJzxRQxgsZmvhXhn4cSKeSmoFjVdupA==
+  dependencies:
+    bn.js "^4.0.0"
+    inherits "^2.0.1"
+    minimalistic-assert "^1.0.0"
+    safer-buffer "^2.1.0"
+
+auth-header@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/auth-header/-/auth-header-1.0.0.tgz#ea24fdc5588e1eb8b750df8655a396aa48fc9076"
+  integrity sha512-CPPazq09YVDUNNVWo4oSPTQmtwIzHusZhQmahCKvIsk0/xH6U3QsMAv3sM+7+Q0B1K2KJ/Q38OND317uXs4NHA==
+
 azure-devops-node-api@11.0.1:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-11.0.1.tgz#b7ec4783230e1de8fc972b23effe7ed2ebac17ff"
@@ -1052,6 +1067,11 @@ bl@^4.0.3:
     buffer "^5.5.0"
     inherits "^2.0.4"
     readable-stream "^3.4.0"
+
+bn.js@^4.0.0:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.0.tgz#775b3f278efbb9718eec7361f483fb36fbbfea88"
+  integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
 
 boolbase@^1.0.0:
   version "1.0.0"
@@ -1304,10 +1324,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-commander@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-8.1.0.tgz#db36e3e66edf24ff591d639862c6ab2c52664362"
-  integrity sha512-mf45ldcuHSYShkplHHGKWb4TrmwQadxOn7v4WuhDJy0ZVoY5JFajaRDKD0PNe5qXzBX0rhovjTnP6Kz9LETcuA==
+commander@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-8.2.0.tgz#37fe2bde301d87d47a53adeff8b5915db1381ca8"
+  integrity sha512-LLKxDvHeL91/8MIyTAD5BFMNtoIwztGPMiM/7Bl8rIPmHCZXRxmSWr91h57dpOpnQ6jIUqEWdXE/uBYMfiVZDA==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -1659,10 +1679,10 @@ fast-glob@^3.1.1, fast-glob@^3.2.2:
     micromatch "^4.0.2"
     picomatch "^2.2.1"
 
-fast-safe-stringify@2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.8.tgz#dc2af48c46cf712b683e849b2bbd446b32de936f"
-  integrity sha512-lXatBjf3WPjmWD6DpIZxkeSsCOwqI0maYMpgDlx8g4U2qi4lbjA9oH/HD2a87G+KfsUmo5WbJFmqBZlPxtptag==
+fast-safe-stringify@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz#c406a83b6e70d9e35ce3b30a81141df30aeba884"
+  integrity sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==
 
 fast-xml-parser@3.19.0:
   version "3.19.0"
@@ -1786,10 +1806,10 @@ git-up@^4.0.0:
     is-ssh "^1.3.0"
     parse-url "^5.0.0"
 
-git-url-parse@11.5.0:
-  version "11.5.0"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.5.0.tgz#acaaf65239cb1536185b19165a24bbc754b3f764"
-  integrity sha512-TZYSMDeM37r71Lqg1mbnMlOqlHd7BSij9qN7XwTkRqSAYFMihGLGhfHwgqQob3GUhEneKnV4nskN9rbQw2KGxA==
+git-url-parse@11.6.0:
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.6.0.tgz#c634b8de7faa66498a2b88932df31702c67df605"
+  integrity sha512-WWUxvJs5HsyHL6L08wOusa/IXYtMuCAhrMmnTjQPpBU0TTHyDhnOATNH3xNQz7YOQUsqIIPTGr4xiVti1Hsk5g==
   dependencies:
     git-up "^4.0.0"
 
@@ -1921,10 +1941,10 @@ handlebars@4.7.7:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-handy-redis@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-2.2.2.tgz#12d1edae6e762076b10f173fab82d895ad252607"
-  integrity sha512-m+7d89zM/rUVvtvVV0/wQGY2SQOh2fgIgg2Fts9q/wQFom0h5sZTCYPHgzPtnJxDOilIMvxRbPHi7b+IKin7UA==
+handy-redis@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-2.3.1.tgz#13469450730b74b14eab3e4a8aafcd65bb288392"
+  integrity sha512-ilZYZ4l9+BSxavnjzSbI0yNpM8wfuEP8wAjsPAoL5ThfcCEswN7EpuSCJ4PfRpuGvxRRrivjSImbqpM9NkDB7w==
   dependencies:
     "@types/redis" "^2.8.30"
 
@@ -2062,7 +2082,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3:
+inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
@@ -2542,6 +2562,11 @@ min-indent@^1.0.0:
   resolved "https://registry.yarnpkg.com/min-indent/-/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
+minimalistic-assert@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
+  integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
+
 "minimatch@2 || 3", minimatch@3.0.4, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -2802,6 +2827,13 @@ once@~1.3.0:
   integrity sha1-suJhVXzkwxTsgwTz+oJmPkKXyiA=
   dependencies:
     wrappy "1"
+
+openpgp@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-5.0.0.tgz#2da0ee406c8834223ae928a9a214f4811f83f923"
+  integrity sha512-H4Jsj9Bp1KFQ/w520M1d2x45iz9V39Lf+IwIXmUaBmJAMagAt0zanqmWeFzIMJUYmrHTcm6fO/rpc6aftFUHbA==
+  dependencies:
+    asn1.js "^5.0.0"
 
 p-all@3.0.0:
   version "3.0.0"
@@ -3190,26 +3222,27 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^26.21.7:
-  version "26.21.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-26.21.7.tgz#60c9dfceccb8951c31e95189216d8cc39bd2e2b7"
-  integrity sha512-AgxBdRC2pFf+OOprNbESFY5JGgy6BNcA5tpxq8UTTGr9/lXBOGVzDmJAbsjvAiBcL1gjHDC6DmJkJNo6vLuMgg==
+renovate@^28.1.0:
+  version "28.1.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-28.1.0.tgz#f4ca7324cf0c0d3320f56f136c4511cc01786c00"
+  integrity sha512-jmvXZF69xDroO46aJDWFmBKYjphJOBUbzx0Awn0qULz1VDv8AXqd8IiMzb7gN4ZUiD8+WZ8pgSz+I/k6r1MryQ==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
     "@renovate/pep440" "1.0.0"
     "@renovatebot/ruby-semver" "1.0.0"
-    "@sindresorhus/is" "4.0.1"
+    "@sindresorhus/is" "4.2.0"
     "@yarnpkg/core" "2.4.0"
     "@yarnpkg/parsers" "2.4.0"
+    auth-header "1.0.0"
     azure-devops-node-api "11.0.1"
     bunyan "1.8.15"
     cacache "15.3.0"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "8.1.0"
+    commander "8.2.0"
     conventional-commits-detector "1.0.3"
     crypto-random-string "3.3.1"
     deepmerge "4.2.2"
@@ -3221,15 +3254,15 @@ renovate@^26.21.7:
     emojibase "5.2.0"
     emojibase-regex "5.1.3"
     extract-zip "2.0.1"
-    fast-safe-stringify "2.0.8"
+    fast-safe-stringify "2.1.1"
     find-up "5.0.0"
     fs-extra "10.0.0"
-    git-url-parse "11.5.0"
+    git-url-parse "11.6.0"
     github-url-from-git "1.5.0"
     global-agent "2.2.0"
     got "11.8.2"
     handlebars "4.7.7"
-    handy-redis "2.2.2"
+    handy-redis "2.3.1"
     hasha "5.2.2"
     ignore "5.1.8"
     ini "2.0.0"
@@ -3244,6 +3277,7 @@ renovate@^26.21.7:
     minimatch "3.0.4"
     moo "0.5.1"
     node-html-parser "3.3.6"
+    openpgp "5.0.0"
     p-all "3.0.0"
     p-map "4.0.0"
     p-queue "6.6.2"
@@ -3258,13 +3292,12 @@ renovate@^26.21.7:
     semver-utils "1.1.4"
     shlex "2.1.0"
     shortid "2.2.16"
-    simple-git "2.45.0"
-    slugify "1.6.0"
+    simple-git "2.46.0"
+    slugify "1.6.1"
     traverse "0.6.6"
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "3.0.0"
-    www-authenticate "0.6.2"
     xmldoc "1.1.2"
   optionalDependencies:
     re2 "1.16.0"
@@ -3357,7 +3390,7 @@ safe-json-stringify@~1:
   resolved "https://registry.yarnpkg.com/safe-json-stringify/-/safe-json-stringify-1.2.0.tgz#356e44bc98f1f93ce45df14bcd7c01cda86e0afd"
   integrity sha512-gH8eh2nZudPQO6TytOvbxnuhYBOvDBBLW52tz5q6X58lJcd/tkmqFR+5Z9adS8aJtURSXWThWy/xJtJwixErvg==
 
-"safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2:
+"safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
@@ -3449,10 +3482,10 @@ signal-exit@^3.0.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-simple-git@2.45.0:
-  version "2.45.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.45.0.tgz#4d53b146fc23496099ebfc7af5b0d605d0e3e504"
-  integrity sha512-wu/Ujs9IXn0HuyYm4HyRvne+EKsjJSWKEMkB3wQa3gNHSMHt7y3oeNX9zRQ3UBPk7bRRMLLHAdIZCZfHT9ehPg==
+simple-git@2.46.0:
+  version "2.46.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.46.0.tgz#d564856705cee9d2ef1d1f98c7143e2bc00e7c3e"
+  integrity sha512-6eumII1vfP4NpRqxZcVWCcIT5xHH6dRyvBZSjkH4dJRDRpv+0f75hrN5ysp++y23Mfr3AbRC/dO2NDbfj1lJpQ==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
@@ -3463,10 +3496,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slugify@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.0.tgz#6bdf8ed01dabfdc46425b67e3320b698832ff893"
-  integrity sha512-FkMq+MQc5hzYgM86nLuHI98Acwi3p4wX+a5BO9Hhw4JdK4L7WueIiZ4tXEobImPqBz2sVcV0+Mu3GRB30IGang==
+slugify@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.1.tgz#a5fcaef29f4e57c6e932ce7044b6ffd9cf81b641"
+  integrity sha512-5ofqMTbetNhxlzjYYLBaZFQd6oiTuSkQlyfPEFIMwgUABlZQ0hbk5xIV9Ydd5jghWeRoO7GkiJliUvTpLOjNRA==
 
 smart-buffer@^4.1.0:
   version "4.1.0"
@@ -3919,11 +3952,6 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
-
-www-authenticate@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/www-authenticate/-/www-authenticate-0.6.2.tgz#b7a7d487bdc5a8b423a4d8fd5f9c661adde50ebf"
-  integrity sha1-t6fUh73FqLQjpNj9X5xmGt3lDr8=
 
 xmldoc@1.1.2:
   version "1.1.2"
