@@ -11,7 +11,7 @@
     "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "renovate": "^28.10.0"
+    "renovate": "^28.10.1"
   },
   "homepage": "https://github.com/azu/renovate-config",
   "repository": {
