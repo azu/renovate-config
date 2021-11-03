@@ -623,10 +623,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@breejs/later@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@breejs/later/-/later-4.0.2.tgz#38c85cc98b717c7a196f87238090adaea01f8c9e"
-  integrity sha512-EN0SlbyYouBdtZis1htdsgGlwFePzkXPwdIeqaBaavxkJT1G2/bitc2LSixjv45z2njXslxlJI1mW2O/Gmrb+A==
+"@breejs/later@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@breejs/later/-/later-4.1.0.tgz#9246907f46cc9e9c9af37d791ab468d98921bcc1"
+  integrity sha512-QgGnZ9b7o4k0Ai1ZbTJWwZpZcFK9d+Gb+DyNt4UT9x6IEIs5HVu0iIlmgzGqN+t9MoJSpSPo9S/Mm51UtHr3JA==
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"
@@ -3229,13 +3229,13 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^28.22.2:
-  version "28.22.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-28.22.2.tgz#09d8ecc148575de5fa3877d5a09e7363aacdf823"
-  integrity sha512-NjXHeJbbCgKNFgLe14fBR2xGoKro3NQe/ymhyJo1bSHT/R5EaLYzJwQIp1w9tPzLRG9o8xDsP3fX2G+UZxyEXw==
+renovate@^28.22.3:
+  version "28.22.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-28.22.3.tgz#ddd75ab5839b9986219a9bd4a3bf3850d10af47c"
+  integrity sha512-o+7q7Xp8XEUT+dDNSKErVu66u1wgBR0E57LdUxPFMcskUBaKPW8xDYMhhOGqcWOmpMp+qyNOXwhm/ClVZuH42g==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
-    "@breejs/later" "4.0.2"
+    "@breejs/later" "4.1.0"
     "@iarna/toml" "2.2.5"
     "@renovate/pep440" "1.0.0"
     "@renovatebot/ruby-semver" "1.0.0"
