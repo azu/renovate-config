@@ -14,15 +14,14 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 }
 ```
 
-Note: Don't nessary to do `npm i -D @azu/renovate-config`
+Note: Don't necessary to do `npm i -D @azu/renovate-config`
 
 #### Features
 
 - Auto merge patch and major version
 - Support Node.js
 - It defined packages that require manually updates like TypeScript, Prettier, Linters
-- Support [dependabot compatibility-score](https://dependabot.com/compatibility-score/)
-- Support [Source Graph Search](https://about.sourcegraph.com/)
+- Prevent supply-chain attack by `"stabilityDays": 7`
 
 ### Maintenance preset
 
