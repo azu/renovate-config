@@ -85,6 +85,13 @@
             ]
           },
           {
+            "groupName": "ESLint",
+            "packagePatterns": [
+              "^eslint",
+              "^@typescript-eslint/"
+            ]
+          },
+          {
             "groupName": "renovate",
             "automerge": true,
             "matchPackageNames": [
