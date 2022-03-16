@@ -1808,10 +1808,10 @@ email-addresses@5.0.0:
   resolved "https://registry.yarnpkg.com/email-addresses/-/email-addresses-5.0.0.tgz#7ae9e7f58eef7d5e3e2c2c2d3ea49b78dc854fa6"
   integrity sha512-4OIPYlA6JXqtVn8zpHpGiI7vE6EQOAg16aGnDMIAlZVinnoZ8208tW1hAbjWydgN/4PLTT9q+O1K6AH/vALJGw==
 
-emoji-regex@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.0.0.tgz#96559e19f82231b436403e059571241d627c42b8"
-  integrity sha512-KmJa8l6uHi1HrBI34udwlzZY1jOEuID/ft4d8BSSEdRyap7PwBEt910453PJa5MuGvxkLqlt4Uvhu7tttFHViw==
+emoji-regex@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.0.1.tgz#77180edb279b99510a21b79b19e1dc283d8f3991"
+  integrity sha512-cLuZzriSWVE+rllzeq4zpUEoCPfYEbQ6ZVhIq+ed6ynWST7Bw9XnOr+bKWgCup4paq72DI21gw9M3aaFkm4HAw==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -3146,10 +3146,10 @@ once@~1.3.0:
   dependencies:
     wrappy "1"
 
-openpgp@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-5.1.0.tgz#4da3880ad04d9d75b3f0470451f6862d43252568"
-  integrity sha512-keCno6QPMXWwfjrOOtT8fwZ5XgCcB7vZH80xb44SbJ49qQ11Efl2fFfqHpaie7jTQFjRKxgT8hSFPXJUjogNPw==
+openpgp@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-5.2.0.tgz#1275fea03893c7a0081abd2dccaec8124ee687dc"
+  integrity sha512-ZDrvSMq2KZTTWnFV6bSO70HlyAX9uIu2QO/jX+Pd5lb+fewzwsnWHnzN2ZWp++QyM8ifyBPkrD7ZGFq279mpMA==
   dependencies:
     asn1.js "^5.0.0"
 
@@ -3545,10 +3545,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.0.2:
-  version "32.0.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.0.2.tgz#89101b090efb3a3e33b9c3d24fb855aba3061ed6"
-  integrity sha512-Jj/zsw2OshURcPsh21IqdDqJ90SePgY5bPqg/GxcgV5BkFMXsa946IE2hK9RdFtq9IawjzAN1VNHTcY+iookmw==
+renovate@^32.0.6:
+  version "32.6.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.6.2.tgz#f9fe7de5954dca31704bb9a2e3e4742ae8206433"
+  integrity sha512-wR2QkiNSri2OI8MgZ7/qGwVgTasD/Wxgp77i0shq6iG/sDJzodSP1WwToN4ByYdof+zz3sFGwRS0nI6jrXIglQ==
   dependencies:
     "@aws-sdk/client-ec2" "3.50.0"
     "@aws-sdk/client-ecr" "3.50.0"
@@ -3576,7 +3576,7 @@ renovate@^32.0.2:
     detect-indent "6.1.0"
     editorconfig "0.15.3"
     email-addresses "5.0.0"
-    emoji-regex "10.0.0"
+    emoji-regex "10.0.1"
     emojibase "6.1.0"
     emojibase-regex "6.0.1"
     extract-zip "2.0.1"
@@ -3605,7 +3605,7 @@ renovate@^32.0.2:
     moo "0.5.1"
     nanoid "3.3.1"
     node-html-parser "5.2.0"
-    openpgp "5.1.0"
+    openpgp "5.2.0"
     p-all "3.0.0"
     p-map "4.0.0"
     p-queue "6.6.2"
