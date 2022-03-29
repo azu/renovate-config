@@ -18,7 +18,7 @@ Note: Don't necessary to do `npm i -D @azu/renovate-config`
 
 #### Features
 
-- Auto merge patch and major version
+- Auto merge patch and minor version
 - Support Node.js
 - It defined packages that require manually updates like TypeScript, Prettier, Linters
 - Prevent supply-chain attack by `"stabilityDays": 7`
