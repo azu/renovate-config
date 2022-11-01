@@ -1195,10 +1195,10 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@iarna/toml@2.2.5":
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
-  integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
+"@iarna/toml@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-3.0.0.tgz#ccde5292fe9d348bbe93fe90d579fc442b72b0b3"
+  integrity sha512-td6ZUkz2oS3VeleBcN+m//Q6HlCFCPrnI0FZhrt/h4XqLEdOyYp2u21nd8MdsR+WJy5r9PTDaHTDDfhf4H4l6Q==
 
 "@kwsites/file-exists@^1.1.1":
   version "1.1.1"
@@ -1365,10 +1365,10 @@
   dependencies:
     "@octokit/openapi-types" "^14.0.0"
 
-"@one-ini/wasm@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.0.tgz#9afb7db5804f509490de695481cf05a00aef9ccd"
-  integrity sha512-cP8ZX+YBxw7SykvcX1NNKSia7ByE+PQTLZcRcEuuHsGJL+Zzuid+LSU1gC6QS1Ll3GTdE7z1/+JR5MYeMQkLBQ==
+"@one-ini/wasm@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
+  integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
 "@opentelemetry/api-metrics@0.32.0":
   version "0.32.0"
@@ -2597,12 +2597,12 @@ dtrace-provider@~0.8:
   dependencies:
     nan "^2.14.0"
 
-editorconfig@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-1.0.0.tgz#c2d9d0f287b3c14cb64aaf71dd1d11c8a6ec535c"
-  integrity sha512-kep0YWCniNr1Z/pkavbAQ3yRQRTkaO+xJBiZPWwObnsS8dlo4C14onTf35IpPtR1nM8bqgDF9XVscDY7QwVEng==
+editorconfig@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-1.0.1.tgz#94dee9bf4351ccce3b12eefed663efef29b06046"
+  integrity sha512-QKhz+SCEjJ6JpIK4Ve64KpSZs8ZIoIkd2qWbhfrVrwbIh60+uVV70QDh3FYcZrhwJwQ+m9UdrOMSbGe/Osxiew==
   dependencies:
-    "@one-ini/wasm" "0.1.0"
+    "@one-ini/wasm" "0.1.1"
     commander "^9.4.1"
     minimatch "5.1.0"
     semver "^7.3.8"
@@ -3056,15 +3056,15 @@ globby@^11.0.1:
     merge2 "^1.3.0"
     slash "^3.0.0"
 
-good-enough-parser@1.1.19:
-  version "1.1.19"
-  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.19.tgz#928bf8bad59ef63d5095d355a20ce625f4cec04a"
-  integrity sha512-O1sdiXjZocP8gFYi5yMJ1kNGTJi9aV563Pjvo6UwOln3+IE+l6bshHqlKYdEM63Pof1KIqPCPKhNzkDPxNoFpw==
+good-enough-parser@1.1.20:
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.20.tgz#bca35c23656b037e4501d4fd747cefe960609084"
+  integrity sha512-jjdRPD2sjI+WP6/nyOSuj/oTWbiW3lyms+otTk27M5pCo5nJOXo3cSiwtPfzr1bdfcd2+B3CrZJnMzC7xPFhLg==
   dependencies:
     "@thi.ng/zipper" "1.0.3"
     "@types/moo" "0.5.5"
     klona "2.0.5"
-    moo "0.5.1"
+    moo "0.5.2"
 
 got@11.8.5:
   version "11.8.5"
@@ -4047,11 +4047,6 @@ moment@^2.19.3:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
-moo@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/moo/-/moo-0.5.1.tgz#7aae7f384b9b09f620b6abf6f74ebbcd1b65dbc4"
-  integrity sha512-I1mnb5xn4fO80BH9BLcF0yLypy2UKl+Cb01Fu0hJRkJjlCRtxZMWkTdAtDd5ZqCOxtCkhmRwyI57vWT+1iZ67w==
-
 moo@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/moo/-/moo-0.5.2.tgz#f9fe82473bc7c184b0d32e2215d3f6e67278733c"
@@ -4634,10 +4629,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.1.0:
-  version "34.1.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.1.0.tgz#7a69edc49e02805a00f353ef20b6402761b3888c"
-  integrity sha512-fL2a/aXMxgUJcGbYr8dxz2ksxXiH/3FO6zeCMh+SpyCaPxQwtzqTwFSjzQ3wX5yPzCc7pv47JDmaTZwY8NCOsQ==
+renovate@^34.1.2:
+  version "34.12.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.12.0.tgz#62fd4259ce5e2b7095316024293ada713f5493a4"
+  integrity sha512-lVwMJomS9rPjVDMGKglVnrqMHVWUBihQQKqAknWESNmt2fPLOOGzA/DtulaDOVgmN4TMB/ELIjCfTOMuUuvD6w==
   dependencies:
     "@aws-sdk/client-codecommit" "3.154.0"
     "@aws-sdk/client-ec2" "3.155.0"
@@ -4647,7 +4642,7 @@ renovate@^34.1.0:
     "@aws-sdk/client-s3" "3.154.0"
     "@breejs/later" "4.1.0"
     "@cheap-glitch/mi-cron" "1.0.1"
-    "@iarna/toml" "2.2.5"
+    "@iarna/toml" "3.0.0"
     "@opentelemetry/api" "1.2.0"
     "@opentelemetry/context-async-hooks" "1.7.0"
     "@opentelemetry/exporter-trace-otlp-http" "0.33.0"
@@ -4683,7 +4678,7 @@ renovate@^34.1.0:
     delay "5.0.0"
     dequal "2.0.3"
     detect-indent "6.1.0"
-    editorconfig "1.0.0"
+    editorconfig "1.0.1"
     email-addresses "5.0.0"
     emoji-regex "10.2.1"
     emojibase "6.1.0"
@@ -4695,7 +4690,7 @@ renovate@^34.1.0:
     git-url-parse "13.1.0"
     github-url-from-git "1.5.0"
     global-agent "3.0.0"
-    good-enough-parser "1.1.19"
+    good-enough-parser "1.1.20"
     got "11.8.5"
     graph-data-structure "2.0.0"
     handlebars "4.7.7"
