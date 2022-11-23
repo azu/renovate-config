@@ -1835,20 +1835,20 @@
   dependencies:
     "@types/node" "*"
 
-"@yarnpkg/core@3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-3.2.5.tgz#aef54ced8024d8fd4b49745bd72e5e83995ef92d"
-  integrity sha512-8Z4xRhLKHwq37+TmEwVNYmgJIU6uPa1rUYWOc/luFHS+6KTJyW1OkZU9Sfe6SkcTKIH3gYP9EAqxyczf4TBOKA==
+"@yarnpkg/core@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-3.3.0.tgz#856cb38456389543f6f53dfdbd56b880ae9490b1"
+  integrity sha512-3fzbI038I42bArD8SJ8Riu7gwrJxKrCpj/13RVb7PBi1QP1wyxF/dUWIpqPyPqkuTOimL5ZvPcKnt4tc6SnRdw==
   dependencies:
     "@arcanis/slice-ansi" "^1.1.1"
     "@types/semver" "^7.1.0"
     "@types/treeify" "^1.0.0"
-    "@yarnpkg/fslib" "^2.8.0"
+    "@yarnpkg/fslib" "^2.9.0"
     "@yarnpkg/json-proxy" "^2.1.1"
     "@yarnpkg/libzip" "^2.2.4"
     "@yarnpkg/parsers" "^2.5.1"
-    "@yarnpkg/pnp" "^3.2.4"
-    "@yarnpkg/shell" "^3.2.4"
+    "@yarnpkg/pnp" "^3.2.5"
+    "@yarnpkg/shell" "^3.2.5"
     camelcase "^5.3.1"
     chalk "^3.0.0"
     ci-info "^3.2.0"
@@ -1881,10 +1881,10 @@
     "@yarnpkg/libzip" "^2.2.3"
     tslib "^1.13.0"
 
-"@yarnpkg/fslib@^2.7.1", "@yarnpkg/fslib@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-2.8.0.tgz#a20641a09b6edddd32ee98a80d76e1c4ddd99010"
-  integrity sha512-Goo8vFEVfVLdumceSd/K7p4Em5lqo8/PSvXE56XOrkaXmp1hQfjHcKtgtFO3UsVhq2JgM7MChQigDQLPXTCvzw==
+"@yarnpkg/fslib@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-2.9.0.tgz#aaa338f624defbef29031617b8884c3d831760ea"
+  integrity sha512-PIdwI2z1HFl6aUkketbgUJK3FGRVWVwH1vgHltNe+snJzjlKHMavyIR0fipkAJuHVcac+hzWI1/eMr90rVyMHw==
   dependencies:
     "@yarnpkg/libzip" "^2.2.4"
     tslib "^1.13.0"
@@ -1913,20 +1913,20 @@
     js-yaml "^3.10.0"
     tslib "^1.13.0"
 
-"@yarnpkg/pnp@^3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/pnp/-/pnp-3.2.4.tgz#cfbf43ae2dcb8fb31172baed4f3f28e495e8f9a2"
-  integrity sha512-ucQb6W/wm5civ9fPWWB06DWcd3Qqw/fm48dyMMO4YVF87dIbJpKP2uI2IqNWQbul2GaM63efIb2sk3kf7MAHtg==
+"@yarnpkg/pnp@^3.2.5":
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/pnp/-/pnp-3.2.5.tgz#676d2eed81e8f48bcf00ea8646776a48d1a56454"
+  integrity sha512-9TIy6BSJ0pu2Yj7KBG+CW4dnWijOdKZ8VO7yEC7fuL63I98oZHxuS9AcVSCNqNdrX8eZKxvSLtWgOaiGL0Eizw==
   dependencies:
     "@types/node" "^13.7.0"
-    "@yarnpkg/fslib" "^2.8.0"
+    "@yarnpkg/fslib" "^2.9.0"
 
-"@yarnpkg/shell@^3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-3.2.4.tgz#98fbed82bdf31a9278e80e79783a6c6f183a7558"
-  integrity sha512-mCxB1N+onHynM2zcuvdb73y1njzqxKnpIu6hy+eFyxC6qyPDTT17w5gCdGDHWCs025I95jk2vPWbzhXJBiCEHw==
+"@yarnpkg/shell@^3.2.5":
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-3.2.5.tgz#536c7d8e927c538db23fd6ae953ba0494d06a50d"
+  integrity sha512-QLQNDgUatiXWs47ULRAyliFt4/gQbGwprvgBVRF9OJw0aNY1DO7rnmebB3wDg927uy4Oj1uKVRfGAGAgAVQHWg==
   dependencies:
-    "@yarnpkg/fslib" "^2.7.1"
+    "@yarnpkg/fslib" "^2.9.0"
     "@yarnpkg/parsers" "^2.5.1"
     chalk "^3.0.0"
     clipanion "3.2.0-rc.4"
@@ -4114,10 +4114,10 @@ node-gyp@^9.0.0:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-html-parser@6.1.3:
-  version "6.1.3"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.3.tgz#207d5c9b447113bb265871991c276c90c856f971"
-  integrity sha512-bYvL774OmSBRShzYv/8JU2a/eKbBXwi9jAtSHOT40gF3YVKwMLFeA08vZFMS4R7A/C+oZdiHKw0pmaVEEdtUqw==
+node-html-parser@6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.4.tgz#763cd362497e427d51fc73dda3dcd8ac52ba85a3"
+  integrity sha512-3muP9Uy/Pz7bQa9TNYVQzWJhNZMqyCx7xJle8kz2/y1UgzAUyXXShc1IcPaJy6u07CE3K5rQcRwlvHzmlySRjg==
   dependencies:
     css-select "^5.1.0"
     he "1.2.0"
@@ -4619,10 +4619,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.26.0:
-  version "34.30.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.30.2.tgz#a02c7f7228942d4f0d7f3f97feacd7a9314ce818"
-  integrity sha512-+AlPBVaU6QrFKj1EReWQrLIyounJURP7UfENKRd2FUMR3vKDpWfh3LQSTCaCSOCDVC9XW0uvD+fwmRzlJp3pXQ==
+renovate@^34.26.2:
+  version "34.31.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.31.1.tgz#f3f6ee7a14b0922324890645584603db55c5e517"
+  integrity sha512-lJ8h7OknpG+lJ/MemmO8FOgAL17+BEtkUEonblmBBrH41noOXnUzojSFBHBf223ziEEjXmuGtJc9yaQlpammjw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.154.0"
     "@aws-sdk/client-ec2" "3.155.0"
@@ -4648,7 +4648,7 @@ renovate@^34.26.0:
     "@renovatebot/ruby-semver" "1.1.7"
     "@sindresorhus/is" "4.6.0"
     "@types/tmp" "0.2.3"
-    "@yarnpkg/core" "3.2.5"
+    "@yarnpkg/core" "3.3.0"
     "@yarnpkg/parsers" "2.5.1"
     agentkeepalive "4.2.1"
     aggregate-error "3.1.0"
@@ -4698,7 +4698,7 @@ renovate@^34.26.0:
     minimatch "5.1.0"
     moo "0.5.2"
     nanoid "3.3.4"
-    node-html-parser "6.1.3"
+    node-html-parser "6.1.4"
     openpgp "5.5.0"
     p-all "3.0.0"
     p-map "4.0.0"
