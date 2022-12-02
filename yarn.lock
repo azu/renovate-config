@@ -1553,10 +1553,10 @@
   resolved "https://registry.yarnpkg.com/@redis/bloom/-/bloom-1.1.0.tgz#64e310ddee72010676e14296076329e594a1f6c7"
   integrity sha512-9QovlxmpRtvxVbN0UBcv8WfdSMudNZZTFqCsnBszcQXqaZb/TVe30ScgGEO7u1EAIacTPAo7/oCYjYAxiHLanQ==
 
-"@redis/client@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.4.0.tgz#d2c56ce26c3e2fe3412db5cfb1814169662167eb"
-  integrity sha512-1gEj1AkyXPlkcC/9/T5xpDcQF8ntERURjLBgEWMTdUZqe181zfI9BY3jc2OzjTLkvZh5GV7VT4ktoJG2fV2ufw==
+"@redis/client@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.4.2.tgz#2a3f5e98bc33b7b979390442e6e08f96e57fabdd"
+  integrity sha512-oUdEjE0I7JS5AyaAjkD3aOXn9NhO7XKyPyXEyrgFDu++VrVBHUPnV6dgEya9TcMuj5nIJRuCzCm8ZP+c9zCHPw==
   dependencies:
     cluster-key-slot "1.1.1"
     generic-pool "3.9.0"
@@ -2824,6 +2824,15 @@ fs-extra@10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
   integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs-extra@11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.0.tgz#5784b102104433bb0e090f48bfc4a30742c357ed"
+  integrity sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -4539,13 +4548,13 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redis@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/redis/-/redis-4.5.0.tgz#8a461c8718e380ea899ba3711aa0bb217b112089"
-  integrity sha512-oZGAmOKG+RPnHo0UxM5GGjJ0dBd/Vi4fs3MYwM1p2baDoXC0wpm0yOdpxVS9K+0hM84ycdysp2eHg2xGoQ4FEw==
+redis@4.5.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-4.5.1.tgz#f5a818970bb2dc5d60540bab41308640604c7d33"
+  integrity sha512-oxXSoIqMJCQVBTfxP6BNTCtDMyh9G6Vi5wjdPdV/sRKkufyZslDqCScSGcOr6XGR/reAWZefz7E4leM31RgdBA==
   dependencies:
     "@redis/bloom" "1.1.0"
-    "@redis/client" "1.4.0"
+    "@redis/client" "1.4.2"
     "@redis/graph" "1.1.0"
     "@redis/json" "1.0.4"
     "@redis/search" "1.1.0"
@@ -4597,10 +4606,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.34.0:
-  version "34.46.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.46.0.tgz#a5f3d76642be8343bb7faf55ce20c337a6b2fa34"
-  integrity sha512-XYVEbr4WC8XcXSuACxSIwyUF2pvsrxwMq9BINzLhM5fcvHokrWgwiB+Jd4pykTlfy7a0N50grD4rSg6Oc94lgw==
+renovate@^34.34.1:
+  version "34.48.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.48.0.tgz#a4d3ec78873fe46a0dacb6bca46c22fd674ce0ae"
+  integrity sha512-oU0c+69kQuEuE75dU2EJmwWa2uop8j6aS27hzwLo8thETQPzjID5Ml3khPuJQCpJm4W6T6JwBqf8q3qOe10Neg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.154.0"
     "@aws-sdk/client-ec2" "3.155.0"
@@ -4654,7 +4663,7 @@ renovate@^34.34.0:
     extract-zip "2.0.1"
     find-packages "10.0.2"
     find-up "5.0.0"
-    fs-extra "10.1.0"
+    fs-extra "11.1.0"
     git-url-parse "13.1.0"
     github-url-from-git "1.5.0"
     global-agent "3.0.0"
@@ -4685,7 +4694,7 @@ renovate@^34.34.0:
     parse-link-header "2.0.0"
     prettier "2.8.0"
     quick-lru "5.1.1"
-    redis "4.5.0"
+    redis "4.5.1"
     remark "13.0.0"
     remark-github "10.1.0"
     safe-stable-stringify "2.4.1"
