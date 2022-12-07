@@ -3941,6 +3941,13 @@ minimatch@5.1.0, minimatch@^5.0.1:
   dependencies:
     brace-expansion "^2.0.1"
 
+minimatch@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.1.tgz#6c9dffcf9927ff2a31e74b5af11adf8b9604b022"
+  integrity sha512-362NP+zlprccbEt/SkxKfRMHnNY85V74mVnpUpNyr3F35covl09Kec7/sEFLt3RA4oXmewtoaanoIf67SE5Y5g==
+  dependencies:
+    brace-expansion "^2.0.1"
+
 minimist-options@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/minimist-options/-/minimist-options-4.1.0.tgz#c0655713c53a8a2ebd77ffa247d342c40f010619"
@@ -4620,10 +4627,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.41.2:
-  version "34.50.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.50.1.tgz#3aeb22592b737f933571067277e58f0c3fde9b88"
-  integrity sha512-Fqk7ebg+G6iBLQxdG4iLURzE33qb37VdroOSH8kmWd75ymXY5ws78y3kcPvp2m1MWtwiXVVx4ItOkwqi5nV1uQ==
+renovate@^34.42.0:
+  version "34.50.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.50.2.tgz#e68f57f2f2e3185707c7e1a57b02ac81cda677e3"
+  integrity sha512-wdFa1uwNnBg6zPcciIbajopXsiaIAGyv1WWckX0wa59YRbZkemvZLmxOjQ0P0wW81OKPLrYcIp/zmoPWPDbqGg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.154.0"
     "@aws-sdk/client-ec2" "3.155.0"
@@ -4696,7 +4703,7 @@ renovate@^34.41.2:
     markdown-it "13.0.1"
     markdown-table "2.0.0"
     marshal "0.5.4"
-    minimatch "5.1.0"
+    minimatch "5.1.1"
     moo "0.5.2"
     nanoid "3.3.4"
     node-html-parser "6.1.4"
