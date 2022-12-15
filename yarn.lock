@@ -2143,16 +2143,16 @@ bunyan@1.8.15:
     mv "~2"
     safe-json-stringify "~1"
 
-cacache@17.0.2:
-  version "17.0.2"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-17.0.2.tgz#ff2bd029bf45099b3fe711f56fbf138b846c8d6d"
-  integrity sha512-rYUs2x4OjSgCQND7nTrh21AHIBFgd7s/ctAYvU3a8u+nK+R5YaX/SFPDYz4Azz7SGL6+6L9ZZWI4Kawpb7grzQ==
+cacache@17.0.3:
+  version "17.0.3"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-17.0.3.tgz#9ba14e0e50eca763ae7e2ee89036a948a13035ed"
+  integrity sha512-pwsIK/grdM0cHpfVaNFxMdzElBtLJGsVPE+JnxqXP1l40O01Z1mfDE8MbRTuwomGq/UwEtGisOylutOEVJxEqg==
   dependencies:
     "@npmcli/fs" "^3.1.0"
     fs-minipass "^2.1.0"
     glob "^8.0.1"
     lru-cache "^7.7.1"
-    minipass "^3.1.6"
+    minipass "^4.0.0"
     minipass-collect "^1.0.2"
     minipass-flush "^1.0.5"
     minipass-pipeline "^1.2.4"
@@ -4015,6 +4015,13 @@ minipass@^3.1.6:
   dependencies:
     yallist "^4.0.0"
 
+minipass@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.0.0.tgz#7cebb0f9fa7d56f0c5b17853cbe28838a8dbbd3b"
+  integrity sha512-g2Uuh2jEKoht+zvO6vJqXmYpflPqzRBT+Th2h01DKh5z7wbY/AZ2gCQ78cP70YoHPyFdY30YBV5WxgLOEwOykw==
+  dependencies:
+    yallist "^4.0.0"
+
 minizlib@^2.1.1, minizlib@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-2.1.2.tgz#e90d3466ba209b932451508a11ce3d3632145931"
@@ -4627,10 +4634,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.51.0:
-  version "34.56.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.56.2.tgz#58b03ee893c38926c2ec71a168bd87e2194c4e40"
-  integrity sha512-HR15s08zkuQF+XYn0DgR7NRfxhLB4glUcyh6yg8AbV/EuK3hVdIOam9rWlnK+h7fwwJN0jPxvg/WWKvmWmq5+g==
+renovate@^34.52.0:
+  version "34.56.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.56.3.tgz#eeb7f1e43f80d15379884d3a3dd8f513417cda91"
+  integrity sha512-G19gibtWTqXuFDIUg1quWsFP0xidVhkS7s9Wcm99NNpnhThkoSnyD97vnySI/GJCc0CdizsLfHwqmISzIeVgAw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.154.0"
     "@aws-sdk/client-ec2" "3.155.0"
@@ -4664,7 +4671,7 @@ renovate@^34.51.0:
     aws4 "1.11.0"
     azure-devops-node-api "11.2.0"
     bunyan "1.8.15"
-    cacache "17.0.2"
+    cacache "17.0.3"
     cacheable-lookup "5.0.4"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
