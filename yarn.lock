@@ -1603,16 +1603,16 @@
   dependencies:
     "@seald-io/nedb" "3.1.0"
 
-"@renovatebot/osv-offline@1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.0.7.tgz#87e8e3464d51d2a108c09be3da66ca1906466efd"
-  integrity sha512-f84i96ECTwn7l+q+GAiJkVmr+bq34BqLmSiTz0nhZMwDhIDioJthmRpkwe9101E3ui1tRivkpRLFprMfly1sGQ==
+"@renovatebot/osv-offline@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.0.8.tgz#d8a386c0614a24e00326f224e2bf6fc90df5a03c"
+  integrity sha512-oYryh9uttikbaYhcoiJn8DBMjgxbneu9NvVF5PnG7qrUDYr7KIrlxdOlo8vQ2iytT1qd8+VzOLDoJReu1EL1Ag==
   dependencies:
     "@octokit/rest" "19.0.5"
     "@renovatebot/osv-offline-db" "1.0.1"
     adm-zip "0.5.9"
     fs-extra "10.1.0"
-    got "11.8.5"
+    got "11.8.6"
     luxon "3.1.1"
 
 "@renovatebot/pep440@2.1.5":
@@ -3057,10 +3057,10 @@ good-enough-parser@1.1.21:
     klona "2.0.5"
     moo "0.5.2"
 
-got@11.8.5:
-  version "11.8.5"
-  resolved "https://registry.yarnpkg.com/got/-/got-11.8.5.tgz#ce77d045136de56e8f024bebb82ea349bc730046"
-  integrity sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==
+got@11.8.6:
+  version "11.8.6"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.6.tgz#276e827ead8772eddbcfc97170590b841823233a"
+  integrity sha512-6tfZ91bOr7bOXnK7PRDCGBLa1H4U080YHNaAQ2KsMGlLEzRbk44nsZF2E1IeRc3vtJHPVbKCYgdFbaGO2ljd8g==
   dependencies:
     "@sindresorhus/is" "^4.0.0"
     "@szmarczak/http-timer" "^4.0.5"
@@ -4634,10 +4634,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.52.0:
-  version "34.56.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.56.3.tgz#eeb7f1e43f80d15379884d3a3dd8f513417cda91"
-  integrity sha512-G19gibtWTqXuFDIUg1quWsFP0xidVhkS7s9Wcm99NNpnhThkoSnyD97vnySI/GJCc0CdizsLfHwqmISzIeVgAw==
+renovate@^34.53.0:
+  version "34.58.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.58.1.tgz#69807412309805a981831f2d2287126590148541"
+  integrity sha512-sv8JesqfCqhxRGWb5+SfeM0hTZL3XQP4QiCReuawuhevK/DJTL12n/nFoVXauoiSBFcObUCyFaX62wElhxh77A==
   dependencies:
     "@aws-sdk/client-codecommit" "3.154.0"
     "@aws-sdk/client-ec2" "3.155.0"
@@ -4658,7 +4658,7 @@ renovate@^34.52.0:
     "@opentelemetry/sdk-trace-base" "1.8.0"
     "@opentelemetry/sdk-trace-node" "1.8.0"
     "@opentelemetry/semantic-conventions" "1.8.0"
-    "@renovatebot/osv-offline" "1.0.7"
+    "@renovatebot/osv-offline" "1.0.8"
     "@renovatebot/pep440" "2.1.5"
     "@renovatebot/ruby-semver" "1.1.7"
     "@sindresorhus/is" "4.6.0"
@@ -4696,7 +4696,7 @@ renovate@^34.52.0:
     github-url-from-git "1.5.0"
     global-agent "3.0.0"
     good-enough-parser "1.1.21"
-    got "11.8.5"
+    got "11.8.6"
     graph-data-structure "2.0.0"
     handlebars "4.7.7"
     hasha "5.2.2"
