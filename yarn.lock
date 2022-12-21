@@ -4698,10 +4698,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.55.0:
-  version "34.63.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.63.2.tgz#ed069571b819b3dc09d2600b4af83e503a668621"
-  integrity sha512-gyBWx1XFukv8QemVg+RGCzZhCEr/xjcu+iNXw2JeBZkT/BQ8CQF4drpn3KtW0y6edYG/LpLRdiw72cmjJVT0RA==
+renovate@^34.56.0:
+  version "34.68.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.68.0.tgz#fad326eaec9081d1b7d7b57ed8978d1f2f65cfaa"
+  integrity sha512-Rj9SeHlapsdiZgfwc3zklPDHxjJHZDtwGJs6c7D0QYhTcGSVuAv1Vz+5SSP9KlIm3GzqQOv0JqGoP6+KnClQwA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.226.0"
     "@aws-sdk/client-ec2" "3.226.0"
@@ -4802,7 +4802,7 @@ renovate@^34.55.0:
     url-join "4.0.1"
     validate-npm-package-name "5.0.0"
     xmldoc "1.2.0"
-    zod "3.20.0"
+    zod "3.20.2"
   optionalDependencies:
     re2 "1.18.0"
 
@@ -5681,10 +5681,10 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zod@3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.0.tgz#999f50f41c7c69569c77721c9372987991ba1c3a"
-  integrity sha512-ZWxs7oM5ixoo1BMoxTNeDMYSih/F/FUnExsnRtHT04rG6q0Bd74TKS45RGXw07TOalOZyyzdKaYH38k8yTEv9A==
+zod@3.20.2:
+  version "3.20.2"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.2.tgz#068606642c8f51b3333981f91c0a8ab37dfc2807"
+  integrity sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==
 
 zwitch@^1.0.0:
   version "1.0.5"
