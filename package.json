@@ -85,6 +85,13 @@
             ]
           },
           {
+            "groupName": "secretlint",
+            "matchPackageNames": [
+              "^secretlint",
+              "^@secretlint/"
+            ]
+          },
+          {
             "groupName": "ESLint",
             "packagePatterns": [
               "^eslint",
