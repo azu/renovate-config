@@ -1,7 +1,7 @@
 {
   "name": "@azu/renovate-config",
   "description": "Shareable config for Renovate (renovatebot.com)",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "author": "azu <azuciao@gmail.com>",
   "main": "index.js",
   "files": [
@@ -36,7 +36,9 @@
         ":timezone(Asia/Tokyo)"
       ],
       "npm": {
-        "labels": ["dependencies"],
+        "labels": [
+          "dependencies"
+        ],
         "extends": [
           ":noUnscheduledUpdates",
           ":separatePatchReleases",
