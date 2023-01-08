@@ -36,6 +36,7 @@
         ":timezone(Asia/Tokyo)"
       ],
       "npm": {
+        "labels": ["dependencies"],
         "extends": [
           ":noUnscheduledUpdates",
           ":separatePatchReleases",
