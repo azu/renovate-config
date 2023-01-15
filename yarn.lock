@@ -2128,10 +2128,10 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-aws4@1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
-  integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
+aws4@1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.12.0.tgz#ce1c9d143389679e253b314241ea9aa5cec980d3"
+  integrity sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==
 
 azure-devops-node-api@11.2.0:
   version "11.2.0"
@@ -4522,10 +4522,10 @@ pluralize@^7.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow==
 
-prettier@2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.1.tgz#4e1fd11c34e2421bc1da9aea9bd8127cd0a35efc"
-  integrity sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==
+prettier@2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.2.tgz#c4ea1b5b454d7c4b59966db2e06ed7eec5dfd160"
+  integrity sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==
 
 pretty-bytes@^5.1.0:
   version "5.5.0"
@@ -4726,10 +4726,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.93.0:
-  version "34.102.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.102.4.tgz#1299c955832050ab863bffb3a4c815e76d66d913"
-  integrity sha512-1673bZOqGP+Q9hmFZdQH3F7uSeFKiWnDMMvlGd1/Pn6VJxnnrp0p0Kbloe4bkyhVOvUFWyFoj49gmU9ySlh5sA==
+renovate@^34.94.0:
+  version "34.102.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.102.7.tgz#eeb04bf45a4a2daae11b65eba25c3311331cc112"
+  integrity sha512-jlwbpl5+3H81BVNMfLqRq37iz1sYURFy+wDXc8eirveZ8CRoqXDClqMvZAVIEWH6IdhWc6k/Q/9jHezeqG4S2g==
   dependencies:
     "@aws-sdk/client-codecommit" "3.226.0"
     "@aws-sdk/client-ec2" "3.226.0"
@@ -4760,7 +4760,7 @@ renovate@^34.93.0:
     agentkeepalive "4.2.1"
     aggregate-error "3.1.0"
     auth-header "1.0.0"
-    aws4 "1.11.0"
+    aws4 "1.12.0"
     azure-devops-node-api "11.2.0"
     bunyan "1.8.15"
     cacache "17.0.4"
@@ -4813,7 +4813,7 @@ renovate@^34.93.0:
     p-queue "6.6.2"
     p-throttle "4.1.1"
     parse-link-header "2.0.0"
-    prettier "2.8.1"
+    prettier "2.8.2"
     quick-lru "5.1.1"
     redis "4.5.1"
     remark "13.0.0"
