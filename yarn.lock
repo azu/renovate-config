@@ -2472,10 +2472,10 @@ color-support@^1.1.2:
   resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
   integrity sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==
 
-commander@9.5.0:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.5.0.tgz#bc08d1eb5cedf7ccb797a96199d41c7bc3e60d30"
-  integrity sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==
+commander@10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-10.0.0.tgz#71797971162cd3cf65f0b9d24eb28f8d303acdf1"
+  integrity sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==
 
 commander@^9.4.1:
   version "9.4.1"
@@ -3210,10 +3210,10 @@ graceful-fs@^4.2.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-graph-data-structure@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-2.0.0.tgz#a95762a067f81f0fe4ea77525253b946a941fa89"
-  integrity sha512-ravWDe9LaV0u27ZDme/8w5xHyyTqIWQsetpzDvBNJsGy4nZQB5IVw/u+7ngdEMZWsHYim+PAHatV4cGQX1XKpQ==
+graph-data-structure@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.1.0.tgz#8c9e78ed3262ace1d2efa796e5dcc0e439c8a53e"
+  integrity sha512-eP6R9RQ0TGS+276/CY5uO2OrEUvJbltpyFju+5TB18fpcufDZ7ftL7a2xtd9XM9fqQQIt5oKVXDe814mXb9GXg==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
@@ -4753,10 +4753,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.104.0:
-  version "34.110.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.110.0.tgz#d49e6925df369d185ea56497640cebbc4200bad3"
-  integrity sha512-W6ToDU0eFlb1zrQMYrIOmh7nUiajXpVN/qgavOzp2LsSKFQWz6PSUfy822wWI74vyqnDmgg5Myc7K99nfTEnBw==
+renovate@^34.104.2:
+  version "34.112.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.112.1.tgz#f575b7d176ee2427f0255cca1267f5dafe803b21"
+  integrity sha512-2w9supWL3eCkJIzMiu7OZURcvU72rqW8S3xj2d/d98Flbhc5Y5z33QqVq5pqwCouCSNrtyse8QyJm3VhtIwxtg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.226.0"
     "@aws-sdk/client-ec2" "3.226.0"
@@ -4796,7 +4796,7 @@ renovate@^34.104.0:
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "9.5.0"
+    commander "10.0.0"
     conventional-commits-detector "1.0.3"
     crypto-random-string "3.3.1"
     deepmerge "4.2.2"
@@ -4817,7 +4817,7 @@ renovate@^34.104.0:
     global-agent "3.0.0"
     good-enough-parser "1.1.22"
     got "11.8.6"
-    graph-data-structure "2.0.0"
+    graph-data-structure "3.1.0"
     handlebars "4.7.7"
     hasha "5.2.2"
     hcl2-parser "1.0.3"
