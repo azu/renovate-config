@@ -88,6 +88,13 @@
             ]
           },
           {
+            "groupName": "textlint",
+            "matchPackageNames": [
+              "^textlint",
+              "^@textlint/"
+            ]
+          },
+          {
             "groupName": "secretlint",
             "matchPackageNames": [
               "^secretlint",
