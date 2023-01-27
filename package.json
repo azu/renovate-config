@@ -1,7 +1,7 @@
 {
   "name": "@azu/renovate-config",
   "description": "Shareable config for Renovate (renovatebot.com)",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "author": "azu <azuciao@gmail.com>",
   "main": "index.js",
   "files": [
