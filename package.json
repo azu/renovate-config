@@ -91,6 +91,8 @@
             "groupName": "textlint",
             "matchPackageNames": [
               "^textlint",
+              "^textlint-scripts",
+              "^textlint-tester",
               "^@textlint/"
             ]
           },
