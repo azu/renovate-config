@@ -1701,10 +1701,10 @@
   resolved "https://registry.yarnpkg.com/@redis/bloom/-/bloom-1.2.0.tgz#d3fd6d3c0af3ef92f26767b56414a370c7b63b71"
   integrity sha512-HG2DFjYKbpNmVXsa0keLHp/3leGJz1mjh09f2RLGGLQZzSHpkmZWuwJbAvo3QcRY8p80m5+ZdXZdYOSBLlp7Cg==
 
-"@redis/client@1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.5.3.tgz#2295ca770c9c40dcc59a96da9d05f4403c32e847"
-  integrity sha512-kPad3QmWyRcmFj1gnb+SkzjXBV7oPpyTJmasVA+ocgNClxqZaTJjLFReqxm9cZQiCtqZK9vrcTISNrgzQXFpLg==
+"@redis/client@1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.5.4.tgz#7ff66602168e0a2d51813189e0411f719818ad04"
+  integrity sha512-inTBWktJX6rRUCmhpVCnSb7pHOOiGCFIiy5IuEa0GgjcOJsKvw4zHkT9dfYm5UGoUi0I1c4i/f3ScMW5gkNpmQ==
   dependencies:
     cluster-key-slot "1.1.2"
     generic-pool "3.9.0"
@@ -2626,10 +2626,10 @@ decompress-response@^6.0.0:
   dependencies:
     mimic-response "^3.1.0"
 
-deepmerge@4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
-  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
+deepmerge@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.3.0.tgz#65491893ec47756d44719ae520e0e2609233b59b"
+  integrity sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==
 
 defer-to-connect@^2.0.0:
   version "2.0.0"
@@ -3237,10 +3237,10 @@ graceful-fs@^4.2.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-graph-data-structure@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.1.0.tgz#8c9e78ed3262ace1d2efa796e5dcc0e439c8a53e"
-  integrity sha512-eP6R9RQ0TGS+276/CY5uO2OrEUvJbltpyFju+5TB18fpcufDZ7ftL7a2xtd9XM9fqQQIt5oKVXDe814mXb9GXg==
+graph-data-structure@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.1.1.tgz#9c45dbd61ff22f2cbf1790c888d6fdff85c5c1c8"
+  integrity sha512-8hN+cbuxQPX16u6XsNHD365ywgsizdb3/4EQgCADNb/XUpqIWSNfZ2oCuEs59kn0XezVaxz/LK7oJ+kOE7wmMQ==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
@@ -4717,13 +4717,13 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redis@4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/redis/-/redis-4.6.2.tgz#5592db7b95c1b6652cde463e58a8029a1f7890bb"
-  integrity sha512-Xoh7UyU6YnT458xA8svaZAJu6ZunKeW7Z/7GXrLWGGwhVLTsDX6pr3u7ENAoV+DHBPO+9LwIu45ClwUwpIjAxw==
+redis@4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-4.6.3.tgz#fef5c02edf44a93880149321a41c9ddb5afd46e6"
+  integrity sha512-2UBX8APh9xIXotVwbt3/jUSeu9kwoke9fNzCMQppuQhmOUmEBkM73sdUifXiabjH7YUN0VireJcgw7ky4DnC+A==
   dependencies:
     "@redis/bloom" "1.2.0"
-    "@redis/client" "1.5.3"
+    "@redis/client" "1.5.4"
     "@redis/graph" "1.1.0"
     "@redis/json" "1.0.4"
     "@redis/search" "1.1.1"
@@ -4780,10 +4780,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.116.1:
-  version "34.122.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.122.1.tgz#a31e10c433d83c1ce18614e8bb0d5b5bfe1f754a"
-  integrity sha512-Cz+WbXXjIc2+Eghrh4VUv1Xw4OSoe8cYQZ8jjdfNLbo5co3cMHCW/zuhB9Te7Re5Edxma1Z5dTDt6kWYEoaG4A==
+renovate@^34.116.2:
+  version "34.124.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.124.5.tgz#e57dcf0903388d0a6ad7d1db2926bf26ec7ff2dd"
+  integrity sha512-9mInfIXDfyGM9STuu/ZrmDReN3d+mOv2yo/mcRanPT8+3KUthq/kGdOnvYl16czBL2wbhNG9FuJP9CMJbD/KYA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.256.0"
     "@aws-sdk/client-ec2" "3.256.0"
@@ -4826,7 +4826,7 @@ renovate@^34.116.1:
     commander "10.0.0"
     conventional-commits-detector "1.0.3"
     crypto-random-string "3.3.1"
-    deepmerge "4.2.2"
+    deepmerge "4.3.0"
     delay "5.0.0"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -4844,7 +4844,7 @@ renovate@^34.116.1:
     global-agent "3.0.0"
     good-enough-parser "1.1.22"
     got "11.8.6"
-    graph-data-structure "3.1.0"
+    graph-data-structure "3.1.1"
     handlebars "4.7.7"
     hasha "5.2.2"
     hcl2-parser "1.0.3"
@@ -4869,7 +4869,7 @@ renovate@^34.116.1:
     parse-link-header "2.0.0"
     prettier "2.8.3"
     quick-lru "5.1.1"
-    redis "4.6.2"
+    redis "4.6.3"
     remark "13.0.0"
     remark-github "10.1.0"
     safe-stable-stringify "2.4.2"
