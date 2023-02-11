@@ -4785,10 +4785,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.120.1:
-  version "34.128.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.128.3.tgz#2e1924aab10ae8383ed3b5ec2393eb6b061f74b0"
-  integrity sha512-HlbDInboaBvUnp+0WzS5I1bCVK+bN8XYs8hD/YfX4pjW53TVr+HhCfazs+Tq0pBBxqu3XBoKDQMiKH9UdJWFoQ==
+renovate@^34.122.0:
+  version "34.130.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.130.0.tgz#3cc9399a2e55f0c55fb201e3b6274d93452703b4"
+  integrity sha512-Xbgrz9COwENBgUMo9zd/hsa5X3+safS8F6EEuPWb2AUs7Q01L9J8/l8aLRVvaW5TraO01UM5Az5oJ7/y7g9vhA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.256.0"
     "@aws-sdk/client-ec2" "3.256.0"
@@ -4892,6 +4892,7 @@ renovate@^34.120.1:
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "5.0.0"
+    vuln-vects "1.1.0"
     xmldoc "1.2.0"
     zod "3.20.2"
   optionalDependencies:
@@ -5650,6 +5651,11 @@ vfile@^4.0.0:
     is-buffer "^2.0.0"
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
+
+vuln-vects@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/vuln-vects/-/vuln-vects-1.1.0.tgz#537d403615610446c1d687934584ea9dfb2a63ed"
+  integrity sha512-LGDwn9nRz94YoeqOn2TZqQXzyonBc5FJppSgH34S/1U+3bgPONq/vvfiCbCQ4MeBll58xx+kDmhS73ac+EHBBw==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
