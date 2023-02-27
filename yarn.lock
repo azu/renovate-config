@@ -3228,10 +3228,10 @@ graceful-fs@^4.2.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-graph-data-structure@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.1.1.tgz#9c45dbd61ff22f2cbf1790c888d6fdff85c5c1c8"
-  integrity sha512-8hN+cbuxQPX16u6XsNHD365ywgsizdb3/4EQgCADNb/XUpqIWSNfZ2oCuEs59kn0XezVaxz/LK7oJ+kOE7wmMQ==
+graph-data-structure@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.2.0.tgz#db7886a69a2073c76291eef75c973d532eea3b48"
+  integrity sha512-GtMD5xvFX947d04IzH0dIPnncglFVQKZpLqLb0jy7OM+dMcm4gY9QNAUfHJryNc0Gd0cSvlMfwulUQ/CPyGczg==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
@@ -4778,10 +4778,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.146.1:
-  version "34.152.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.152.5.tgz#6a9d8c8a7eac43378b8ed9bc938ce446b5a05361"
-  integrity sha512-slGq1zeyuizkXrwlmpD7cFl+nqzU+P51Wh6uobe51hMkLJ/J1VqIksdouvn3awsrp1KFo7GGpanZng3FJiO8sQ==
+renovate@^34.146.3:
+  version "34.153.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.153.1.tgz#c96d1ddd9db62865f70b29ea266b2c0cedae03e5"
+  integrity sha512-a8jgV6E/RRFRbRrA/6Jv071XU0hW4bqj//E4ov/c3b3WP+YYHFMu2a6/FKglFhTJVFpmjgCHeutpTR+QdvZHwg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.256.0"
     "@aws-sdk/client-ec2" "3.256.0"
@@ -4843,7 +4843,7 @@ renovate@^34.146.1:
     global-agent "3.0.0"
     good-enough-parser "1.1.22"
     got "11.8.6"
-    graph-data-structure "3.1.1"
+    graph-data-structure "3.2.0"
     handlebars "4.7.7"
     hasha "5.2.2"
     hcl2-parser "1.0.3"
