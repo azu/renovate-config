@@ -1712,15 +1712,15 @@
   dependencies:
     "@seald-io/nedb" "^4.0.1"
 
-"@renovatebot/osv-offline@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.2.2.tgz#7efd34c3f0801a49b3b729280a405a5037570a47"
-  integrity sha512-LBgZcsH1c9ux+ZbPIm5lOWfmiCXLtmaodWgVUbSlVWe564kMNnDyrOpi2ovFSLKfOlWHMQoixX3qUk0L1oczjA==
+"@renovatebot/osv-offline@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.2.3.tgz#79f80b9c24e417162e7b75878bc9525b70c80b06"
+  integrity sha512-CVhqUlqnXMgdGeL68nvQD/xTdSgRQE12TwVZ1Ncj69plLKvkWWysf2zwvU/b7MY6LrfaPo1q/f85rEdvD6ql/A==
   dependencies:
     "@octokit/rest" "^19.0.7"
     "@renovatebot/osv-offline-db" "1.3.2"
     adm-zip "~0.5.10"
-    fs-extra "^11.1.0"
+    fs-extra "^11.1.1"
     got "^11.8.6"
     luxon "^3.3.0"
 
@@ -2977,19 +2977,10 @@ for-each@^0.3.3:
   dependencies:
     is-callable "^1.1.3"
 
-fs-extra@11.1.1:
+fs-extra@11.1.1, fs-extra@^11.1.1:
   version "11.1.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.1.tgz#da69f7c39f3b002378b0954bb6ae7efdc0876e2d"
   integrity sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==
-  dependencies:
-    graceful-fs "^4.2.0"
-    jsonfile "^6.0.1"
-    universalify "^2.0.0"
-
-fs-extra@^11.1.0:
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.0.tgz#5784b102104433bb0e090f48bfc4a30742c357ed"
-  integrity sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -4785,10 +4776,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^35.14.3:
-  version "35.24.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.24.1.tgz#4deb4c5be17b2a2ba7f5454207e224900bbadd59"
-  integrity sha512-dMYpEbE7s5ab5wpMB+xorwWn9nVSTxTG1hJfIGp7UwERSRWMxiWtRsqZvMIR2IsI1TExXcZyI3dk2Iqr1HpAIw==
+renovate@^35.14.4:
+  version "35.24.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.24.3.tgz#41105b32aa9098e4de596c8294a7d1daff34f0b0"
+  integrity sha512-2ctxrJtjcTyrpaee60KvSNoMvMegfVV9VyKdLksopgbWQuUXtqKQ1T7EiCu0/kTvy6j7YADrDLNytMqZhR+IWg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.290.0"
     "@aws-sdk/client-ec2" "3.291.0"
@@ -4810,7 +4801,7 @@ renovate@^35.14.3:
     "@opentelemetry/sdk-trace-node" "1.10.1"
     "@opentelemetry/semantic-conventions" "1.10.1"
     "@qnighy/marshal" "0.1.3"
-    "@renovatebot/osv-offline" "1.2.2"
+    "@renovatebot/osv-offline" "1.2.3"
     "@renovatebot/pep440" "2.1.13"
     "@renovatebot/ruby-semver" "2.1.10"
     "@sindresorhus/is" "4.6.0"
@@ -4893,7 +4884,7 @@ renovate@^35.14.3:
     url-join "4.0.1"
     validate-npm-package-name "5.0.0"
     vuln-vects "1.1.0"
-    xmldoc "1.2.0"
+    xmldoc "1.3.0"
     zod "3.21.4"
   optionalDependencies:
     re2 "1.18.0"
@@ -5752,10 +5743,10 @@ write-yaml-file@^4.2.0:
     js-yaml "^4.0.0"
     write-file-atomic "^3.0.3"
 
-xmldoc@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/xmldoc/-/xmldoc-1.2.0.tgz#7554371bfd8c138287cff01841ae4566d26e5541"
-  integrity sha512-2eN8QhjBsMW2uVj7JHLHkMytpvGHLHxKXBy4J3fAT/HujsEtM6yU84iGjpESYGHg6XwK0Vu4l+KgqQ2dv2cCqg==
+xmldoc@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/xmldoc/-/xmldoc-1.3.0.tgz#7823225b096c74036347c9ec5924d06b6a3cebab"
+  integrity sha512-y7IRWW6PvEnYQZNZFMRLNJw+p3pezM4nKYPfr15g4OOW9i8VpeydycFuipE2297OvZnh3jSb2pxOt9QpkZUVng==
   dependencies:
     sax "^1.2.4"
 
