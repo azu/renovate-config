@@ -55,13 +55,13 @@
           "automerge": true,
           "groupName": "Minor updates",
           "stabilityDays": 7,
-          "prCreation": "not-pending"
+          "prCreation": "status-success"
         },
         "patch": {
           "automerge": true,
           "groupName": "Patch updates",
           "stabilityDays": 7,
-          "prCreation": "not-pending"
+          "prCreation": "status-success"
         },
         "packageRules": [
           {
@@ -90,7 +90,7 @@
           {
             "groupName": "textlint",
             "matchPackageNames": [
-              "^textlint",
+              "^textlint$",
               "^textlint-scripts",
               "^textlint-tester",
               "^@textlint/"
