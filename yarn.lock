@@ -4249,10 +4249,10 @@ nan@^2.17.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.17.0.tgz#c0150a2368a182f033e9aa5195ec76ea41a199cb"
   integrity sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==
 
-nanoid@3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
-  integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
+nanoid@3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
+  integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 ncp@~2.0.0:
   version "2.0.0"
@@ -4819,10 +4819,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^35.22.2:
-  version "35.31.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.31.1.tgz#a30be88f3608e8b131c392f388b2d07a32c79a62"
-  integrity sha512-myFnhLoM0bjsJskwyruIlP2V3AgF0U1+gBpvZaSWUH2mMrdudRGmaeP/5YxgsvjN3XZ2cbgMEj4yn7k4Vxgy7w==
+renovate@^35.23.3:
+  version "35.31.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.31.4.tgz#5ceb4cc12ab221db6c39367cd86b922517225754"
+  integrity sha512-Uf8QS9eyYQHC+n45bcl3veECWgN0YtAcVf3I10kVxbjQUybrk1REp0XH5SrW7ercaCL6ycYIj9vXv08MekSl7A==
   dependencies:
     "@aws-sdk/client-codecommit" "3.290.0"
     "@aws-sdk/client-ec2" "3.291.0"
@@ -4900,7 +4900,7 @@ renovate@^35.22.2:
     minimatch "5.1.6"
     moo "0.5.2"
     ms "2.1.3"
-    nanoid "3.3.4"
+    nanoid "3.3.6"
     node-html-parser "6.1.5"
     openpgp "5.7.0"
     p-all "3.0.0"
@@ -4919,7 +4919,7 @@ renovate@^35.22.2:
     semver-utils "1.1.4"
     shlex "2.1.2"
     simple-git "3.17.0"
-    slugify "1.6.5"
+    slugify "1.6.6"
     source-map-support "0.5.21"
     traverse "0.6.7"
     tslib "2.5.0"
@@ -5179,10 +5179,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slugify@1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.5.tgz#c8f5c072bf2135b80703589b39a3d41451fbe8c8"
-  integrity sha512-8mo9bslnBO3tr5PEVFzMPIWwWnipGS0xVbYf65zxDqfNwmzYn1LpiKNrR6DlClusuvo+hDHd1zKpmfAe83NQSQ==
+slugify@1.6.6:
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.6.tgz#2d4ac0eacb47add6af9e04d3be79319cbcc7924b"
+  integrity sha512-h+z7HKHYXj6wJU+AnS/+IH8Uh9fdcX1Lrhg1/VMdf9PwoBQXFcXiAdsy2tSK0P6gKwJLXp02r90ahUCqHk9rrw==
 
 smart-buffer@^4.2.0:
   version "4.2.0"
