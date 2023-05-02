@@ -1710,15 +1710,15 @@
     luxon "^3.3.0"
     node-fetch "^2.6.9"
 
-"@renovatebot/pep440@2.1.13":
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-2.1.13.tgz#d630989b6abf9dd001edc526cf3e821450e6e45d"
-  integrity sha512-PFnG9X7on77Gp9FPdossWfvDL6QTg1MafZP3hdKafo3n6SP89wiyZmjFVaQwlRlE5cEmZQwh11dE8Oos9H2paw==
+"@renovatebot/pep440@2.1.14":
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-2.1.14.tgz#fc0e354cf6e892a8e17d61a4ea7b82b9e309476b"
+  integrity sha512-Wl35WmAaflt/evQx3EOI6vhlbLJG9kw/+RxRabNOTB4aK2hyGDyha5h8yzjLDD14Gfp74z1RXivIetNsPjRgKA==
 
-"@renovatebot/ruby-semver@2.1.11":
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-2.1.11.tgz#5a63bda21da4bc1553ed9b6acf1e6a07b0df2797"
-  integrity sha512-4UCu1qpkfpa9sIuo8q0+oEwW76XT21OtEuwT+xecaK4QSdqvNfROFNSzq/PA4or/v9uPvLkRWHF36DNd5t/A4w==
+"@renovatebot/ruby-semver@2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-2.1.12.tgz#001ae01d3576336e5865fdae5970d9cb89241167"
+  integrity sha512-9j42JmVRqDmdeEauCcMCRyvy3NA7z7ftuVUkUhB98NU1HUwmxiz1OExgPvxeNRIW/MryNXvUvPNT9dfDT75anw==
   dependencies:
     tslib "^2.5.0"
 
@@ -4068,17 +4068,17 @@ minimalistic-assert@^1.0.0:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@5.1.6:
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.6.tgz#1cfcb8cf5522ea69952cd2af95ae09477f122a96"
-  integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
-  dependencies:
-    brace-expansion "^2.0.1"
-
 minimatch@6.1.6:
   version "6.1.6"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-6.1.6.tgz#5384bb324be5b5dae12a567c03d22908febd0ddd"
   integrity sha512-6bR3UIeh/DF8+p6A9Spyuy67ShOq42rOkHWi7eUe3Ua99Zo5lZfGC6lJJWkeoK4k9jQFT3Pl7czhTXimG2XheA==
+  dependencies:
+    brace-expansion "^2.0.1"
+
+minimatch@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.0.tgz#bfc8e88a1c40ffd40c172ddac3decb8451503b56"
+  integrity sha512-0jJj8AvgKqWN05mrwuqi8QYKx1WmYSUoKSxu5Qhs9prezTz10sxAHGNZe9J9cqIJzta8DWsleh2KaVaLl6Ru2w==
   dependencies:
     brace-expansion "^2.0.1"
 
@@ -4809,10 +4809,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^35.58.2:
-  version "35.66.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.66.3.tgz#703ab69262f09febca5c82516be47a1e662df49c"
-  integrity sha512-G2EI5rqPHgaKYbfM4jwMhrORmTKZN4Yw17NkHqQ1eM7zU7cOizjFlgQEbc96dckZdQjL8vZuUZU1KFZeEHoxWA==
+renovate@^35.59.0:
+  version "35.69.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.69.1.tgz#d76df7f57314c78f3b95783ff0fff687308f98e9"
+  integrity sha512-0j2GnlkG+PpNUSHAm4UGN1MuGAwGjFfsOV7gwxxtGXCi0Yobu+xJr6YeUoknz1pp1es3LFKB1YOAWKo8wbpLjg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.312.0"
     "@aws-sdk/client-ec2" "3.312.0"
@@ -4835,8 +4835,8 @@ renovate@^35.58.2:
     "@opentelemetry/semantic-conventions" "1.12.0"
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/osv-offline" "1.2.4"
-    "@renovatebot/pep440" "2.1.13"
-    "@renovatebot/ruby-semver" "2.1.11"
+    "@renovatebot/pep440" "2.1.14"
+    "@renovatebot/ruby-semver" "2.1.12"
     "@sindresorhus/is" "4.6.0"
     "@types/ms" "0.7.31"
     "@types/tmp" "0.2.3"
@@ -4887,7 +4887,7 @@ renovate@^35.58.2:
     luxon "3.3.0"
     markdown-it "13.0.1"
     markdown-table "2.0.0"
-    minimatch "5.1.6"
+    minimatch "9.0.0"
     moo "0.5.2"
     ms "2.1.3"
     nanoid "3.3.6"
