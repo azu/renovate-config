@@ -2427,7 +2427,25 @@ bunyan@1.8.15:
     mv "~2"
     safe-json-stringify "~1"
 
-cacache@17.1.4, cacache@^17.0.0:
+cacache@18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-18.0.0.tgz#17a9ecd6e1be2564ebe6cdca5f7cfed2bfeb6ddc"
+  integrity sha512-I7mVOPl3PUCeRub1U8YoGz2Lqv9WOBpobZ8RyWFXmReuILz+3OAyTa5oH3QPdtKZD7N0Yk00aLfzn0qvp8dZ1w==
+  dependencies:
+    "@npmcli/fs" "^3.1.0"
+    fs-minipass "^3.0.0"
+    glob "^10.2.2"
+    lru-cache "^10.0.1"
+    minipass "^7.0.3"
+    minipass-collect "^1.0.2"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.4"
+    p-map "^4.0.0"
+    ssri "^10.0.0"
+    tar "^6.1.11"
+    unique-filename "^3.0.0"
+
+cacache@^17.0.0:
   version "17.1.4"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-17.1.4.tgz#b3ff381580b47e85c6e64f801101508e26604b35"
   integrity sha512-/aJwG2l3ZMJ1xNAnqbMpA40of9dj/pIH3QfiuQSqjfPJF747VR0J/bHn+/KdNnHKc6XQcWt/AfRSBft82W1d2A==
@@ -4022,6 +4040,11 @@ lowercase-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
 
+lru-cache@^10.0.1, "lru-cache@^9.1.1 || ^10.0.0":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.1.tgz#0a3be479df549cca0e5d693ac402ff19537a6b7a"
+  integrity sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==
+
 lru-cache@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
@@ -4038,11 +4061,6 @@ lru-cache@^9.0.0:
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-9.1.1.tgz#c58a93de58630b688de39ad04ef02ef26f1902f1"
   integrity sha512-65/Jky17UwSb0BuB9V+MyDpsOtXKmYwzhyl+cOa9XUiI4uV2Ouy/2voFP3+al0BjZbJgMBD8FojMpAf+Z+qn4A==
-
-"lru-cache@^9.1.1 || ^10.0.0":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.1.tgz#0a3be479df549cca0e5d693ac402ff19537a6b7a"
-  integrity sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==
 
 luxon@3.4.3, luxon@^3.4.3:
   version "3.4.3"
@@ -4467,10 +4485,10 @@ node-gyp@^9.4.0:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-html-parser@6.1.7:
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.7.tgz#31521a63cc51678d1a9538c7c4b7c5dfd276057d"
-  integrity sha512-OuraCzBo9x0JMTZScoNyWXydOX4kCjNJeSS2MQRbjAMJpfCn/1mQR8Jbsa+UGawX0aP+cbjFd9+EqP9wTroHLQ==
+node-html-parser@6.1.8:
+  version "6.1.8"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.8.tgz#e4865b891d4e356c1e3171d25101cbb062b68940"
+  integrity sha512-bi3ChNi5Ne8XM2vDPvE2TOS6+AjgD9ASRJ81P1+45VTe9odNbsNb3SvVZzHho4qnu5gJ1yUYLGlQZ7tveSYNSg==
   dependencies:
     css-select "^5.1.0"
     he "1.2.0"
@@ -4990,10 +5008,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^36.88.1:
-  version "36.94.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.94.1.tgz#7c75d3d9ee8855439be671d299ddf1e8e78ea416"
-  integrity sha512-krffBwt+wFddgTI0RAYVFnQEWWd02X97s+RDD3RSHgn3OUWobYYpzVPThW1winwlaoVdkutDrXs6PHXg9g9/PA==
+renovate@^36.88.2:
+  version "36.94.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.94.4.tgz#191d6e5835aaec7a10a8b2415bc53c1f5393bbad"
+  integrity sha512-5hK2pQsmlTXtlkiRfOfoWmTRjXcxbAAo9rDnVNIydnN0PX+S7/Sd4U+mbgaNYU0McwP/QjUrRjFdQ+QuVovGhA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -5029,7 +5047,7 @@ renovate@^36.88.1:
     aws4 "1.12.0"
     azure-devops-node-api "12.1.0"
     bunyan "1.8.15"
-    cacache "17.1.4"
+    cacache "18.0.0"
     cacheable-lookup "5.0.4"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
@@ -5073,7 +5091,7 @@ renovate@^36.88.1:
     moo "0.5.2"
     ms "2.1.3"
     nanoid "3.3.6"
-    node-html-parser "6.1.7"
+    node-html-parser "6.1.8"
     openpgp "5.10.1"
     p-all "3.0.0"
     p-map "4.0.0"
