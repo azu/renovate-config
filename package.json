@@ -32,8 +32,16 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:base",
+        "config:recommended",
         ":timezone(Asia/Tokyo)"
+      ],
+      "packageRules": [
+        {
+          "matchDepTypes": [
+            "action"
+          ],
+          "pinDigests": false
+        }
       ],
       "npm": {
         "labels": [
