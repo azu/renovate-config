@@ -50,7 +50,7 @@
         "extends": [
           ":noUnscheduledUpdates",
           ":separatePatchReleases",
-          ":unpublishSafe",
+          "npm:unpublishSafe",
           ":prNotPending",
           "helpers:disableTypesNodeMajor"
         ],
@@ -62,13 +62,13 @@
         "minor": {
           "automerge": true,
           "groupName": "Minor updates",
-          "stabilityDays": 7,
+          "minimumReleaseAge": "7 days",
           "prCreation": "status-success"
         },
         "patch": {
           "automerge": true,
           "groupName": "Patch updates",
-          "stabilityDays": 7,
+          "minimumReleaseAge": "7 days",
           "prCreation": "status-success"
         },
         "packageRules": [
@@ -83,7 +83,7 @@
           },
           {
             "description": "disable package.json > engines update",
-            "depTypeList": [
+            "matchDepTypes": [
               "engines"
             ],
             "enabled": false
@@ -113,7 +113,7 @@
           },
           {
             "groupName": "ESLint",
-            "packagePatterns": [
+            "matchPackagePatterns": [
               "^eslint",
               "^@typescript-eslint/"
             ]
