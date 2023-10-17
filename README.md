@@ -62,7 +62,7 @@ If you used maintenance preset, you can migrate to GitHub based preset by follow
 ```diff
 {
     "extends": [
--        "@azu/maintenance"
+-        "@azu:maintenance"
 +        "github>azu/renovate-config:non-major"
     ]
 }
