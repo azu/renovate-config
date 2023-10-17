@@ -10,7 +10,9 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 
 ```json5
 {
-  "extends": ["@azu"]
+  "extends": [
+    "github>azu/renovate-config"
+  ]
 }
 ```
 
@@ -19,16 +21,16 @@ Note: Don't necessary to do `npm i -D @azu/renovate-config`
 #### Features
 
 - Auto merge patch and minor version
-- Support Node.js
-- It defined packages that require manually updates like TypeScript, Prettier, Linters
-- Prevent supply-chain attack by `"stabilityDays": 7`
+- Support npm/Node.js ecosystem
+- Defined package groups like TypeScript, Prettier, Linters
+- Prevent supply-chain attack by `"minimumReleaseAge": 7 days`
 
 ### Maintenance preset
 
 ```json5
 {
   "extends": [
-    "@azu:maintenance"
+    "github>azu/renovate-config:non-major"
   ]
 }
 ```
@@ -36,11 +38,11 @@ Note: Don't necessary to do `npm i -D @azu/renovate-config`
 #### Features
 
 Same features with Default preset.
-The only difference from default preset, It does not update major updates.
+The only difference from default preset, It disables major updates.
 
 - Add `{ major: { enabled: false }}`
 
-It aim to less create Pull Request by renovatebot.
+It aims to less create Pull Request by renovate-bot.
 
 ## References
 
