@@ -1,14 +1,11 @@
 {
+  "private": true,
   "name": "@azu/renovate-config",
   "description": "Shareable config for Renovate (renovatebot.com)",
   "version": "3.0.2",
   "author": "azu <azuciao@gmail.com>",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "scripts": {
-    "test": "renovate-config-validator"
+    "test": "renovate-config-validator default.json && renovate-config-validator non-major.json"
   },
   "devDependencies": {
     "renovate": "^37.5.4"
@@ -25,118 +22,5 @@
     "npm",
     "renovate"
   ],
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "renovate-config": {
-    "default": {
-      "extends": [
-        "config:recommended",
-        ":timezone(Asia/Tokyo)"
-      ],
-      "packageRules": [
-        {
-          "matchDepTypes": [
-            "action"
-          ],
-          "pinDigests": false
-        }
-      ],
-      "npm": {
-        "labels": [
-          "dependencies"
-        ],
-        "extends": [
-          ":noUnscheduledUpdates",
-          ":separatePatchReleases",
-          "npm:unpublishSafe",
-          ":prNotPending",
-          "helpers:disableTypesNodeMajor"
-        ],
-        "rangeStrategy": "bump",
-        "automergeType": "branch",
-        "major": {
-          "automerge": false
-        },
-        "minor": {
-          "automerge": true,
-          "groupName": "Minor updates",
-          "minimumReleaseAge": "7 days",
-          "prCreation": "status-success"
-        },
-        "patch": {
-          "automerge": true,
-          "groupName": "Patch updates",
-          "minimumReleaseAge": "7 days",
-          "prCreation": "status-success"
-        },
-        "packageRules": [
-          {
-            "groupName": "Manuall updates",
-            "matchPackageNames": [
-              "eslint",
-              "prettier",
-              "typescript"
-            ],
-            "enabled": false
-          },
-          {
-            "description": "disable package.json > engines update",
-            "matchDepTypes": [
-              "engines"
-            ],
-            "enabled": false
-          },
-          {
-            "groupName": "ts-node",
-            "matchPackageNames": [
-              "ts-node",
-              "ts-node-test-register"
-            ]
-          },
-          {
-            "groupName": "textlint",
-            "matchPackageNames": [
-              "^textlint$",
-              "^textlint-scripts",
-              "^textlint-tester",
-              "^@textlint/"
-            ]
-          },
-          {
-            "groupName": "secretlint",
-            "matchPackageNames": [
-              "^secretlint",
-              "^@secretlint/"
-            ]
-          },
-          {
-            "groupName": "ESLint",
-            "matchPackagePatterns": [
-              "^eslint",
-              "^@typescript-eslint/"
-            ]
-          },
-          {
-            "groupName": "renovate",
-            "automerge": true,
-            "matchPackageNames": [
-              "renovate"
-            ]
-          }
-        ]
-      }
-    },
-    "maintenance": {
-      "extends": [
-        "@azu"
-      ],
-      "npm": {
-        "major": {
-          "enabled": false
-        }
-      }
-    }
-  }
+  "license": "MIT"
 }

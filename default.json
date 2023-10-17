@@ -1,0 +1,99 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "action"
+      ],
+      "pinDigests": false
+    }
+  ],
+  "npm": {
+    "labels": [
+      "dependencies"
+    ],
+    "extends": [
+      ":noUnscheduledUpdates",
+      ":separatePatchReleases",
+      "npm:unpublishSafe",
+      ":prNotPending",
+      "helpers:disableTypesNodeMajor"
+    ],
+    "rangeStrategy": "bump",
+    "automergeType": "branch",
+    "major": {
+      "automerge": false
+    },
+    "minor": {
+      "automerge": true,
+      "groupName": "Minor updates",
+      "minimumReleaseAge": "7 days",
+      "prCreation": "status-success"
+    },
+    "patch": {
+      "automerge": true,
+      "groupName": "Patch updates",
+      "minimumReleaseAge": "7 days",
+      "prCreation": "status-success"
+    },
+    "packageRules": [
+      {
+        "groupName": "Manuall updates",
+        "matchPackageNames": [
+          "eslint",
+          "prettier",
+          "typescript"
+        ],
+        "enabled": false
+      },
+      {
+        "description": "disable package.json > engines update",
+        "matchDepTypes": [
+          "engines"
+        ],
+        "enabled": false
+      },
+      {
+        "groupName": "ts-node",
+        "matchPackageNames": [
+          "ts-node",
+          "ts-node-test-register"
+        ]
+      },
+      {
+        "groupName": "textlint",
+        "matchPackageNames": [
+          "^textlint$",
+          "^textlint-scripts",
+          "^textlint-tester",
+          "^@textlint/"
+        ]
+      },
+      {
+        "groupName": "secretlint",
+        "matchPackageNames": [
+          "^secretlint",
+          "^@secretlint/"
+        ]
+      },
+      {
+        "groupName": "ESLint",
+        "matchPackagePatterns": [
+          "^eslint",
+          "^@typescript-eslint/"
+        ]
+      },
+      {
+        "groupName": "renovate",
+        "automerge": true,
+        "matchPackageNames": [
+          "renovate"
+        ]
+      }
+    ]
+  }
+}
