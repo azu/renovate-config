@@ -44,6 +44,30 @@ The only difference from default preset, It disables major updates.
 
 It aims to less create Pull Request by renovate-bot.
 
+## Migration from npm based preset to GitHub based preset
+
+If you used default preset, you can migrate to GitHub based preset by following steps.
+
+```diff
+{
+  "extends": [
+-    "@azu"
++    "github>azu/renovate-config"
+  ]
+}
+```
+
+If you used maintenance preset, you can migrate to GitHub based preset by following steps.
+
+```diff
+{
+    "extends": [
+-        "@azu/maintenance"
++        "github>azu/renovate-config:non-major"
+    ]
+}
+```
+
 ## References
 
 - [Renovate Docs](https://renovatebot.com/docs/)
