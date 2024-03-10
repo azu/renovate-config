@@ -4775,10 +4775,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re2@1.20.9:
-  version "1.20.9"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.20.9.tgz#3e6e5b73cdd911cdbdfe5133cc6670600e33871b"
-  integrity sha512-ZYcPTFr5ha2xq3WQjBDTF9CWPSDK1z28MLh5UFRxc//7X8BNQ3A7yR7ITnP0jO346661ertdKVFqw1qoL3FMEQ==
+re2@1.20.10:
+  version "1.20.10"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.20.10.tgz#08c44001c6ed646a84e75ec86af87a552d54c460"
+  integrity sha512-/5JjSPXobSDaKFL6rD5Gb4qD4CVBITQb7NAxfQ/NA7o0HER3SJAPV3lPO2kvzw0/PN1pVJNVATEUk4y9j7oIIA==
   dependencies:
     install-artifact-from-github "^1.3.5"
     nan "^2.18.0"
@@ -4908,10 +4908,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.224.2:
-  version "37.233.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.233.1.tgz#bcf08932561f95188d0f760c5aee5c8527d4fb74"
-  integrity sha512-kQ/vsCsEL3dcwBzly1KAhiLiXduzfcpdlF4m7GkQvv3Ua6+MR5GdiZvIJ/9QM2HmvcdsurIbGy8yLjkwpOcUdw==
+renovate@^37.224.4:
+  version "37.234.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.234.0.tgz#bbfa6d3605e724e665ada6e43e0b4ebbdfb28229"
+  integrity sha512-zm2OS09Rlit0kAsJpySQGi01s1XJe/pHfXRwfG2WownjC+SDt+Y+Cq7xPBjdVqk7Kh97rERDpy4K2AVFTayMEg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -5022,7 +5022,7 @@ renovate@^37.224.2:
     xmldoc "1.3.0"
     zod "3.22.4"
   optionalDependencies:
-    re2 "1.20.9"
+    re2 "1.20.10"
 
 repeat-string@^1.0.0:
   version "1.6.1"
