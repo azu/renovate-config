@@ -1393,14 +1393,14 @@
   dependencies:
     "@seald-io/nedb" "^4.0.4"
 
-"@renovatebot/osv-offline@1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.1.tgz#50d2c02605f0917157e860952e80a5d235e20162"
-  integrity sha512-NQT7ikG+uA2M9IrGEY/f43FNXWQrFbIKSKk4kFxcOJL+Y3mYJF6EpVcqxfp2ExIrwu50r2rBbzdX9jgbuhiwwQ==
+"@renovatebot/osv-offline@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.2.tgz#b168a2a3918d5b114e2d9093033d47be87d5a1a5"
+  integrity sha512-Y+Ynt5mlUu416frC8uA175XzJClVySK5VJ29DJO6Ohwv5xG26d7JWj1KNx/eMvcBCrSG1x/o5K20oNUruPB+Dw==
   dependencies:
     "@octokit/rest" "^20.0.2"
     "@renovatebot/osv-offline-db" "1.6.0"
-    adm-zip "~0.5.10"
+    adm-zip "~0.5.11"
     fs-extra "^11.2.0"
     got "^11.8.6"
     luxon "^3.4.4"
@@ -2107,10 +2107,10 @@ acorn@^8.8.2:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.10.0.tgz#8be5b3907a67221a81ab23c7889c4c5526b62ec5"
   integrity sha512-F0SAmZ8iUtS//m8DmCTA0jlh6TDKkHQyK6xc6V4KDTyZKA9dnvX9/3sRTVQrWm79glUAZbnmmNcdYwUIHWVybw==
 
-adm-zip@~0.5.10:
-  version "0.5.10"
-  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.10.tgz#4a51d5ab544b1f5ce51e1b9043139b639afff45b"
-  integrity sha512-x0HvcHqVJNTPk/Bw8JbLWlWoo6Wwnsug0fnYYro1HBrjxZ3G7/AZk7Ahv8JwDe1uIcz8eBqvu86FuF1POiG7vQ==
+adm-zip@~0.5.11:
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.12.tgz#87786328e91d54b37358d8a50f954c4cd73ba60b"
+  integrity sha512-6TVU49mK6KZb4qG6xWaaM4C7sA/sgUMLy/JYMOzkcp3BvVLpW0fXDFQiIzAuxFCt/2+xD7fNIiPFAoLZPhVNLQ==
 
 agent-base@^7.0.2, agent-base@^7.1.0:
   version "7.1.0"
@@ -3247,10 +3247,10 @@ good-enough-parser@1.1.23:
     klona "2.0.6"
     moo "0.5.2"
 
-google-auth-library@9.6.3:
-  version "9.6.3"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.6.3.tgz#add8935bc5b842a8e80f84fef2b5ed9febb41d48"
-  integrity sha512-4CacM29MLC2eT9Cey5GDVK4Q8t+MMp8+OEdOaqD9MG6b0dOyLORaaeJMPQ7EESVgm/+z5EKYyFLxgzBJlJgyHQ==
+google-auth-library@9.7.0:
+  version "9.7.0"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.7.0.tgz#dd99a08e2e3f70778de8be4ed8556460e237550a"
+  integrity sha512-I/AvzBiUXDzLOy4iIZ2W+Zq33W4lcukQv1nl7C8WUA6SQwyQwUwu3waNmWNAvzds//FG8SZ+DnKnW/2k6mQS8A==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
@@ -4909,10 +4909,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.244.0:
-  version "37.262.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.262.1.tgz#3f538075aac4ecaec6e7917e8a514d1cb97d36be"
-  integrity sha512-OoXVYbtrtp5QVdrcpP131KZSTHs+DAPJhEy0OjO8cZ0I8Jz91aEjz3aL9so3kzWXTdFsF5wLD+Ngjlup2Wd8xA==
+renovate@^37.244.1:
+  version "37.263.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.263.0.tgz#a4681f8e3297ddcb2f076d875d57b2e400800a93"
+  integrity sha512-poXc0w1HvT1FwxPYmlckLOLPiftyecMsZhm+0MHLu0WYBU/mldrZ05kkQ8bPPkbzz7BvMHqd+AvECcJm8+lPTQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4933,7 +4933,7 @@ renovate@^37.244.0:
     "@opentelemetry/sdk-trace-node" "1.22.0"
     "@opentelemetry/semantic-conventions" "1.22.0"
     "@qnighy/marshal" "0.1.3"
-    "@renovatebot/osv-offline" "1.5.1"
+    "@renovatebot/osv-offline" "1.5.2"
     "@renovatebot/pep440" "3.0.19"
     "@renovatebot/ruby-semver" "3.0.23"
     "@sindresorhus/is" "4.6.0"
@@ -4974,7 +4974,7 @@ renovate@^37.244.0:
     glob "10.3.10"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
-    google-auth-library "9.6.3"
+    google-auth-library "9.7.0"
     got "11.8.6"
     graph-data-structure "3.5.0"
     handlebars "4.7.8"
