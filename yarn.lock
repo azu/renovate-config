@@ -1393,14 +1393,14 @@
   dependencies:
     "@seald-io/nedb" "^4.0.4"
 
-"@renovatebot/osv-offline@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.2.tgz#b168a2a3918d5b114e2d9093033d47be87d5a1a5"
-  integrity sha512-Y+Ynt5mlUu416frC8uA175XzJClVySK5VJ29DJO6Ohwv5xG26d7JWj1KNx/eMvcBCrSG1x/o5K20oNUruPB+Dw==
+"@renovatebot/osv-offline@1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.3.tgz#25a3d2640feda7fec3c39cf1eaeaf9986aa166ff"
+  integrity sha512-HA7j8mCKZoK9HNgo/e+jYus0pmPHvhPemtrcmjNvhNLaOzaEAQZ6f8JDXdd1xqhOeGYyv63IrM8SynR6ZAXD4Q==
   dependencies:
     "@octokit/rest" "^20.0.2"
     "@renovatebot/osv-offline-db" "1.6.0"
-    adm-zip "~0.5.11"
+    adm-zip "~0.5.12"
     fs-extra "^11.2.0"
     got "^11.8.6"
     luxon "^3.4.4"
@@ -2107,7 +2107,7 @@ acorn@^8.8.2:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.10.0.tgz#8be5b3907a67221a81ab23c7889c4c5526b62ec5"
   integrity sha512-F0SAmZ8iUtS//m8DmCTA0jlh6TDKkHQyK6xc6V4KDTyZKA9dnvX9/3sRTVQrWm79glUAZbnmmNcdYwUIHWVybw==
 
-adm-zip@~0.5.11:
+adm-zip@~0.5.12:
   version "0.5.12"
   resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.12.tgz#87786328e91d54b37358d8a50f954c4cd73ba60b"
   integrity sha512-6TVU49mK6KZb4qG6xWaaM4C7sA/sgUMLy/JYMOzkcp3BvVLpW0fXDFQiIzAuxFCt/2+xD7fNIiPFAoLZPhVNLQ==
@@ -4909,10 +4909,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.246.1:
-  version "37.263.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.263.0.tgz#a4681f8e3297ddcb2f076d875d57b2e400800a93"
-  integrity sha512-poXc0w1HvT1FwxPYmlckLOLPiftyecMsZhm+0MHLu0WYBU/mldrZ05kkQ8bPPkbzz7BvMHqd+AvECcJm8+lPTQ==
+renovate@^37.246.2:
+  version "37.265.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.265.0.tgz#ba7df79226f0de0c0679e95321bc896eea586fec"
+  integrity sha512-6S+VMpAWR0436LKKc5y6dd4p3riNbEP+gdHRbrknxzR8UV18iK4uuXjjhpVGUNAB4vWLVjCSxVQQLCvYF+ZLwQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4933,7 +4933,7 @@ renovate@^37.246.1:
     "@opentelemetry/sdk-trace-node" "1.22.0"
     "@opentelemetry/semantic-conventions" "1.22.0"
     "@qnighy/marshal" "0.1.3"
-    "@renovatebot/osv-offline" "1.5.2"
+    "@renovatebot/osv-offline" "1.5.3"
     "@renovatebot/pep440" "3.0.19"
     "@renovatebot/ruby-semver" "3.0.23"
     "@sindresorhus/is" "4.6.0"
