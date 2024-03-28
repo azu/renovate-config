@@ -8,7 +8,7 @@
     "test": "renovate-config-validator default.json && renovate-config-validator non-major.json"
   },
   "devDependencies": {
-    "renovate": "^37.262.2"
+    "renovate": "^37.263.0"
   },
   "homepage": "https://github.com/azu/renovate-config",
   "repository": {
