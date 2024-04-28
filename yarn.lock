@@ -2350,10 +2350,10 @@ aws4@1.12.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.12.0.tgz#ce1c9d143389679e253b314241ea9aa5cec980d3"
   integrity sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==
 
-azure-devops-node-api@12.5.0:
-  version "12.5.0"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-12.5.0.tgz#38b9efd7c5ac74354fe4e8dbe42697db0b8e85a5"
-  integrity sha512-R5eFskGvOm3U/GzeAuxRkUsAl0hrAwGgWn6zAd2KrZmrEhWZVqLew4OOupbQlXUuojUzpGtq62SmdhJ06N88og==
+azure-devops-node-api@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-13.0.0.tgz#e2ed2bee2f8f964cbe6acf894854d70033f23d8e"
+  integrity sha512-T/i3pt2Dxb2//1+TJT05Ff5heUmQEWKwa8sdguIhdRYT3Zge9FYw98zpfFvCD7CZsz6AN74SKGgqF3ISVN2TGg==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.4"
@@ -5512,10 +5512,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.313.1:
-  version "37.326.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.326.0.tgz#698a84a189331f3bc4be477e27c87adfafd794c1"
-  integrity sha512-wkbmHeVVlZVzk84Qv8PpbqzlgvXav9U6gsJkU7tx65OXLn0aVerp+cqrxJz1KOxvvdmOKYg975cqssrwDub6Sw==
+renovate@^37.315.0:
+  version "37.326.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.326.2.tgz#cc9826836caa6a07f625b7d3dc83896ef4f42fad"
+  integrity sha512-h4aOrvl4zYpI7hosFyrHKUQcUcOnxLG0bXu8snklYnbbC5yNkQFJ5gi7hkFEJfCgOf54m5myZ49IoWfu1GyXXg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.563.0"
     "@aws-sdk/client-ec2" "3.563.0"
@@ -5550,7 +5550,7 @@ renovate@^37.313.1:
     aggregate-error "3.1.0"
     auth-header "1.0.0"
     aws4 "1.12.0"
-    azure-devops-node-api "12.5.0"
+    azure-devops-node-api "13.0.0"
     better-sqlite3 "9.5.0"
     bunyan "1.8.15"
     cacache "18.0.2"
