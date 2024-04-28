@@ -2026,10 +2026,10 @@
     "@thi.ng/arrays" "^1.0.3"
     "@thi.ng/checks" "^2.9.11"
 
-"@types/better-sqlite3@7.6.9":
-  version "7.6.9"
-  resolved "https://registry.yarnpkg.com/@types/better-sqlite3/-/better-sqlite3-7.6.9.tgz#4bff3eb7c5eaaae26f8099606c69279146561c50"
-  integrity sha512-FvktcujPDj9XKMJQWFcl2vVl7OdRIqsSRX9b0acWwTmwLK9CF2eqo/FRcmMLNpugKoX/avA6pb7TorDLmpgTnQ==
+"@types/better-sqlite3@7.6.10":
+  version "7.6.10"
+  resolved "https://registry.yarnpkg.com/@types/better-sqlite3/-/better-sqlite3-7.6.10.tgz#1818e56490953404acfd44cdde0464f201be6105"
+  integrity sha512-TZBjD+yOsyrUJGmcUj6OS3JADk3+UZcNv3NOBqGkM09bZdi28fNZw8ODqbMOLfKCu7RYCO62/ldq1iHbzxqoPw==
   dependencies:
     "@types/node" "*"
 
@@ -5512,10 +5512,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.315.0:
-  version "37.326.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.326.2.tgz#cc9826836caa6a07f625b7d3dc83896ef4f42fad"
-  integrity sha512-h4aOrvl4zYpI7hosFyrHKUQcUcOnxLG0bXu8snklYnbbC5yNkQFJ5gi7hkFEJfCgOf54m5myZ49IoWfu1GyXXg==
+renovate@^37.315.1:
+  version "37.326.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.326.3.tgz#74035eec4ddd775fa0d4e9bbf533412f6d273691"
+  integrity sha512-MoYg380Y2HtkRLhBrTX8nqPiEV0LSk1GjeErDlvOeYrkP46Z25VzBjAeVrIzJcvsCB96PMl7Sv64bnt/GpN+Hw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.563.0"
     "@aws-sdk/client-ec2" "3.563.0"
@@ -5541,7 +5541,7 @@ renovate@^37.315.0:
     "@renovatebot/pep440" "3.0.20"
     "@renovatebot/ruby-semver" "3.0.23"
     "@sindresorhus/is" "4.6.0"
-    "@types/better-sqlite3" "7.6.9"
+    "@types/better-sqlite3" "7.6.10"
     "@types/ms" "0.7.34"
     "@types/tmp" "0.2.6"
     "@yarnpkg/core" "4.0.3"
