@@ -4324,10 +4324,10 @@ json5@^2.2.1:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.1.tgz#655d50ed1e6f95ad1a3caababd2b0efda10b395c"
   integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
 
-jsonata@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-2.0.4.tgz#d8575d4c7695a2086162a2baebce0f0ee4e84fdb"
-  integrity sha512-vfavX4/G/yrYxE+UrmT/oUJ3ph7KqUrb0R7b0LVRcntQwxw+Z5kA1pNUIQzX5hF04Oe1eKxyoIPsmXtc2LgJTQ==
+jsonata@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-2.0.5.tgz#2b3b5098c019b264c4fae061a9cb24d59c7115a2"
+  integrity sha512-wEse9+QLIIU5IaCgtJCPsFi/H4F3qcikWzF4bAELZiRz08ohfx3Q6CjDRf4ZPF5P/92RI3KIHtb7u3jqPaHXdQ==
 
 jsonc-parser@3.2.1:
   version "3.2.1"
@@ -5503,10 +5503,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.351.2:
-  version "37.363.9"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.363.9.tgz#a07a2052fc40a2566a02d9bbcbc7722c3e203584"
-  integrity sha512-nqxg83HiPSvks5aEgq4IdigHRYVnbfMxEr9dEuRccW7pDtoM1wvOvXdd1gwSWohCru4PgxWYJ4OMLPVkwHtb1g==
+renovate@^37.351.4:
+  version "37.367.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.367.0.tgz#2970fa53c2fc65e021a13614e57f861f919c6c18"
+  integrity sha512-bHtQJOsuEztJp7UMltfDJbHYHbJRwL7nf43uxz13/2dUo1WtG7RzjoluAp7kYlvBZGjHzRtF2gjDRNAro8n5xw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.565.0"
     "@aws-sdk/client-ec2" "3.565.0"
@@ -5575,7 +5575,7 @@ renovate@^37.351.2:
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "3.0.0"
     json5 "2.2.3"
-    jsonata "2.0.4"
+    jsonata "2.0.5"
     jsonc-parser "3.2.1"
     klona "2.0.6"
     lru-cache "10.2.2"
