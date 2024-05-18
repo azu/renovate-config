@@ -3515,16 +3515,16 @@ glob-parent@^5.1.0, glob-parent@^5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@10.3.12:
-  version "10.3.12"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-10.3.12.tgz#3a65c363c2e9998d220338e88a5f6ac97302960b"
-  integrity sha512-TCNv8vJ+xz4QiqTpfOJA7HvYv+tNIRHKfUWw/q+v2jdgN4ebz+KY9tGx5J4rHP0o84mNP+ApH66HRX8us3Khqg==
+glob@10.3.15:
+  version "10.3.15"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.3.15.tgz#e72bc61bc3038c90605f5dd48543dc67aaf3b50d"
+  integrity sha512-0c6RlJt1TICLyvJYIApxb8GsXoai0KUP7AxKKAtsYXdgJR1mGEUa7DgwShbdk1nly0PYoZj01xd4hzbq3fsjpw==
   dependencies:
     foreground-child "^3.1.0"
     jackspeak "^2.3.6"
     minimatch "^9.0.1"
     minipass "^7.0.4"
-    path-scurry "^1.10.2"
+    path-scurry "^1.11.0"
 
 glob@^10.2.2:
   version "10.2.2"
@@ -5220,10 +5220,10 @@ path-scurry@^1.10.1:
     lru-cache "^9.1.1 || ^10.0.0"
     minipass "^5.0.0 || ^6.0.2 || ^7.0.0"
 
-path-scurry@^1.10.2:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/path-scurry/-/path-scurry-1.10.2.tgz#8f6357eb1239d5fa1da8b9f70e9c080675458ba7"
-  integrity sha512-7xTavNy5RQXnsjANvVvMkEjvloOinkAjv/Z6Ildz9v2RinZ4SBKTWFOVRbaF8p0vpHnyjV/UwNDdKuUv6M5qcA==
+path-scurry@^1.11.0:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/path-scurry/-/path-scurry-1.11.1.tgz#7960a668888594a0720b12a911d1a742ab9f11d2"
+  integrity sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==
   dependencies:
     lru-cache "^10.2.0"
     minipass "^5.0.0 || ^6.0.2 || ^7.0.0"
@@ -5503,10 +5503,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.351.4:
-  version "37.367.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.367.0.tgz#2970fa53c2fc65e021a13614e57f861f919c6c18"
-  integrity sha512-bHtQJOsuEztJp7UMltfDJbHYHbJRwL7nf43uxz13/2dUo1WtG7RzjoluAp7kYlvBZGjHzRtF2gjDRNAro8n5xw==
+renovate@^37.354.6:
+  version "37.368.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.368.5.tgz#a59c111e4dec862d75f1170abf451f23ad7ce58c"
+  integrity sha512-ATCcesY7i6EmxZJYSyK+S0aXVLHQ8nVuTpwIkNxQeebYPmlbPAVXcISkF5tbT86ReAhEADeuGtsyTae7avu6bw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.565.0"
     "@aws-sdk/client-ec2" "3.565.0"
@@ -5562,7 +5562,7 @@ renovate@^37.351.4:
     fs-extra "11.2.0"
     git-url-parse "14.0.0"
     github-url-from-git "1.5.0"
-    glob "10.3.12"
+    glob "10.3.15"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
     google-auth-library "9.9.0"
