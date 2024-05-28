@@ -2899,6 +2899,11 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
   integrity sha512-ZIzRpLJrOj7jjP2miAtgqIfmzbxa4ZOr5jJc601zklsfEx9oTzmmj2nVpIPRpNlRTIh8lc1kyViIY7BWSGNmKw==
 
+diff@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-5.2.0.tgz#26ded047cd1179b78b9537d5ef725503ce1ae531"
+  integrity sha512-uIFDxqpRZGZ6ThOk84hEfqWoHx2devRFvpTZcTHur85vImfaxUbTW9Ryh4CpCuDnToOP1CEtXKIgytHBPVff5A==
+
 diff@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-5.1.0.tgz#bc52d298c5ea8df9194800224445ed43ffc87e40"
@@ -5503,10 +5508,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.368.9:
-  version "37.377.8"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.377.8.tgz#e1e6b02ab87e46fe1b0dcc39742ca82c55400f9a"
-  integrity sha512-djDtLxM+0dnxmTkq043yFxvh6gNUdsr1Ax3lyo1w7anPTLtcAHli22IiftGDbPbA125XMpCb1iO2+tKZE1hfqA==
+renovate@^37.368.10:
+  version "37.379.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.379.0.tgz#1d939613f5c2be5b705afb201e375f0880fc74e3"
+  integrity sha512-HMAkn+s2RLF7G/qmzOJ+qrK4UR43bU6vqBIqZw1hU0z9jhHp1Jodlf3KVgHgHvXePdsED397foUpatmh7NSIRQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.565.0"
     "@aws-sdk/client-ec2" "3.565.0"
@@ -5551,6 +5556,7 @@ renovate@^37.368.9:
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
+    diff "5.2.0"
     editorconfig "2.0.0"
     email-addresses "5.0.0"
     emoji-regex "10.3.0"
