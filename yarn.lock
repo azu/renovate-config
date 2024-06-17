@@ -2191,16 +2191,16 @@
   dependencies:
     "@types/node" "*"
 
-"@yarnpkg/core@4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.0.5.tgz#0aa09c908d82f1f3a9e9b72aeadfe398603f7ed0"
-  integrity sha512-6ib9l8P30GxHvxZo3170hr5PCy2qQnI4N4lXwNJxJnV0i46UlgLA4hlGp/kFVttteATGeckfduIDyWZgjn9sPw==
+"@yarnpkg/core@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.1.0.tgz#e0f41a0c0cd7c152fea5341c0c98d68df6187f88"
+  integrity sha512-8O+afZvv6qDK2TfwBat2uHw49DwpLk0KzL+wY/C5dlEqUxLXClYs1zNmQo2lj4g7JuZmCPxYGblzjacizWYLTg==
   dependencies:
     "@arcanis/slice-ansi" "^1.1.1"
     "@types/semver" "^7.1.0"
     "@types/treeify" "^1.0.0"
-    "@yarnpkg/fslib" "^3.0.2"
-    "@yarnpkg/libzip" "^3.0.1"
+    "@yarnpkg/fslib" "^3.1.0"
+    "@yarnpkg/libzip" "^3.1.0"
     "@yarnpkg/parsers" "^3.0.2"
     "@yarnpkg/shell" "^4.0.2"
     camelcase "^5.3.1"
@@ -2230,13 +2230,20 @@
   dependencies:
     tslib "^2.4.0"
 
-"@yarnpkg/libzip@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/libzip/-/libzip-3.0.1.tgz#a1a08141a485ce9d93addae535974ac429c64474"
-  integrity sha512-fiqRLk2fyd2r34/Qc7HlP8fKIo1CK5CZpLNObJwnbFmZQN2hVanovFlG++3oH3qYJymEmjPl5EGsygcEJZl4Pg==
+"@yarnpkg/fslib@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-3.1.0.tgz#e5bda3397b5f070eb65751643f75645307eaa483"
+  integrity sha512-wsj7/sUVSdXOIX/qwaON/Ky5GsP5gs9ry9DKwgLbWT7k3qw4/EcHAtfTtPhBYu33UibzBFI+fgB4wBRVH2XVaw==
+  dependencies:
+    tslib "^2.4.0"
+
+"@yarnpkg/libzip@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/libzip/-/libzip-3.1.0.tgz#c33e91bd8bfcc5a5b4cb05b387c04c9ba9fb88b0"
+  integrity sha512-x66/F8wEOUL8Hi4NZFVVKCFNITN0keQt0ZNlY5V9dRb+judyO8aJv4hazO3WyblnGhClvuBPbx+a2X4LNS5ziA==
   dependencies:
     "@types/emscripten" "^1.39.6"
-    "@yarnpkg/fslib" "^3.0.2"
+    "@yarnpkg/fslib" "^3.1.0"
     tslib "^2.4.0"
 
 "@yarnpkg/parsers@3.0.2", "@yarnpkg/parsers@^3.0.2":
@@ -5641,10 +5648,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.401.1:
-  version "37.410.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.410.1.tgz#9541af41ba4f6541c43b678f1519396b504fc192"
-  integrity sha512-QB+39/5tFFbRrSOORVcrAoIOC6jfvcxWiNsRgdZkV6HYfRC0GRv4Gjr3KM40SFL03KVes07aQilPzllLIsVOeg==
+renovate@^37.401.2:
+  version "37.410.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.410.2.tgz#05c2cb2161b69813499c5fa46e3d3d7911c17b24"
+  integrity sha512-ohHH51RyzMY6TvlBC+824TOtMXRiHSjbFhir6loRPDXLaAkwzsJDhPATSs4BOVu4a2s/oAM6MDFB3mPk5+9rEg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.588.0"
     "@aws-sdk/client-ec2" "3.588.0"
@@ -5670,7 +5677,7 @@ renovate@^37.401.1:
     "@renovatebot/pep440" "3.0.20"
     "@renovatebot/ruby-semver" "3.0.23"
     "@sindresorhus/is" "4.6.0"
-    "@yarnpkg/core" "4.0.5"
+    "@yarnpkg/core" "4.1.0"
     "@yarnpkg/parsers" "3.0.2"
     agentkeepalive "4.5.0"
     aggregate-error "3.1.0"
