@@ -3666,10 +3666,10 @@ glob-parent@^5.1.0, glob-parent@^5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@10.4.2:
-  version "10.4.2"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-10.4.2.tgz#bed6b95dade5c1f80b4434daced233aee76160e5"
-  integrity sha512-GwMlUF6PkPo3Gk21UxkCohOv0PLcIXVtKyLlpEI28R/cO/4eNOdmLk3CMW1wROV/WR/EsZOWAfBbBOqYvs88/w==
+glob@10.4.5:
+  version "10.4.5"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.4.5.tgz#f4d9f0b90ffdbab09c9d77f5f29b4262517b0956"
+  integrity sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==
   dependencies:
     foreground-child "^3.1.0"
     jackspeak "^3.1.2"
@@ -4644,10 +4644,10 @@ lowercase-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
 
-lru-cache@10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.3.0.tgz#4a4aaf10c84658ab70f79a85a9a3f1e1fb11196b"
-  integrity sha512-CQl19J/g+Hbjbv4Y3mFNNXFEL/5t/KCg8POCuUqd4rMKjGG+j1ybER83hxV58zL+dFI1PTkt3GNFSHRt+d8qEQ==
+lru-cache@10.4.3:
+  version "10.4.3"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.4.3.tgz#410fc8a17b70e598013df257c2446b7f3383f119"
+  integrity sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==
 
 lru-cache@^10.0.1, "lru-cache@^9.1.1 || ^10.0.0":
   version "10.0.1"
@@ -5709,10 +5709,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^37.424.2:
-  version "37.431.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.431.0.tgz#dfd19afeb26535710179a06114bc75514cdb7db7"
-  integrity sha512-anP4sByBnKMrxnYafN/16Ivq/t+xuPGA6GtnliOyi+3x2HFPwYq3qmp8msmXbRnYz312LxZQYTVKRhCnouNeRA==
+renovate@^37.424.3:
+  version "37.431.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.431.4.tgz#4a4b42ace1bdf5b235e666ab77a1c480b257240d"
+  integrity sha512-sOHR+or7DLPWGvN0CwqTg9t9qPY5sQ/oCYD9PKxbkej12vJDu1+MFD6ONPndENa8PTtcbPAHHED1IC6sAUPOzQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.606.0"
     "@aws-sdk/client-ec2" "3.606.0"
@@ -5769,7 +5769,7 @@ renovate@^37.424.2:
     fs-extra "11.2.0"
     git-url-parse "14.0.0"
     github-url-from-git "1.5.0"
-    glob "10.4.2"
+    glob "10.4.5"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
     google-auth-library "9.11.0"
@@ -5785,7 +5785,7 @@ renovate@^37.424.2:
     jsonata "2.0.5"
     jsonc-parser "3.3.1"
     klona "2.0.6"
-    lru-cache "10.3.0"
+    lru-cache "10.4.3"
     luxon "3.4.4"
     markdown-it "14.1.0"
     markdown-table "2.0.0"
