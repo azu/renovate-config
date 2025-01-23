@@ -1540,15 +1540,15 @@
   dependencies:
     "@seald-io/nedb" "^4.0.4"
 
-"@renovatebot/osv-offline@1.5.11":
-  version "1.5.11"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.11.tgz#e93346398dd1d1fd95ffc4d41e07ba6bf4a33633"
-  integrity sha512-y4lTOL90P1JpsAQ+gadSCXmeRP+tvRrFPCmKtsRUwq/00vO2HoTi9GgKRTEWS6QxtDVnKlHrQS0xbBCmdXySTA==
+"@renovatebot/osv-offline@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.5.12.tgz#a18824d978b4243ddd472a40f412183f3bf4364f"
+  integrity sha512-gmPsOjHoCsaIsahv+T373WDc28GZ5WTzcA6Usxd1lDGvEF/t7JdBe3lx1ZBLurbundnGmKJ3zYBsqmr54lBR7A==
   dependencies:
     "@octokit/rest" "^20.1.1"
     "@renovatebot/osv-offline-db" "1.7.0"
     adm-zip "~0.5.16"
-    fs-extra "^11.2.0"
+    fs-extra "^11.3.0"
     got "^11.8.6"
     luxon "^3.5.0"
     node-fetch "^2.7.0"
@@ -2852,10 +2852,10 @@ croner@9.0.0:
   resolved "https://registry.yarnpkg.com/croner/-/croner-9.0.0.tgz#1db62160142cf32eb22622e9ae27ba29156883f7"
   integrity sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==
 
-cronstrue@2.52.0:
-  version "2.52.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.52.0.tgz#00af1a8dcf76a1dece149e4416db823105b28cdb"
-  integrity sha512-NKgHbWkSZXJUcaBHSsyzC8eegD6bBd4O0oCI6XMIJ+y4Bq3v4w7sY3wfWoKPuVlq9pQHRB6od0lmKpIqi8TlKA==
+cronstrue@2.53.0:
+  version "2.53.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.53.0.tgz#5bbcd7483636b99379480f624faef5056f3efbd8"
+  integrity sha512-CkAcaI94xL8h6N7cGxgXfR5D7oV2yVtDzB9vMZP8tIgPyEv/oc/7nq9rlk7LMxvc3N+q6LKZmNLCVxJRpyEg8A==
 
 cross-spawn@^7.0.0:
   version "7.0.3"
@@ -3378,6 +3378,15 @@ fs-extra@11.2.0, fs-extra@^11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.2.0.tgz#e70e17dfad64232287d01929399e0ea7c86b0e5b"
   integrity sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs-extra@11.3.0, fs-extra@^11.3.0:
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.0.tgz#0daced136bbaf65a555a326719af931adc7a314d"
+  integrity sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -5510,10 +5519,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^39.107.2:
-  version "39.122.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.122.0.tgz#f55eff2464afa588be58888272a291edb965c87a"
-  integrity sha512-ZMCSTNWpYW+k1DBlhBZdqouB6n0eUpLuAlrmFYXsctKs7u4a6uRr02BWOQFjzN8ymX0ANSeZtDcCng2sygCpbQ==
+renovate@^39.107.3:
+  version "39.126.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.126.1.tgz#91ae358a823046aa9029bb8d86fcb4eb37bf698f"
+  integrity sha512-cu6bC1na00oXiw0RjpdTi09JBpDVDGYLS/TJ/pv5LF/6TmWKViVZBgAPZzF54YtACavvdWjq5K2oW/fu3gvidQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.726.1"
     "@aws-sdk/client-ec2" "3.726.1"
@@ -5536,7 +5545,7 @@ renovate@^39.107.2:
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.1.0"
     "@renovatebot/kbpgp" "4.0.1"
-    "@renovatebot/osv-offline" "1.5.11"
+    "@renovatebot/osv-offline" "1.5.12"
     "@renovatebot/pep440" "4.0.1"
     "@renovatebot/ruby-semver" "4.0.0"
     "@sindresorhus/is" "4.6.0"
@@ -5556,7 +5565,7 @@ renovate@^39.107.2:
     commander "12.1.0"
     conventional-commits-detector "1.0.3"
     croner "9.0.0"
-    cronstrue "2.52.0"
+    cronstrue "2.53.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -5569,7 +5578,7 @@ renovate@^39.107.2:
     extract-zip "2.0.1"
     find-packages "10.0.4"
     find-up "5.0.0"
-    fs-extra "11.2.0"
+    fs-extra "11.3.0"
     git-url-parse "16.0.0"
     github-url-from-git "1.5.0"
     glob "11.0.1"
