@@ -1000,10 +1000,10 @@
   dependencies:
     semver "^7.3.5"
 
-"@one-ini/wasm@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
-  integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
+"@one-ini/wasm@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.2.0.tgz#598671af52636ea6e0a849d026ad0e7c110e91cf"
+  integrity sha512-n+L/BvrwKUn7q5O3wHGo+CJZAqfewh38+37sk+eBzv/39lM9pPgPRd4sOZRvSRzo0ukLxzyXso4WlGj2oKZ5hA==
 
 "@opentelemetry/api-logs@0.57.0", "@opentelemetry/api-logs@^0.57.0":
   version "0.57.0"
@@ -2709,15 +2709,10 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-commander@13.1.0:
+commander@13.1.0, commander@^13.1.0:
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-13.1.0.tgz#776167db68c78f38dcce1f9b8d7b8b9a488abf46"
   integrity sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==
-
-commander@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-11.0.0.tgz#43e19c25dbedc8256203538e8d7e9346877a6f67"
-  integrity sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -2965,15 +2960,15 @@ ecdsa-sig-formatter@1.0.11, ecdsa-sig-formatter@^1.0.11:
   dependencies:
     safe-buffer "^5.0.1"
 
-editorconfig@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-2.0.0.tgz#5b84b35122889a97a005aca7981a3038526ec8d0"
-  integrity sha512-s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==
+editorconfig@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-2.0.1.tgz#20e2b06a1081ebd22aa8594337f90627d2c261a7"
+  integrity sha512-jMVc7LbF/M13cSpBiVWGut+qhIyOddIhSXPAntMSboEigGFGaQmBow9ZrVog0VT2K89qm0cyGHa7FRhcOqP8hA==
   dependencies:
-    "@one-ini/wasm" "0.1.1"
-    commander "^11.0.0"
-    minimatch "9.0.2"
-    semver "^7.5.3"
+    "@one-ini/wasm" "0.2.0"
+    commander "^13.1.0"
+    minimatch "10.0.1"
+    semver "^7.7.1"
 
 email-addresses@5.0.0:
   version "5.0.0"
@@ -4560,13 +4555,6 @@ minimatch@10.0.1, minimatch@^10.0.0:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.2.tgz#397e387fff22f6795844d00badc903a3d5de7057"
-  integrity sha512-PZOT9g5v2ojiTL7r1xF6plNHLtOeTpSlDI007As2NlA2aYBMfVom17yqa6QzhmDP8QOhn7LjHTg7DFCVSSa6yg==
-  dependencies:
-    brace-expansion "^2.0.1"
-
 minimatch@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.0.tgz#bfc8e88a1c40ffd40c172ddac3decb8451503b56"
@@ -5411,10 +5399,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^39.175.2:
-  version "39.180.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.180.2.tgz#6cb340815f8043598bb9b3c227e1b6ca1fbece5e"
-  integrity sha512-GkyzyOqi632q81Pjp8tRqabCwriQqTb8VLEImtE9CABoTVoP86fSmE/1PRY/tgwlKVreKuKFiCx3C0x/C8qfMA==
+renovate@^39.175.7:
+  version "39.181.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.181.1.tgz#911dffa97c959682e236ab8c5c684db519dbfcf8"
+  integrity sha512-GtDPpsbC5dS/GvVqF+XyObgeFSWZv0uRIosiycapLyp+wRlRnfQpgvo9vcXwY+Z55ySZWlpSGpXXMXHjD00qlQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.738.0"
     "@aws-sdk/client-ec2" "3.738.0"
@@ -5463,7 +5451,7 @@ renovate@^39.175.2:
     dequal "2.0.3"
     detect-indent "6.1.0"
     diff "7.0.0"
-    editorconfig "2.0.0"
+    editorconfig "2.0.1"
     email-addresses "5.0.0"
     emoji-regex "10.4.0"
     emojibase "16.0.0"
@@ -5676,7 +5664,7 @@ semver-utils@1.1.4:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
-semver@7.7.1:
+semver@7.7.1, semver@^7.7.1:
   version "7.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
   integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
@@ -5705,7 +5693,7 @@ semver@^7.3.5:
   dependencies:
     lru-cache "^6.0.0"
 
-semver@^7.5.2, semver@^7.5.3:
+semver@^7.5.2:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
