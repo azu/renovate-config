@@ -2725,10 +2725,10 @@ croner@9.0.0:
   resolved "https://registry.yarnpkg.com/croner/-/croner-9.0.0.tgz#1db62160142cf32eb22622e9ae27ba29156883f7"
   integrity sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==
 
-cronstrue@2.54.0:
-  version "2.54.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.54.0.tgz#67a10f083ef97dd26ae87f64de0007bd3eced413"
-  integrity sha512-vyp5NklDxA5MjPfQgkn0bA+0vRQe7Q9keX7RPdV6rMgd7LtDvbuKgnT+3T5ZAX16anSP5HmahcRp8mziXsLfaw==
+cronstrue@2.55.0:
+  version "2.55.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.55.0.tgz#c7dd69628556c53df925179a9500f0986379c961"
+  integrity sha512-ZsBZNtQWb0Rk6CNGJlzpPBYqNE7t93Aez5ZCExLihGwmIpE5qThSTDQzDV8Z1Nw6ksmLkwI98nPKyciZ5sH7dw==
 
 cross-spawn@^7.0.0:
   version "7.0.3"
@@ -3559,10 +3559,10 @@ graceful-fs@^4.2.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-graph-data-structure@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-4.3.1.tgz#928bac20138e3157f783472495f35369294d5cef"
-  integrity sha512-S+Qp6xtMb4AAWsixMHShDx/X/RYaWQMvs+IksTW6jPyamRzx7xILfOdJ+qPfcbcteZeKa7KDRqeEQv+jHlrBmw==
+graph-data-structure@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-4.4.0.tgz#f9930821503f57393f2cb3be9adea7b664d43f16"
+  integrity sha512-eQ/BL0WiwDQKADavJ2e72/5PFAaXoQa2nQ3YQa5v25FgwJOp13DhXoYQP0Q4QlepPEKZfJyab/xMrmJaKYdj/A==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
@@ -5380,10 +5380,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^39.179.1:
-  version "39.185.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.185.2.tgz#4119868cb0cd2016a361a8ad9ee9028874f751ea"
-  integrity sha512-xuPMqF+NPuI5Uw0iLfiBuADtDBT7JFaJcHBNhoWetFiIrwBlxDJZ+WqsoByCCEdwF835VMVap8SDwr5f4tsODQ==
+renovate@^39.180.2:
+  version "39.185.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.185.8.tgz#761af237b1cc71ceab887e587d17447dd456edb9"
+  integrity sha512-rDuIrpwrQDou8vHd3ym/YSxMIZSawnMpifyd99+Lez6xcwpM3bTSC5rbcWa7TSdyyfX2mbZtinBNRYubVTLYJA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.738.0"
     "@aws-sdk/client-ec2" "3.738.0"
@@ -5427,7 +5427,7 @@ renovate@^39.179.1:
     commander "13.1.0"
     conventional-commits-detector "1.0.3"
     croner "9.0.0"
-    cronstrue "2.54.0"
+    cronstrue "2.55.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -5448,7 +5448,7 @@ renovate@^39.179.1:
     good-enough-parser "1.1.23"
     google-auth-library "9.15.1"
     got "11.8.6"
-    graph-data-structure "4.3.1"
+    graph-data-structure "4.4.0"
     handlebars "4.7.8"
     ignore "7.0.3"
     ini "5.0.0"
