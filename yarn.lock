@@ -2136,18 +2136,18 @@
   dependencies:
     "@types/node" "*"
 
-"@yarnpkg/core@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.2.0.tgz#24bce83ab53bfee74cfee087252108e87861ad7e"
-  integrity sha512-h+cjnATkpO0ya6I5U4RYvOet/IsswOje3eBq9CsFM4XJZ2nS4WBBeFwYe0tqLD87IwKsoyuIdUwZjPHcn2DM8g==
+"@yarnpkg/core@4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.2.1.tgz#d43bc2f2232a97d745220269f8ab6893e7fe35e1"
+  integrity sha512-+nXgfe/SE1lGedYuLNvgFGT5DNTb2pc6XJQCok1zoGGxbhqdTfslcFcPQrarSOjbhYK+Vl/PfWP9o6j/YIcuDw==
   dependencies:
     "@arcanis/slice-ansi" "^1.1.1"
     "@types/semver" "^7.1.0"
     "@types/treeify" "^1.0.0"
-    "@yarnpkg/fslib" "^3.1.1"
-    "@yarnpkg/libzip" "^3.1.0"
-    "@yarnpkg/parsers" "^3.0.2"
-    "@yarnpkg/shell" "^4.1.1"
+    "@yarnpkg/fslib" "^3.1.2"
+    "@yarnpkg/libzip" "^3.1.1"
+    "@yarnpkg/parsers" "^3.0.3"
+    "@yarnpkg/shell" "^4.1.2"
     camelcase "^5.3.1"
     chalk "^3.0.0"
     ci-info "^4.0.0"
@@ -2168,44 +2168,37 @@
     tslib "^2.4.0"
     tunnel "^0.0.6"
 
-"@yarnpkg/fslib@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-3.1.0.tgz#e5bda3397b5f070eb65751643f75645307eaa483"
-  integrity sha512-wsj7/sUVSdXOIX/qwaON/Ky5GsP5gs9ry9DKwgLbWT7k3qw4/EcHAtfTtPhBYu33UibzBFI+fgB4wBRVH2XVaw==
+"@yarnpkg/fslib@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-3.1.2.tgz#a6797a48abe80dd5e922fd6f53e39dc205201576"
+  integrity sha512-FpB2F1Lrm43F94klS9UN0ceOpe/PHZSpJB7bIkvReF/ba890bSdu1NokSKr998yaFee7yqeD9Wkid5ye7azF3A==
   dependencies:
     tslib "^2.4.0"
 
-"@yarnpkg/fslib@^3.1.1":
+"@yarnpkg/libzip@^3.1.1":
   version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/fslib/-/fslib-3.1.1.tgz#282ef715cff89ce76aa9b6165ce86b0cdaa36ec3"
-  integrity sha512-NpeecISQEuDnmipElGa0cOC7DnlPf3+FXnuwwJTciJgt+S/BDb8VFBvXSE5UirGmsFWlf4mfZuuAC7e8Pmhh4g==
-  dependencies:
-    tslib "^2.4.0"
-
-"@yarnpkg/libzip@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/libzip/-/libzip-3.1.0.tgz#c33e91bd8bfcc5a5b4cb05b387c04c9ba9fb88b0"
-  integrity sha512-x66/F8wEOUL8Hi4NZFVVKCFNITN0keQt0ZNlY5V9dRb+judyO8aJv4hazO3WyblnGhClvuBPbx+a2X4LNS5ziA==
+  resolved "https://registry.yarnpkg.com/@yarnpkg/libzip/-/libzip-3.1.1.tgz#f69e2c54583764c822ebfcc4af879fad05a6f7c6"
+  integrity sha512-KNgpRq0w/az6nOLQDbRhX24m18Jk7YNieN8gw1FP9hSmW7141U8dhY7e8nfwvnu7P0XHvwj2MpAPVGfeaKTE+A==
   dependencies:
     "@types/emscripten" "^1.39.6"
-    "@yarnpkg/fslib" "^3.1.0"
+    "@yarnpkg/fslib" "^3.1.2"
     tslib "^2.4.0"
 
-"@yarnpkg/parsers@3.0.2", "@yarnpkg/parsers@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-3.0.2.tgz#48a1517a0f49124827f4c37c284a689c607b2f32"
-  integrity sha512-/HcYgtUSiJiot/XWGLOlGxPYUG65+/31V8oqk17vZLW1xlCoR4PampyePljOxY2n8/3jz9+tIFzICsyGujJZoA==
+"@yarnpkg/parsers@3.0.3", "@yarnpkg/parsers@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-3.0.3.tgz#624f35f242c1115a48beb1fd12aed610bcd8e823"
+  integrity sha512-mQZgUSgFurUtA07ceMjxrWkYz8QtDuYkvPlu0ZqncgjopQ0t6CNEo/OSealkmnagSUx8ZD5ewvezUwUuMqutQg==
   dependencies:
     js-yaml "^3.10.0"
     tslib "^2.4.0"
 
-"@yarnpkg/shell@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-4.1.1.tgz#adb8068e4dde2f60f5995bff75be34cbd788eeae"
-  integrity sha512-0aS71iJrNQ4cezU5BJ5JpBTXkFQPKkzOEpDtMQm8E2H3g9PLxUe/5VdA60bZq/4N/qazLLYEOngcFZ6QRpraVQ==
+"@yarnpkg/shell@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/shell/-/shell-4.1.2.tgz#9cedc3d7eaa7be21e3cb20d83d1a43c35a0821f7"
+  integrity sha512-1ET4cNNd7//2tXHnLiHGzBbry5mlEmoKL8f32E5EKnn8Ke/gAcILeFdbX2G9C9w/7uBmFyWeSs530ib0SofVPQ==
   dependencies:
-    "@yarnpkg/fslib" "^3.1.1"
-    "@yarnpkg/parsers" "^3.0.2"
+    "@yarnpkg/fslib" "^3.1.2"
+    "@yarnpkg/parsers" "^3.0.3"
     chalk "^3.0.0"
     clipanion "^4.0.0-rc.2"
     cross-spawn "^7.0.3"
@@ -2725,10 +2718,10 @@ croner@9.0.0:
   resolved "https://registry.yarnpkg.com/croner/-/croner-9.0.0.tgz#1db62160142cf32eb22622e9ae27ba29156883f7"
   integrity sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==
 
-cronstrue@2.55.0:
-  version "2.55.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.55.0.tgz#c7dd69628556c53df925179a9500f0986379c961"
-  integrity sha512-ZsBZNtQWb0Rk6CNGJlzpPBYqNE7t93Aez5ZCExLihGwmIpE5qThSTDQzDV8Z1Nw6ksmLkwI98nPKyciZ5sH7dw==
+cronstrue@2.56.0:
+  version "2.56.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.56.0.tgz#70b406106e6059bf9c494c788255d671d8ecc361"
+  integrity sha512-/YC3b4D/E/S8ToQ7f676A2fqoC3vVpXKjJ4SMsP0jYsvRYJdZ6h9+Fq/Y7FoFDEUFCqLTca+G2qTV227lyyFZg==
 
 cross-spawn@^7.0.0:
   version "7.0.3"
@@ -5128,10 +5121,10 @@ prebuild-install@^7.1.1:
     tar-fs "^2.0.0"
     tunnel-agent "^0.6.0"
 
-prettier@3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.2.tgz#d066c6053200da0234bf8fa1ef45168abed8b914"
-  integrity sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==
+prettier@3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.5.3.tgz#4fc2ce0d657e7a02e602549f053b239cb7dfe1b5"
+  integrity sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==
 
 proc-log@^4.1.0:
   version "4.2.0"
@@ -5380,10 +5373,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^39.185.0:
-  version "39.191.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.191.0.tgz#c667942efcf5610ac5d728d250c29b4896d3a684"
-  integrity sha512-w0boGpjF/LM3hBW5db+B5Fn3q6UzpgktJTYamuyud5WE65VEMIEzYGAVqLpFjg6S5ebS+fj7f52sj40VgJHCYg==
+renovate@^39.185.7:
+  version "39.194.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.194.0.tgz#bdaa2d8aa5b5e093473de598627a6c187f4d77b7"
+  integrity sha512-Occ9Wibdo7whGTqrqC+OpOlPi08uOoazX8xl/iWT40hPj76ljH0Gr4qcjJ4vL6r0LC+ecXGBvJViUviuEdjsbQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.738.0"
     "@aws-sdk/client-ec2" "3.738.0"
@@ -5411,8 +5404,8 @@ renovate@^39.185.0:
     "@renovatebot/pep440" "4.1.0"
     "@renovatebot/ruby-semver" "4.0.0"
     "@sindresorhus/is" "4.6.0"
-    "@yarnpkg/core" "4.2.0"
-    "@yarnpkg/parsers" "3.0.2"
+    "@yarnpkg/core" "4.2.1"
+    "@yarnpkg/parsers" "3.0.3"
     agentkeepalive "4.6.0"
     aggregate-error "3.1.0"
     async-mutex "0.5.0"
@@ -5427,7 +5420,7 @@ renovate@^39.185.0:
     commander "13.1.0"
     conventional-commits-detector "1.0.3"
     croner "9.0.0"
-    cronstrue "2.55.0"
+    cronstrue "2.56.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -5472,7 +5465,7 @@ renovate@^39.185.0:
     p-queue "6.6.2"
     p-throttle "4.1.1"
     parse-link-header "2.0.0"
-    prettier "3.5.2"
+    prettier "3.5.3"
     protobufjs "7.4.0"
     punycode "2.3.1"
     redis "4.7.0"
