@@ -21,9 +21,25 @@ Note: Don't necessary to do `npm i -D @azu/renovate-config`
 #### Features
 
 - Auto merge patch and minor version
-- Support npm/Node.js ecosystem
-- Defined package groups like TypeScript, Prettier, Linters
 - Prevent supply-chain attack by `"minimumReleaseAge": 7 days`
+
+#### npm/Node.js
+
+- Defined package groups like TypeScript, Prettier, Linters
+
+#### GitHub Actions
+
+- Pin all action's version by default
+
+The recent tj-actions and reviewdog incidents have caused a real problem that happens if we don't fix versions in GitHub Actions.
+
+- [tj-actions changed-files through 45.0.7 allows remote attackers to discover secrets by reading actions logs. Database](https://github.com/advisories/GHSA-mrrh-fwg8-r2c3)
+- [GitHub Action supply chain attack: reviewdog/action-setup | Wiz Blog](https://www.wiz.io/blog/new-github-action-supply-chain-attack-reviewdog-action-setup)
+
+It is difficult to figure out which version should be fixed, so we have settled on the direction of always pinning it.
+
+[pinact](https://github.com/suzuki-shunsuke/pinact) or [pin-github-action](https://github.com/mheap/pin-github-action) helps to pin all action's version.
+
 
 ### Maintenance preset
 
