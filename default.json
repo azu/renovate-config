@@ -76,7 +76,7 @@
       },
       {
         "groupName": "textlint",
-        "matchPackageNames": [
+        "matchPackagePatterns": [
           "^textlint$",
           "^textlint-scripts",
           "^textlint-tester",
@@ -85,7 +85,7 @@
       },
       {
         "groupName": "secretlint",
-        "matchPackageNames": [
+        "matchPackagePatterns": [
           "^secretlint",
           "^@secretlint/"
         ]
