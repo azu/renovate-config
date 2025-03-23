@@ -3,9 +3,7 @@
   "extends": [
     "github>azu/renovate-config"
   ],
-  "npm": {
-    "major": {
-      "enabled": false
-    }
+  "major": {
+    "enabled": false
   }
 }

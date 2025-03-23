@@ -8,7 +8,7 @@
     "test": "renovate-config-validator default.json && renovate-config-validator non-major.json"
   },
   "devDependencies": {
-    "renovate": "^39.202.0"
+    "renovate": "^39.211.1"
   },
   "homepage": "https://github.com/azu/renovate-config",
   "repository": {
@@ -22,5 +22,6 @@
     "npm",
     "renovate"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af"
 }
