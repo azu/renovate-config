@@ -68,6 +68,13 @@ If you used maintenance preset, you can migrate to GitHub based preset by follow
 }
 ```
 
+## Release Flow
+
+```bash
+npm version major
+git push --follow-tags
+```
+
 ## References
 
 - [Renovate Docs](https://renovatebot.com/docs/)

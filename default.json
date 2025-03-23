@@ -4,14 +4,26 @@
     "config:recommended",
     ":timezone(Asia/Tokyo)"
   ],
-  "packageRules": [
-    {
-      "matchDepTypes": [
-        "action"
-      ],
-      "pinDigests": false
+  "minimumReleaseAge": "7 days",
+  "github-actions":{
+    "labels": [
+      "Type: CI"
+    ],
+    "pinDigests": true,
+    "major": {
+      "automerge": false
+    },
+    "minor": {
+      "automerge": true,
+      "groupName": "Minor updates",
+      "prCreation": "status-success"
+    },
+    "patch": {
+      "automerge": true,
+      "groupName": "Patch updates",
+      "prCreation": "status-success"
     }
-  ],
+  },
   "npm": {
     "labels": [
       "dependencies"
@@ -31,13 +43,11 @@
     "minor": {
       "automerge": true,
       "groupName": "Minor updates",
-      "minimumReleaseAge": "7 days",
       "prCreation": "status-success"
     },
     "patch": {
       "automerge": true,
       "groupName": "Patch updates",
-      "minimumReleaseAge": "7 days",
       "prCreation": "status-success"
     },
     "packageRules": [
