@@ -2,7 +2,7 @@
   "private": true,
   "name": "@azu/renovate-config",
   "description": "Shareable config for Renovate (renovatebot.com)",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "author": "azu <azuciao@gmail.com>",
   "scripts": {
     "test": "renovate-config-validator default.json && renovate-config-validator non-major.json"
