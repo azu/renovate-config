@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^39.233.5
-        version: 39.233.5(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^39.233.6
+        version: 39.240.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -506,8 +506,8 @@ packages:
     resolution: {integrity: sha512-xhFTlmZhP60n44d3voXM0WF09cJM59Ua1WhcfSYh1AiafKbTqiXQcfbDLoneLAGjYn5ZsSaN1/uIDJbGULTDfw==}
     engines: {node: '>=18.12.0'}
 
-  '@renovatebot/osv-offline@1.6.4':
-    resolution: {integrity: sha512-/zKTvQNX9/P3fy6/7f0TJd8W/WywD837xCLrvptbuXx0RjgOn5wOs+eFmeEOTmMyxfM5YhvTPdrLzC+jO3toJA==}
+  '@renovatebot/osv-offline@1.6.5':
+    resolution: {integrity: sha512-WtGzUvr1QgQZCxoeSqDcLI16otvaPzIUq/Mn+LkZZtX4pRxJ5SIiL0/Eiirc2ngAIWi2ihvnG9DHvRBK8trK2g==}
     engines: {node: '>=18.12.0'}
 
   '@renovatebot/pep440@4.1.0':
@@ -1113,8 +1113,8 @@ packages:
     resolution: {integrity: sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==}
     engines: {node: '>=18.0'}
 
-  cronstrue@2.57.0:
-    resolution: {integrity: sha512-gQOfxJa1RA9uDT4hx37NshhX4dW9t9zTCtIYu15LUziH+mkpuLXYcSEyM8ZewMJ2p8UVuHGjI3n4hGpu3HtCbg==}
+  cronstrue@2.58.0:
+    resolution: {integrity: sha512-5P3esL5URj/u1h7N1zYl33V9XHNh15DQVGQITdIq7kAY78rP9tMYxXgi8kCXGoFqbyXFMMQRvzthHTYxUtp9Fw==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -1825,8 +1825,8 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  luxon@3.6.0:
-    resolution: {integrity: sha512-WE7p0p7W1xji9qxkLYsvcIxZyfP48GuFrWIBQZIsbjCyf65dG1rv4n83HcOyEyhvzxJCrUoObCRNFgRNIQ5KNA==}
+  luxon@3.6.1:
+    resolution: {integrity: sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ==}
     engines: {node: '>=12'}
 
   make-fetch-happen@13.0.1:
@@ -2313,8 +2313,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.233.5:
-    resolution: {integrity: sha512-x9I2k0MKZRCHxonLvXBBGHzxKrXJAaeRQ70EtrcqcCLyzCp1tWprjh1e3KcmFp4E4j+FLD43Uv3lTNOCAGqWkQ==}
+  renovate@39.240.1:
+    resolution: {integrity: sha512-SkuvDQqsjUugm81wYyL7jGkhq893SWbRnBuO8Z4wdA0JhqkQrB4kqT9cgcksuNDhJjA17AaZwC2fybwbraXKhg==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3969,13 +3969,13 @@ snapshots:
     dependencies:
       '@seald-io/nedb': 4.1.1
 
-  '@renovatebot/osv-offline@1.6.4':
+  '@renovatebot/osv-offline@1.6.5':
     dependencies:
       '@renovatebot/osv-offline-db': 1.7.3
       adm-zip: 0.5.16
       fs-extra: 11.3.0
       got: 11.8.6
-      luxon: 3.6.0
+      luxon: 3.6.1
 
   '@renovatebot/pep440@4.1.0': {}
 
@@ -4743,7 +4743,7 @@ snapshots:
 
   croner@9.0.0: {}
 
-  cronstrue@2.57.0: {}
+  cronstrue@2.58.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -5492,7 +5492,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  luxon@3.6.0: {}
+  luxon@3.6.1: {}
 
   make-fetch-happen@13.0.1:
     dependencies:
@@ -6071,7 +6071,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.233.5(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.240.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -6097,7 +6097,7 @@ snapshots:
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.1.0
       '@renovatebot/kbpgp': 4.0.1
-      '@renovatebot/osv-offline': 1.6.4
+      '@renovatebot/osv-offline': 1.6.5
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
       '@sindresorhus/is': 4.6.0
@@ -6117,7 +6117,7 @@ snapshots:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.57.0
+      cronstrue: 2.58.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
@@ -6148,7 +6148,7 @@ snapshots:
       jsonata: 2.0.6
       jsonc-parser: 3.3.1
       klona: 2.0.6
-      luxon: 3.6.0
+      luxon: 3.6.1
       markdown-it: 14.1.0
       markdown-table: 2.0.0
       minimatch: 10.0.1
