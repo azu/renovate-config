@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^41.119.5
+        specifier: ^41.119.6
         version: 41.131.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
