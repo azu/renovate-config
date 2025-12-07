@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^42.30.4
-        version: 42.32.3(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^42.34.0
+        version: 42.39.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -547,13 +547,13 @@ packages:
   '@renovatebot/detect-tools@1.2.4':
     resolution: {integrity: sha512-qKkRWDmwfgPN5vrD6QzMa6UNqb06VXaZL1hxxLFsOauiSTAxz/TVKPhb/hFyf27yu35JyXIN40PiNQR+bidKbQ==}
 
-  '@renovatebot/osv-offline-db@1.8.0':
-    resolution: {integrity: sha512-Ozy38+m/3BtO6hLZ1eHGkOsrGCaIl46VrZ0khFr73wP2pErJLeXpiP4CWF64hniA6nS6pDeoy/2XCyxVHOBxUQ==}
-    engines: {node: '>=18.12.0'}
+  '@renovatebot/osv-offline-db@2.0.0':
+    resolution: {integrity: sha512-qMcbkz/DRIhVEXnPzBdY3Dn7oraKLZ0tBLXwDkiuxsBjgDjKAXTjYHpUeZU+y8fd3I3GLLgLYqHPnbJ276ZBtA==}
+    engines: {node: '>=22.12.0'}
 
-  '@renovatebot/osv-offline@1.8.0':
-    resolution: {integrity: sha512-923TCQh5xOHAFObjLQDArgV8+hHY+WhXXtl4h1LA3x6ePEhW7W5YbIvXQo+/osCVmDZnvareBauRnxHVTbAomg==}
-    engines: {node: '>=18.12.0'}
+  '@renovatebot/osv-offline@2.0.0':
+    resolution: {integrity: sha512-Fq0uz1RBNWx3iJ+r1zYcT+29kvzc9L+fjGOK0wERCuMpGSJE48uJ8bEeH8XjWJtq190j2TuuBb11xm7spVCBKw==}
+    engines: {node: '>=22.12.0'}
 
   '@renovatebot/pep440@4.2.1':
     resolution: {integrity: sha512-2FK1hF93Fuf1laSdfiEmJvSJPVIDHEUTz68D3Fi9s0IZrrpaEcj6pTFBTbYvsgC5du4ogrtf5re7yMMvrKNgkw==}
@@ -989,8 +989,8 @@ packages:
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
-  better-sqlite3@12.4.6:
-    resolution: {integrity: sha512-gaYt9yqTbQ1iOxLpJA8FPR5PiaHP+jlg8I5EX0Rs2KFwNzhBsF40KzMZS5FwelY7RG0wzaucWdqSAJM3uNCPCg==}
+  better-sqlite3@12.5.0:
+    resolution: {integrity: sha512-WwCZ/5Diz7rsF29o27o0Gcc1Du+l7Zsv7SYtVPG0X3G/uUI1LqdxrQI7c9Hs2FWpqXXERjW9hp6g3/tH7DlVKg==}
     engines: {node: 20.x || 22.x || 23.x || 24.x || 25.x}
 
   bignumber.js@9.1.2:
@@ -2473,8 +2473,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.32.3:
-    resolution: {integrity: sha512-dp+krIsKtRGj5zts2aWsBzDMalJEDJqhbDaBUKJxLB66zf8qCT5qRJz/fC8tp2Da6e2ibec/BLLRsObdOImumg==}
+  renovate@42.39.1:
+    resolution: {integrity: sha512-ZZea0T03xwiuUvghLzEfj4306VkCJMiWz5iUwuCz5YhPRJCWLVadmtCwywmAJ1N9byOi3SXwqGhg6fbOgNmdPw==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4164,13 +4164,13 @@ snapshots:
       upath: 2.0.1
       zod: 3.25.76
 
-  '@renovatebot/osv-offline-db@1.8.0':
+  '@renovatebot/osv-offline-db@2.0.0':
     dependencies:
       '@seald-io/nedb': 4.1.2
 
-  '@renovatebot/osv-offline@1.8.0':
+  '@renovatebot/osv-offline@2.0.0':
     dependencies:
-      '@renovatebot/osv-offline-db': 1.8.0
+      '@renovatebot/osv-offline-db': 2.0.0
       adm-zip: 0.5.16
       debug: 4.4.3
       fs-extra: 11.3.2
@@ -4753,7 +4753,7 @@ snapshots:
 
   base64-js@1.5.1: {}
 
-  better-sqlite3@12.4.6:
+  better-sqlite3@12.5.0:
     dependencies:
       bindings: 1.5.0
       prebuild-install: 7.1.3
@@ -6555,7 +6555,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.32.3(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.39.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.940.0
       '@aws-sdk/client-ec2': 3.940.0
@@ -6585,7 +6585,7 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.3
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.2.4
-      '@renovatebot/osv-offline': 1.8.0
+      '@renovatebot/osv-offline': 2.0.0
       '@renovatebot/pep440': 4.2.1
       '@renovatebot/pgp': 1.2.1
       '@renovatebot/ruby-semver': 4.1.2
@@ -6677,7 +6677,7 @@ snapshots:
       yaml: 2.8.1
       zod: 3.25.76
     optionalDependencies:
-      better-sqlite3: 12.4.6
+      better-sqlite3: 12.5.0
       openpgp: 6.2.2
       re2: 1.22.3
     transitivePeerDependencies:
