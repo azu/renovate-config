@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^42.52.2
-        version: 42.52.2(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^42.52.3
+        version: 42.58.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -544,8 +544,8 @@ packages:
     peerDependencies:
       '@redis/client': ^5.10.0
 
-  '@renovatebot/detect-tools@1.2.4':
-    resolution: {integrity: sha512-qKkRWDmwfgPN5vrD6QzMa6UNqb06VXaZL1hxxLFsOauiSTAxz/TVKPhb/hFyf27yu35JyXIN40PiNQR+bidKbQ==}
+  '@renovatebot/detect-tools@1.2.5':
+    resolution: {integrity: sha512-es6Q+81BgRT0PiqmbqztSgmqWRg8lrLXmLRXC5HM34k2Xtt0AIJE46PjfoUugc5KwQvpIJv1TDCaKr1sm6fIJw==}
 
   '@renovatebot/osv-offline-db@2.0.0':
     resolution: {integrity: sha512-qMcbkz/DRIhVEXnPzBdY3Dn7oraKLZ0tBLXwDkiuxsBjgDjKAXTjYHpUeZU+y8fd3I3GLLgLYqHPnbJ276ZBtA==}
@@ -2245,8 +2245,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openpgp@6.2.2:
-    resolution: {integrity: sha512-P/dyEqQ3gfwOCo+xsqffzXjmUhGn4AZTOJ1LCcN21S23vAk+EAvMJOQTsb/C8krL6GjOSBxqGYckhik7+hneNw==}
+  openpgp@6.3.0:
+    resolution: {integrity: sha512-pLzCU8IgyKXPSO11eeharQkQ4GzOKNWhXq79pQarIRZEMt1/ssyr+MIuWBv1mNoenJLg04gvPx+fi4gcKZ4bag==}
     engines: {node: '>= 18.0.0'}
 
   p-all@5.0.1:
@@ -2473,8 +2473,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.52.2:
-    resolution: {integrity: sha512-W9gFg1fh1UA/z0XkC1wIZNPFhL2ioth+2nehDwPqP69zkWZWTrMqzkvatqlTfWllUiDMAv08jRqo4pU001j7iQ==}
+  renovate@42.58.3:
+    resolution: {integrity: sha512-b6SD7LsCbAMS23M7gFdtoaq3GGjMgmQMVNCgXqYTufdNvTz8zg9bHPEGn64d+ZlLOKh1uljHZCNlMi0wnq4ZZw==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2760,8 +2760,8 @@ packages:
   to-vfile@8.0.0:
     resolution: {integrity: sha512-IcmH1xB5576MJc9qcfEC/m/nQCFt3fzMHz45sSlgJyTWjRbKW1HAkJpuf3DgE57YzIlZcwcBZA5ENQbBo4aLkg==}
 
-  toml-eslint-parser@0.10.0:
-    resolution: {integrity: sha512-khrZo4buq4qVmsGzS5yQjKe/WsFvV8fGfOjDQN0q4iy9FjRfPWRgTFrU8u1R2iu/SfWLhY9WnCi4Jhdrcbtg+g==}
+  toml-eslint-parser@0.10.1:
+    resolution: {integrity: sha512-9mjy3frhioGIVGcwamlVlUyJ9x+WHw/TXiz9R4YOlmsIuBN43r9Dp8HZ35SF9EKjHrn3BUZj04CF+YqZ2oJ+7w==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
   tr46@0.0.3:
@@ -4157,10 +4157,10 @@ snapshots:
     dependencies:
       '@redis/client': 5.10.0
 
-  '@renovatebot/detect-tools@1.2.4':
+  '@renovatebot/detect-tools@1.2.5':
     dependencies:
       fs-extra: 11.3.2
-      toml-eslint-parser: 0.10.0
+      toml-eslint-parser: 0.10.1
       upath: 2.0.1
       zod: 3.25.76
 
@@ -6279,7 +6279,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openpgp@6.2.2:
+  openpgp@6.3.0:
     optional: true
 
   p-all@5.0.1:
@@ -6555,7 +6555,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.52.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.58.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.940.0
       '@aws-sdk/client-ec2': 3.940.0
@@ -6584,7 +6584,7 @@ snapshots:
       '@opentelemetry/semantic-conventions': 1.38.0
       '@pnpm/parse-overrides': 1001.0.3
       '@qnighy/marshal': 0.1.3
-      '@renovatebot/detect-tools': 1.2.4
+      '@renovatebot/detect-tools': 1.2.5
       '@renovatebot/osv-offline': 2.0.0
       '@renovatebot/pep440': 4.2.1
       '@renovatebot/pgp': 1.2.2
@@ -6668,7 +6668,7 @@ snapshots:
       slugify: 1.6.6
       source-map-support: 0.5.21
       strip-json-comments: 5.0.3
-      toml-eslint-parser: 0.10.0
+      toml-eslint-parser: 0.10.1
       tslib: 2.8.1
       upath: 2.0.1
       url-join: 5.0.0
@@ -6678,7 +6678,7 @@ snapshots:
       zod: 3.25.76
     optionalDependencies:
       better-sqlite3: 12.5.0
-      openpgp: 6.2.2
+      openpgp: 6.3.0
       re2: 1.22.3
     transitivePeerDependencies:
       - aws-crt
@@ -7014,7 +7014,7 @@ snapshots:
     dependencies:
       vfile: 6.0.3
 
-  toml-eslint-parser@0.10.0:
+  toml-eslint-parser@0.10.1:
     dependencies:
       eslint-visitor-keys: 3.4.3
 
