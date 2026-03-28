@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^43.86.2
-        version: 43.89.7(typanion@3.14.0)
+        specifier: ^43.91.2
+        version: 43.99.0(typanion@3.14.0)
 
 packages:
 
@@ -515,12 +515,12 @@ packages:
     resolution: {integrity: sha512-5HrZJqZJzjzhghtJ85nNG8/dE97MQ1LOvo+T4dMGZg1s56HnZEZkm5KENNhQ+dwqC6vk5DdOcZ8J0oQOcn8gng==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
 
-  '@renovatebot/osv-offline-db@2.2.1':
-    resolution: {integrity: sha512-b/tHTHFQGkdj1N6xa7q2XcGNZBxW0gWg4q8W9QhojIogfGpLpl6YH7PA3OOqw1uEmMjRfaSanvge6HFLMMI68Q==}
+  '@renovatebot/osv-offline-db@2.4.0':
+    resolution: {integrity: sha512-W8MmEcyLmbTZG0j2Vh9CRVcqpKU9BvElki9nPReykmilE9ab66NczAwIpwRlyxjuJkr10lceX2XLzTVxfq+Qeg==}
     engines: {node: '>=22.12.0'}
 
-  '@renovatebot/osv-offline@2.2.1':
-    resolution: {integrity: sha512-bbU+4FVMh8CFAzfUVJ9kTPm5a9RBje8of/+bBkcE1z6/ncPsfGSNX0Z7iQLEqTCAtY5yLj9xoo8X4RoIXkjOvQ==}
+  '@renovatebot/osv-offline@2.4.0':
+    resolution: {integrity: sha512-HzDs05v0XGLJQ2myn9moJH3s8D1bIYayWjgqt+WpONuY1sm+f599fPMGbIDIZXyikMHB6V/F99T3cYVdX5dmUg==}
     engines: {node: '>=22.12.0'}
 
   '@renovatebot/pep440@4.2.2':
@@ -847,12 +847,12 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@yarnpkg/core@4.5.0':
-    resolution: {integrity: sha512-jZnEYfP05k3KpBIWlNkPEuJ3E0QLnYTNALQOH+7x8LAQyzhnN9yuLZx8Ze80Y7mlU1Hnv5wUGtzzUFn1wyBAlQ==}
+  '@yarnpkg/core@4.6.0':
+    resolution: {integrity: sha512-yzJwS9dHKLY8y81BYEC0CEB+6ajWhjHkzBRzV39y7ANIdDiGC7sC32RSHWYGi/pxhbjPKeOhksj+gITUHUjS7A==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/fslib@3.1.4':
-    resolution: {integrity: sha512-Yyguw5RM+xI1Bv0RFbs1ZF5HwU+9/He4YT7yeT722yAlLfkz9IzZHO6a5yStEshxiliPn9Fdj4H54a785xpK/g==}
+  '@yarnpkg/fslib@3.1.5':
+    resolution: {integrity: sha512-hXaPIWl5GZA+rXcx+yaKWUuePJruZuD+3A5A2X6paEBfFsyCD7oEp88lSMj1ym1ehBWUmhNH/YGOp+SrbmSBPg==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/libzip@3.2.2':
@@ -1001,8 +1001,8 @@ packages:
     resolution: {integrity: sha512-jheRLVMeUKrDBjVw2O5+k4EvR4t9wtxHL+bo/LxfkxsVeuGMy3a5SEGgXdAFA4FSzTrU8rQXQIrsZ3oBq5a0pQ==}
     engines: {node: '>=20'}
 
-  cacache@20.0.3:
-    resolution: {integrity: sha512-3pUp4e8hv07k1QlijZu6Kn7c9+ZpWWk4j3F8N3xPuCExULobqJydKYOTj1FTq58srkJsXvO7LbGAH4C0ZU3WGw==}
+  cacache@20.0.4:
+    resolution: {integrity: sha512-M3Lab8NPYlZU2exsL3bMVvMrMqgwCnMWfdZbK28bn3pK6APT/Te/I8hjRPNu1uwORY9a1eEQoifXbKPQMfMTOA==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
   cacheable-lookup@5.0.4:
@@ -1052,10 +1052,6 @@ packages:
 
   chownr@1.1.4:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
-
-  chownr@2.0.0:
-    resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
-    engines: {node: '>=10'}
 
   chownr@3.0.0:
     resolution: {integrity: sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==}
@@ -1112,8 +1108,8 @@ packages:
     resolution: {integrity: sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.13.0:
-    resolution: {integrity: sha512-M06cKwRIN46AyuM8BOmF1HUkBTkd3/h7uYImnrH1T3wtRKBGOibVo3jZ42VheEvx8LtgZbG/4GI35vfIxYxMug==}
+  cronstrue@3.14.0:
+    resolution: {integrity: sha512-XnW4vuK/jPJjmTyDWiej1Zq36Od7ITwxaV2O1pzHZuyMVvdy7NAvyvIBzybt+idqSpfqYuoDG7uf/ocGtJVWxA==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -1409,10 +1405,6 @@ packages:
     resolution: {integrity: sha512-CTXd6rk/M3/ULNQj8FBqBWHYBVYybQ3VPBw0xGKFe3tuH7ytT6ACnvzpIQ3UZtB8yvUKC2cXn1a+x+5EVQLovA==}
     engines: {node: '>=14.14'}
 
-  fs-minipass@2.1.0:
-    resolution: {integrity: sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==}
-    engines: {node: '>= 8'}
-
   fs-minipass@3.0.3:
     resolution: {integrity: sha512-XUBA9XClHbnJWSfBzjkm6RvPsyg3sryZt06BEQoXcF7EK/xpGaQYJgQKDJSUH5SGZ76Y7pFx1QBnXz09rU5Fbw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
@@ -1515,8 +1507,8 @@ packages:
   grapheme-splitter@1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
 
-  handlebars@4.7.8:
-    resolution: {integrity: sha512-vafaFqs8MZkRrSX7sFVUdo3ap/eNiLnb4IakshzvP56X5Nr1iGKAIqdX6tMlm6HcNRIkr6AxO5jFEoJzzpT8aQ==}
+  handlebars@4.7.9:
+    resolution: {integrity: sha512-4E71E0rpOaQuJR2A3xDZ+GM1HyWYv1clR58tC8emQNeQe3RH7MAzSbat+V0wG78LQBo6m6bzSG/L4pBuCsgnUQ==}
     engines: {node: '>=0.4.7'}
     hasBin: true
 
@@ -2027,17 +2019,9 @@ packages:
     resolution: {integrity: sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==}
     engines: {node: '>=8'}
 
-  minipass@5.0.0:
-    resolution: {integrity: sha512-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==}
-    engines: {node: '>=8'}
-
   minipass@7.1.3:
     resolution: {integrity: sha512-tEBHqDnIoM/1rXME1zgka9g6Q2lcoCkxHLuc7ODJ5BxbP5d4c2Z5cGgtXAku59200Cx7diuHTOYfSBD8n6mm8A==}
     engines: {node: '>=16 || 14 >=14.17'}
-
-  minizlib@2.1.2:
-    resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
-    engines: {node: '>= 8'}
 
   minizlib@3.1.0:
     resolution: {integrity: sha512-KZxYo1BUkWD2TVFLr0MQoM8vUUigWD3LlD83a/75BqC+4qE0Hb1Vo5v1FgcfaNXvfXzr+5EhQ6ing/CaBijTlw==}
@@ -2048,11 +2032,6 @@ packages:
 
   mkdirp@0.5.6:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
-    hasBin: true
-
-  mkdirp@1.0.4:
-    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
-    engines: {node: '>=10'}
     hasBin: true
 
   module-details-from-path@1.0.4:
@@ -2380,8 +2359,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.89.7:
-    resolution: {integrity: sha512-YA1gRRgGbmoZEOtc3ZlSTnLKDZSHI581JPnvdvrSTO+65MIw46pSLW2jCDet+r5H+ufxqu8XzPZe+621nmsO5w==}
+  renovate@43.99.0:
+    resolution: {integrity: sha512-RpepD+W0Qzsz/y/8NDEbdWkKRG5vBbhTyLhpF8vz9oXZha/RLjG4tpDSjrKzuI6DjvFopBs0gY8DYBJE9A1WVA==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -2617,11 +2596,6 @@ packages:
     resolution: {integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==}
     engines: {node: '>=6'}
 
-  tar@6.2.1:
-    resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
-    engines: {node: '>=10'}
-    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
-
   tar@7.5.9:
     resolution: {integrity: sha512-BTLcK0xsDh2+PUe9F6c2TlRp4zOOBMTkoQHQIWSIzI0R7KG46uEwq4OPk2W7bZcprBMsuaeFsqwYr7pjh6CuHg==}
     engines: {node: '>=18'}
@@ -2729,14 +2703,6 @@ packages:
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
 
-  unique-filename@5.0.0:
-    resolution: {integrity: sha512-2RaJTAvAb4owyjllTfXzFClJ7WsGxlykkPvCr9pA//LD9goVq+m4PPAeBgNodGZ7nSrntT/auWpJ6Y5IFXcfjg==}
-    engines: {node: ^20.17.0 || >=22.9.0}
-
-  unique-slug@6.0.0:
-    resolution: {integrity: sha512-4Lup7Ezn8W3d52/xBhZBVdx323ckxa7DEvd9kPQHppTkLoJXw6ltrBCyj5pnrxj0qKDxYMJ56CoxNuFCscdTiw==}
-    engines: {node: ^20.17.0 || >=22.9.0}
-
   unist-util-is@6.0.0:
     resolution: {integrity: sha512-2qCTHimwdxLfz+YzdGfkqNlH0tLi9xjTnHddPmJwtIG9MGsdbutfTc4P+haPD7l7Cjxf/WZj+we5qfVPvvxfYw==}
 
@@ -2827,8 +2793,8 @@ packages:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
 
-  yaml@2.8.2:
-    resolution: {integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==}
+  yaml@2.8.3:
+    resolution: {integrity: sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -3663,7 +3629,6 @@ snapshots:
   '@isaacs/fs-minipass@4.0.1':
     dependencies:
       minipass: 7.1.3
-    optional: true
 
   '@keyv/serialize@1.1.1': {}
 
@@ -3961,15 +3926,15 @@ snapshots:
       klona: 2.0.6
       moo: 0.5.2
 
-  '@renovatebot/osv-offline-db@2.2.1':
+  '@renovatebot/osv-offline-db@2.4.0':
     dependencies:
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
 
-  '@renovatebot/osv-offline@2.2.1':
+  '@renovatebot/osv-offline@2.4.0':
     dependencies:
-      '@renovatebot/osv-offline-db': 2.2.1
+      '@renovatebot/osv-offline-db': 2.4.0
       adm-zip: 0.5.16
       debug: 4.4.3
       fs-extra: 11.3.4
@@ -4425,13 +4390,13 @@ snapshots:
       '@types/node': 22.13.11
     optional: true
 
-  '@yarnpkg/core@4.5.0(typanion@3.14.0)':
+  '@yarnpkg/core@4.6.0(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.5.8
       '@types/treeify': 1.0.3
-      '@yarnpkg/fslib': 3.1.4
-      '@yarnpkg/libzip': 3.2.2(@yarnpkg/fslib@3.1.4)
+      '@yarnpkg/fslib': 3.1.5
+      '@yarnpkg/libzip': 3.2.2(@yarnpkg/fslib@3.1.5)
       '@yarnpkg/parsers': 3.0.3
       '@yarnpkg/shell': 4.1.3(typanion@3.14.0)
       camelcase: 5.3.1
@@ -4449,21 +4414,21 @@ snapshots:
       p-limit: 2.3.0
       semver: 7.7.4
       strip-ansi: 6.0.1
-      tar: 6.2.1
+      tar: 7.5.9
       tinylogic: 2.0.0
       treeify: 1.1.0
       tslib: 2.8.1
     transitivePeerDependencies:
       - typanion
 
-  '@yarnpkg/fslib@3.1.4':
+  '@yarnpkg/fslib@3.1.5':
     dependencies:
       tslib: 2.8.1
 
-  '@yarnpkg/libzip@3.2.2(@yarnpkg/fslib@3.1.4)':
+  '@yarnpkg/libzip@3.2.2(@yarnpkg/fslib@3.1.5)':
     dependencies:
       '@types/emscripten': 1.40.0
-      '@yarnpkg/fslib': 3.1.4
+      '@yarnpkg/fslib': 3.1.5
       tslib: 2.8.1
 
   '@yarnpkg/parsers@3.0.3':
@@ -4473,7 +4438,7 @@ snapshots:
 
   '@yarnpkg/shell@4.1.3(typanion@3.14.0)':
     dependencies:
-      '@yarnpkg/fslib': 3.1.4
+      '@yarnpkg/fslib': 3.1.5
       '@yarnpkg/parsers': 3.0.3
       chalk: 4.1.2
       clipanion: 4.0.0-rc.4(typanion@3.14.0)
@@ -4604,7 +4569,7 @@ snapshots:
 
   byte-counter@0.1.0: {}
 
-  cacache@20.0.3:
+  cacache@20.0.4:
     dependencies:
       '@npmcli/fs': 5.0.0
       fs-minipass: 3.0.3
@@ -4616,7 +4581,6 @@ snapshots:
       minipass-pipeline: 1.2.4
       p-map: 7.0.4
       ssri: 13.0.0
-      unique-filename: 5.0.0
 
   cacheable-lookup@5.0.4: {}
 
@@ -4674,10 +4638,7 @@ snapshots:
   chownr@1.1.4:
     optional: true
 
-  chownr@2.0.0: {}
-
-  chownr@3.0.0:
-    optional: true
+  chownr@3.0.0: {}
 
   ci-info@4.2.0: {}
 
@@ -4719,7 +4680,7 @@ snapshots:
 
   croner@10.0.1: {}
 
-  cronstrue@3.13.0: {}
+  cronstrue@3.14.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -5010,10 +4971,6 @@ snapshots:
       jsonfile: 6.1.0
       universalify: 2.0.1
 
-  fs-minipass@2.1.0:
-    dependencies:
-      minipass: 3.3.6
-
   fs-minipass@3.0.3:
     dependencies:
       minipass: 7.1.3
@@ -5170,7 +5127,7 @@ snapshots:
 
   grapheme-splitter@1.0.4: {}
 
-  handlebars@4.7.8:
+  handlebars@4.7.9:
     dependencies:
       minimist: 1.2.8
       neo-async: 2.6.2
@@ -5424,7 +5381,7 @@ snapshots:
   make-fetch-happen@15.0.3:
     dependencies:
       '@npmcli/agent': 4.0.0
-      cacache: 20.0.3
+      cacache: 20.0.4
       http-cache-semantics: 4.2.0
       minipass: 7.1.3
       minipass-fetch: 5.0.0
@@ -5850,19 +5807,11 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  minipass@5.0.0: {}
-
   minipass@7.1.3: {}
-
-  minizlib@2.1.2:
-    dependencies:
-      minipass: 3.3.6
-      yallist: 4.0.0
 
   minizlib@3.1.0:
     dependencies:
       minipass: 7.1.3
-    optional: true
 
   mkdirp-classic@0.5.3:
     optional: true
@@ -5871,8 +5820,6 @@ snapshots:
     dependencies:
       minimist: 1.2.8
     optional: true
-
-  mkdirp@1.0.4: {}
 
   module-details-from-path@1.0.4: {}
 
@@ -6260,7 +6207,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.89.7(typanion@3.14.0):
+  renovate@43.99.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -6292,12 +6239,12 @@ snapshots:
       '@redis/client': 5.11.0
       '@renovatebot/detect-tools': 1.2.9
       '@renovatebot/good-enough-parser': 1.2.0
-      '@renovatebot/osv-offline': 2.2.1
+      '@renovatebot/osv-offline': 2.4.0
       '@renovatebot/pep440': 4.2.2
       '@renovatebot/pgp': 1.3.4
       '@renovatebot/ruby-semver': 4.1.2
       '@sindresorhus/is': 7.2.0
-      '@yarnpkg/core': 4.5.0(typanion@3.14.0)
+      '@yarnpkg/core': 4.6.0(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
       ae-cvss-calculator: 1.0.11
       agentkeepalive: 4.6.0
@@ -6305,13 +6252,13 @@ snapshots:
       aws4: 1.13.2
       azure-devops-node-api: 15.1.2
       bunyan: 1.8.15
-      cacache: 20.0.3
+      cacache: 20.0.4
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
       commander: 14.0.3
       conventional-commits-detector: 1.0.3
       croner: 10.0.1
-      cronstrue: 3.13.0
+      cronstrue: 3.14.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
@@ -6333,7 +6280,7 @@ snapshots:
       google-auth-library: 10.6.2
       got: 14.6.6
       graph-data-structure: 4.5.0
-      handlebars: 4.7.8
+      handlebars: 4.7.9
       ignore: 7.0.5
       ini: 6.0.0
       json-dup-key-validator: 1.0.3
@@ -6377,7 +6324,7 @@ snapshots:
       url-join: 5.0.0
       validate-npm-package-name: 7.0.2
       xmldoc: 2.0.3
-      yaml: 2.8.2
+      yaml: 2.8.3
       zod: 4.3.6
     optionalDependencies:
       better-sqlite3: 12.8.0
@@ -6634,15 +6581,6 @@ snapshots:
       readable-stream: 3.6.2
     optional: true
 
-  tar@6.2.1:
-    dependencies:
-      chownr: 2.0.0
-      fs-minipass: 2.1.0
-      minipass: 5.0.0
-      minizlib: 2.1.2
-      mkdirp: 1.0.4
-      yallist: 4.0.0
-
   tar@7.5.9:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
@@ -6650,7 +6588,6 @@ snapshots:
       minipass: 7.1.3
       minizlib: 3.1.0
       yallist: 5.0.0
-    optional: true
 
   through2-concurrent@2.0.0:
     dependencies:
@@ -6749,14 +6686,6 @@ snapshots:
       trough: 2.2.0
       vfile: 6.0.3
 
-  unique-filename@5.0.0:
-    dependencies:
-      unique-slug: 6.0.0
-
-  unique-slug@6.0.0:
-    dependencies:
-      imurmurhash: 0.1.4
-
   unist-util-is@6.0.0:
     dependencies:
       '@types/unist': 3.0.3
@@ -6845,10 +6774,9 @@ snapshots:
 
   yallist@4.0.0: {}
 
-  yallist@5.0.0:
-    optional: true
+  yallist@5.0.0: {}
 
-  yaml@2.8.2: {}
+  yaml@2.8.3: {}
 
   yargs-parser@18.1.3:
     dependencies:
