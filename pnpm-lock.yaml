@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^43.109.5
-        version: 43.110.11(typanion@3.14.0)
+        specifier: ^43.110.12
+        version: 43.110.18(typanion@3.14.0)
 
 packages:
 
@@ -2149,8 +2149,8 @@ packages:
     resolution: {integrity: sha512-CvexbZtbov6jW2eXAvLukXjXUW1TzFaivC46BpWc/3BpcCysb5Vffu+B3XHMm8lVEuy2Mm4XGex8hBSg1yapPg==}
     engines: {node: '>=12.0.0'}
 
-  protobufjs@8.0.0:
-    resolution: {integrity: sha512-jx6+sE9h/UryaCZhsJWbJtTEy47yXoGNYI4z8ZaRncM0zBKeRqjO2JEcOUYwrYGb1WLhXM1FfMzW3annvFv0rw==}
+  protobufjs@8.0.1:
+    resolution: {integrity: sha512-NWWCCscLjs+cOKF/s/XVNFRW7Yih0fdH+9brffR5NZCy8k42yRdl5KlWKMVXuI1vfCoy4o1z80XR/W/QUb3V3w==}
     engines: {node: '>=12.0.0'}
 
   protocols@2.0.2:
@@ -2211,8 +2211,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.110.11:
-    resolution: {integrity: sha512-TWIvMmiINao4POY0C2OubSUbT9594+dnRQJO4NVUVyUtsb1awGAsXR2jdsm7NdEeh0VNV/oiKTrHachv4lsRBg==}
+  renovate@43.110.18:
+    resolution: {integrity: sha512-K+9m25Nuc+3nXEXgJzBPmS4+yscJQrrkcw9l06NQFc36/2o8DW8yXtUsOOJCyG/lRqNTqw2TElDcIIRRwbx3+w==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5709,7 +5709,7 @@ snapshots:
       '@types/node': 22.13.11
       long: 5.3.1
 
-  protobufjs@8.0.0:
+  protobufjs@8.0.1:
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/base64': 1.1.2
@@ -5818,7 +5818,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.110.11(typanion@3.14.0):
+  renovate@43.110.18(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1021.0
       '@aws-sdk/client-ec2': 3.1021.0
@@ -5913,7 +5913,7 @@ snapshots:
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
       prettier: 3.8.1
-      protobufjs: 8.0.0
+      protobufjs: 8.0.1
       punycode: 2.3.1
       remark: 15.0.1
       remark-gfm: 4.0.1
