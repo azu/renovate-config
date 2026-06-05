@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^43.207.4
-        version: 43.207.4(typanion@3.14.0)
+        specifier: ^43.209.1
+        version: 43.213.3(typanion@3.14.0)
 
 packages:
 
@@ -1392,8 +1392,8 @@ packages:
     resolution: {integrity: sha512-wI9Nui/L8VfADa/cr/7NQruaASk1k23/Uh1khQ02BCVYiiy8F4AhOGnQzJy3Fl/c44GnYSbZHv8g7EcG3kJ1Qg==}
     engines: {node: '>=20'}
 
-  lru-cache@11.5.0:
-    resolution: {integrity: sha512-5YgH9UJd7wVb9hIouI2adWpgqrrICkt070Dnj8EUY1+B4B2P9eRLPAkAAo6NICA7CEhOIeBHl46u9zSNpNu7zA==}
+  lru-cache@11.5.1:
+    resolution: {integrity: sha512-RPimw/7aMdv2oqRrxKwvZXcPfwBrn/JZ2xYcY9Hus/6LaS3VOAKVWKWgNLCFSiOm1ESXinjsDlidVU7JlnCN2A==}
     engines: {node: 20 || >=22}
 
   luxon@3.7.2:
@@ -1854,8 +1854,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.207.4:
-    resolution: {integrity: sha512-tf3e4YmFZV5LBvY84Qw08Mz2w6d9ehI+OpSGIk4R5c7nH7JA6Jjdm8ntCqaQ6cwJRhtwWvkM9r0JAGYhbfhJPA==}
+  renovate@43.213.3:
+    resolution: {integrity: sha512-mt1epuF2Ww6CcsEQHx0Qvj4AggeQ7xxd+K/peWXGdjQs6lRR1oSjs3/yDlp1AZBybmnboETji1nKuN2z/QFbdA==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3223,7 +3223,7 @@ snapshots:
       '@npmcli/fs': 5.0.0
       fs-minipass: 3.0.3
       glob: 13.0.6
-      lru-cache: 11.5.0
+      lru-cache: 11.5.1
       minipass: 7.1.3
       minipass-collect: 2.0.1
       minipass-flush: 1.0.5
@@ -3910,7 +3910,7 @@ snapshots:
 
   lowercase-keys@4.0.1: {}
 
-  lru-cache@11.5.0: {}
+  lru-cache@11.5.1: {}
 
   luxon@3.7.2: {}
 
@@ -4440,7 +4440,7 @@ snapshots:
 
   path-scurry@2.0.2:
     dependencies:
-      lru-cache: 11.5.0
+      lru-cache: 11.5.1
       minipass: 7.1.3
 
   picocolors@1.1.1: {}
@@ -4536,7 +4536,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.207.4(typanion@3.14.0):
+  renovate@43.213.3(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
@@ -4617,7 +4617,7 @@ snapshots:
       jsonata: 2.2.1
       jsonc-weaver: 0.2.4
       klona: 2.0.6
-      lru-cache: 11.5.0
+      lru-cache: 11.5.1
       luxon: 3.7.2
       markdown-it: 14.2.0
       markdown-table: 3.0.4
