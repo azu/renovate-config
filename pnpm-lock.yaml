@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^43.249.5
-        version: 43.249.5(typanion@3.14.0)
+        specifier: ^43.249.7
+        version: 43.252.1(typanion@3.14.0)
 
 packages:
 
@@ -418,12 +418,12 @@ packages:
     resolution: {integrity: sha512-FBLawccaWOPwqXgMSB3FTp1VTfGJWSTTXY2Q3kWPoLYOpKYBr3V37vtqFLjb5wUFkrXN2Sj+S840JXKfHwy8Rg==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
 
-  '@renovatebot/osv-offline-db@3.0.4':
-    resolution: {integrity: sha512-VUwjP52OTICceWXjl2rVhMuNbBSuqsAVwgHpPXio6Kios0qUHsk7lKORt9bchat3BIFBf9tf7C1EiUEeoP5QYg==}
+  '@renovatebot/osv-offline-db@3.0.5':
+    resolution: {integrity: sha512-AGHe9dqmidu3ccckMXE8o5eI/eJvxflLr9u9rxBwNKb26NhQv0vTnm/TxOk6IRbsTdZWKHeWuCnyPhdVN8pJKw==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
 
-  '@renovatebot/osv-offline@3.0.4':
-    resolution: {integrity: sha512-O2GzqECIyNA3PMAqb/4Ez/n4PmEu54g8iEkteTHKaNYN2GKDwzp6UXA8sYqH+8qy/jbpQed1sKFimu0Z5iQ2Sg==}
+  '@renovatebot/osv-offline@3.0.5':
+    resolution: {integrity: sha512-RRg90Cce+A7tAmdbREZjVhSqgDFHYGm8qFnIwJOanozswfHpVk57yg7SSF11RjzGMpBV9j3HvgjtTYkMGCXMOg==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
 
   '@renovatebot/pep440@5.0.0':
@@ -612,8 +612,8 @@ packages:
     resolution: {integrity: sha512-+Ut8d9LLqwEvHHJl1+PIHqoyDxFgVN847JTVM3Izi3xHDWPE4UtzzXysMZQs64DMcrJfBeS/uoEP4AD3HQHnQQ==}
     engines: {node: '>=12.0'}
 
-  ae-cvss-calculator@1.0.12:
-    resolution: {integrity: sha512-YVO+dhb8sZubNeL9pqSlN5hyZGC8hkAwnThnd3EimUGZtJEMeuy4kMb7zMCAsBiMr/RxklH0oY7DCsFV/B7peg==}
+  ae-cvss-calculator@1.0.13:
+    resolution: {integrity: sha512-QnPO1O5gZ/1NM+X4fbfqN/y5rImEZ8CSkbSk7Arv4RrmxPzxLXr9RSLmsQJykDtXFUXn9wHLxC0/fe/pO78t3w==}
 
   agent-base@7.1.3:
     resolution: {integrity: sha512-jRR5wdylq8CkOe6hei19GGZnxM6rBGwFl3Bg0YItGDimvjGtAvdZk4Pu6Cl4u4Igsws4a1fd1Vq3ezrhn4KmFw==}
@@ -1106,8 +1106,8 @@ packages:
     resolution: {integrity: sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==}
     engines: {node: '>= 0.4'}
 
-  google-auth-library@10.7.0:
-    resolution: {integrity: sha512-QpTAbNJ36TliZLx3TTtahR8HG0hN9RllL1e3FymOvQSIKK8JmgV58H924ub2wa2DsS3ANjjP1Aw1N+Ramc8hqQ==}
+  google-auth-library@10.9.0:
+    resolution: {integrity: sha512-xtvUqvINPhTaBm7nXqlYPcrMHJPm1lCNdSovxnKKhTm+4JsvQ+KGVYJViLoH9Yxu8w+T0Qv5HubzYT9BLrppJg==}
     engines: {node: '>=18'}
 
   google-logging-utils@1.1.3:
@@ -1822,8 +1822,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.249.5:
-    resolution: {integrity: sha512-iRDK2v8iDhqXYQq/7nzrW7c9/A5a/MWHqxf7KAznBXE3EGjEr2Dil/LomY/K6DylCH9705HeWATfH55n7j36MA==}
+  renovate@43.252.1:
+    resolution: {integrity: sha512-VMp8vXuiK5G2/rEInBZXj7M/hth4MG3URL4dyp0/iRYboRkqQ8t2Fmru6B59qk6gQ5+N6Wm4YwYSPGvzefAzhA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2803,15 +2803,15 @@ snapshots:
       klona: 2.0.6
       moo: 0.5.3
 
-  '@renovatebot/osv-offline-db@3.0.4':
+  '@renovatebot/osv-offline-db@3.0.5':
     dependencies:
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
 
-  '@renovatebot/osv-offline@3.0.4':
+  '@renovatebot/osv-offline@3.0.5':
     dependencies:
-      '@renovatebot/osv-offline-db': 3.0.4
+      '@renovatebot/osv-offline-db': 3.0.5
       adm-zip: 0.5.17
       debug: 4.4.3
       fs-extra: 11.3.5
@@ -3045,7 +3045,7 @@ snapshots:
 
   adm-zip@0.5.17: {}
 
-  ae-cvss-calculator@1.0.12: {}
+  ae-cvss-calculator@1.0.13: {}
 
   agent-base@7.1.3: {}
 
@@ -3550,7 +3550,7 @@ snapshots:
       define-properties: 1.2.1
       gopd: 1.2.0
 
-  google-auth-library@10.7.0:
+  google-auth-library@10.9.0:
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
@@ -4430,7 +4430,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.249.5(typanion@3.14.0):
+  renovate@43.252.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -4462,7 +4462,7 @@ snapshots:
       '@redis/client': 5.12.1(@opentelemetry/api@1.9.1)
       '@renovatebot/detect-tools': 4.0.8
       '@renovatebot/good-enough-parser': 2.0.1
-      '@renovatebot/osv-offline': 3.0.4
+      '@renovatebot/osv-offline': 3.0.5
       '@renovatebot/pep440': 5.0.0
       '@renovatebot/pgp': 1.3.14
       '@renovatebot/ruby-semver': 5.0.0
@@ -4470,7 +4470,7 @@ snapshots:
       '@yarnpkg/core': 4.9.0(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
       adm-zip: 0.5.17
-      ae-cvss-calculator: 1.0.12
+      ae-cvss-calculator: 1.0.13
       agentkeepalive: 4.6.0
       async-mutex: 0.5.0
       aws4: 1.13.2
@@ -4499,7 +4499,7 @@ snapshots:
       github-url-from-git: 1.5.0
       glob: 13.0.6
       global-agent: 3.0.0
-      google-auth-library: 10.7.0
+      google-auth-library: 10.9.0
       got: 14.6.6
       graph-data-structure: 4.5.0
       handlebars: 4.7.9
