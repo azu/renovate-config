@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^43.260.2
-        version: 43.260.2(typanion@3.14.0)
+        specifier: ^43.260.3
+        version: 43.265.2(typanion@3.14.0)
 
 packages:
 
@@ -337,8 +337,8 @@ packages:
     peerDependencies:
       '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
-  '@opentelemetry/semantic-conventions@1.41.1':
-    resolution: {integrity: sha512-/UhIkaZgPutTFmQ7RnIJGgDXZmtEJ7Dvi86xNTFWcnRxVRNk/aotsqDJYeEvDP+FSMB2SdW+pQzNMcWP0rwuNA==}
+  '@opentelemetry/semantic-conventions@1.42.0':
+    resolution: {integrity: sha512-icc5xCzndZfhuJMy5oqk5AvloWquR7jtae74qzpkKkhGp8BivK+oCcEXgGnjCdTfp8hA44l+w8gE8yYJbocJJw==}
     engines: {node: '>=14'}
 
   '@pnpm/catalogs.protocol-parser@1001.0.0':
@@ -436,8 +436,8 @@ packages:
     resolution: {integrity: sha512-91cFM32/pnOAvC7W1W1kPPI9QM2y6OrYCeomz7pop4A+3Ksh2XnZXGznUMlzR7YbOQlg7X/MNlF27s9Yt9hhTA==}
     engines: {node: ^22.11.0 || >=24.10.0, pnpm: '>=10.0.0'}
 
-  '@renovatebot/pgp@1.3.15':
-    resolution: {integrity: sha512-rc2pNUl/TANBRjJvSs12yPAavYh2n631G0Ops0EukXONkFOsIFTh4LnII6bG9yQY9qydrMkNxTBGhVxzN+XD3Q==}
+  '@renovatebot/pgp@1.3.16':
+    resolution: {integrity: sha512-NUWzQDyHNfmlR3fpssNbvkQZj3abYPeGYqK+Vef84dVylZrrZgPmmRnww3FwSinV6fMTStzo/PY6mjNejiAN5w==}
     engines: {node: ^22.11.0 || >=24.10.0, pnpm: '>=10.0.0'}
 
   '@renovatebot/ruby-semver@5.0.0':
@@ -1218,8 +1218,8 @@ packages:
     resolution: {integrity: sha512-IBTdIkzZNOpqm7q3dRqJvMaldXjDHWkEDfrwGEQTs5eaQMWV+djAhR+wahyNNMAa+qpbDUhBMVt4ZKNwpPm7xQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
-  install-artifact-from-github@1.6.0:
-    resolution: {integrity: sha512-wKsuzN8fy8QK7iEUqyWTQmvZ1QFGPn1xyl3/1iIIDthDjS7Hn9HoPwHlNakZirWbCsbad0lZMkr6Xfbpe1pUzw==}
+  install-artifact-from-github@1.7.0:
+    resolution: {integrity: sha512-qAb91yAKVF9rFY4rVP21ZtYUyCScxAFt9udwzVWNLBE1pQcdQeB2gd1HlNPcQNYCzCDvJ/QJQPuWQ6aTmSlU8g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1365,8 +1365,8 @@ packages:
     resolution: {integrity: sha512-wI9Nui/L8VfADa/cr/7NQruaASk1k23/Uh1khQ02BCVYiiy8F4AhOGnQzJy3Fl/c44GnYSbZHv8g7EcG3kJ1Qg==}
     engines: {node: '>=20'}
 
-  lru-cache@11.5.1:
-    resolution: {integrity: sha512-RPimw/7aMdv2oqRrxKwvZXcPfwBrn/JZ2xYcY9Hus/6LaS3VOAKVWKWgNLCFSiOm1ESXinjsDlidVU7JlnCN2A==}
+  lru-cache@11.5.2:
+    resolution: {integrity: sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==}
     engines: {node: 20 || >=22}
 
   luxon@3.7.2:
@@ -1773,8 +1773,8 @@ packages:
     resolution: {integrity: sha512-FYgfaA69XZ93zaXLoMNQ+ViDXGGBgR8aLh03txzcFhV+9xOXx7+8DLCULrKKpR9+GsH9ZfHm82aSUPpozX0Ztg==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
-  protobufjs@8.6.6:
-    resolution: {integrity: sha512-RkLIhE+Tdc2Kpq1F4Uw6OnpAXPca7B+GSDov/GqGCqNBpVyDskQ9yReZfgM+C7xw9AAix873iQZXbBWXj6NzYQ==}
+  protobufjs@8.7.0:
+    resolution: {integrity: sha512-uu52JNxLh3vsL7tXU/h0gDaywufvuUCTbGSi0NKQKBZ2ZopkmrWQJSQO/EFqzu/5YhiwgVM8rq/a/iVpx4eZ0g==}
     engines: {node: '>=12.0.0'}
 
   protocols@2.0.2:
@@ -1802,8 +1802,8 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
 
-  re2@1.25.0:
-    resolution: {integrity: sha512-mtxKjWS+VYIt2ijgt6ohEdwzNlGPom1whyaEKJD40cBc/wqkO1vJoOyK539Qb8Xa9m4GA6hiPGDIbW/d3egSRQ==}
+  re2@1.26.0:
+    resolution: {integrity: sha512-QTEfFp0nu1eT/HKKZC+2BKM9Lb8uqprGkcHhro9r3giiKS+1SnNZBZ1m7C7Axi/VR1YGXiu3mp35UA53yHAuNw==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   read-yaml-file@2.1.0:
@@ -1828,8 +1828,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.260.2:
-    resolution: {integrity: sha512-3iSqhrnWhkFaSW1LWP1/cbhHcSvFy8fjOmuPhifndCSr+GHBNm9sNlW/ETJS8H4qEYTF2WD/xZznRHG3DxS9BA==}
+  renovate@43.265.2:
+    resolution: {integrity: sha512-JOAU8m0zub9i4Q9z7/KP3JUqtlnZR9hsJ6yWtDAWvvzb+LXWAQLOmJY7Pwm3VLmZzeljeQBDfDEgSmOec1J1ug==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2587,7 +2587,7 @@ snapshots:
   '@opentelemetry/core@2.9.0(@opentelemetry/api@1.9.1)':
     dependencies:
       '@opentelemetry/api': 1.9.1
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
 
   '@opentelemetry/exporter-trace-otlp-http@0.220.0(@opentelemetry/api@1.9.1)':
     dependencies:
@@ -2603,7 +2603,7 @@ snapshots:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/api-logs': 0.220.0
       '@opentelemetry/instrumentation': 0.220.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
       '@types/bunyan': 1.8.11
     transitivePeerDependencies:
       - supports-color
@@ -2613,7 +2613,7 @@ snapshots:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/core': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/instrumentation': 0.220.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
       forwarded-parse: 2.1.2
     transitivePeerDependencies:
       - supports-color
@@ -2623,7 +2623,7 @@ snapshots:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/instrumentation': 0.220.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/redis-common': 0.38.3
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
     transitivePeerDependencies:
       - supports-color
 
@@ -2659,14 +2659,14 @@ snapshots:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/core': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resources': 2.9.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
 
   '@opentelemetry/resource-detector-azure@0.28.0(@opentelemetry/api@1.9.1)':
     dependencies:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/core': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resources': 2.9.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
 
   '@opentelemetry/resource-detector-gcp@0.55.0(@opentelemetry/api@1.9.1)':
     dependencies:
@@ -2686,7 +2686,7 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/core': 2.9.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
 
   '@opentelemetry/sdk-logs@0.220.0(@opentelemetry/api@1.9.1)':
     dependencies:
@@ -2694,7 +2694,7 @@ snapshots:
       '@opentelemetry/api-logs': 0.220.0
       '@opentelemetry/core': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resources': 2.9.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
 
   '@opentelemetry/sdk-metrics@2.9.0(@opentelemetry/api@1.9.1)':
     dependencies:
@@ -2708,7 +2708,7 @@ snapshots:
       '@opentelemetry/core': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resources': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/sdk-trace': 2.9.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
 
   '@opentelemetry/sdk-trace-node@2.9.0(@opentelemetry/api@1.9.1)':
     dependencies:
@@ -2722,9 +2722,9 @@ snapshots:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/core': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resources': 2.9.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
 
-  '@opentelemetry/semantic-conventions@1.41.1': {}
+  '@opentelemetry/semantic-conventions@1.42.0': {}
 
   '@pnpm/catalogs.protocol-parser@1001.0.0': {}
 
@@ -2837,7 +2837,7 @@ snapshots:
 
   '@renovatebot/pep440@5.0.0': {}
 
-  '@renovatebot/pgp@1.3.15': {}
+  '@renovatebot/pgp@1.3.16': {}
 
   '@renovatebot/ruby-semver@5.0.0': {}
 
@@ -3146,7 +3146,7 @@ snapshots:
       '@npmcli/fs': 5.0.0
       fs-minipass: 3.0.3
       glob: 13.0.6
-      lru-cache: 11.5.1
+      lru-cache: 11.5.2
       minipass: 7.1.3
       minipass-collect: 2.0.1
       minipass-flush: 1.0.5
@@ -3701,7 +3701,7 @@ snapshots:
 
   ini@6.0.0: {}
 
-  install-artifact-from-github@1.6.0:
+  install-artifact-from-github@1.7.0:
     optional: true
 
   is-arrayish@0.2.1: {}
@@ -3821,7 +3821,7 @@ snapshots:
 
   lowercase-keys@4.0.1: {}
 
-  lru-cache@11.5.1: {}
+  lru-cache@11.5.2: {}
 
   luxon@3.7.2: {}
 
@@ -4349,7 +4349,7 @@ snapshots:
 
   path-scurry@2.0.2:
     dependencies:
-      lru-cache: 11.5.1
+      lru-cache: 11.5.2
       minipass: 7.1.3
 
   picocolors@1.1.1: {}
@@ -4364,7 +4364,7 @@ snapshots:
   proc-log@7.0.0:
     optional: true
 
-  protobufjs@8.6.6:
+  protobufjs@8.7.0:
     dependencies:
       long: 5.3.2
 
@@ -4387,9 +4387,9 @@ snapshots:
 
   quick-lru@5.1.1: {}
 
-  re2@1.25.0:
+  re2@1.26.0:
     dependencies:
-      install-artifact-from-github: 1.6.0
+      install-artifact-from-github: 1.7.0
       nan: 2.27.0
       node-gyp: 13.0.0
     optional: true
@@ -4445,7 +4445,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.260.2(typanion@3.14.0):
+  renovate@43.265.2(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -4471,7 +4471,7 @@ snapshots:
       '@opentelemetry/resources': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/sdk-trace-base': 2.9.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/sdk-trace-node': 2.9.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.41.1
+      '@opentelemetry/semantic-conventions': 1.42.0
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 5.12.1(@opentelemetry/api@1.9.1)
@@ -4479,7 +4479,7 @@ snapshots:
       '@renovatebot/good-enough-parser': 2.0.1
       '@renovatebot/osv-offline': 3.0.8
       '@renovatebot/pep440': 5.0.0
-      '@renovatebot/pgp': 1.3.15
+      '@renovatebot/pgp': 1.3.16
       '@renovatebot/ruby-semver': 5.0.0
       '@sindresorhus/is': 8.1.0
       '@yarnpkg/core': 4.9.0(typanion@3.14.0)
@@ -4526,7 +4526,7 @@ snapshots:
       jsonata: 2.2.1
       jsonc-weaver: 0.2.4
       klona: 2.0.6
-      lru-cache: 11.5.1
+      lru-cache: 11.5.2
       luxon: 3.7.2
       markdown-it: 14.3.0
       markdown-table: 3.0.4
@@ -4541,7 +4541,7 @@ snapshots:
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
       prettier: 3.8.1
-      protobufjs: 8.6.6
+      protobufjs: 8.7.0
       punycode: 2.3.1
       remark: 15.0.1
       remark-gfm: 4.0.1
@@ -4566,7 +4566,7 @@ snapshots:
       zod: 4.4.3
     optionalDependencies:
       openpgp: 6.3.1
-      re2: 1.25.0
+      re2: 1.26.0
     transitivePeerDependencies:
       - '@node-rs/xxhash'
       - '@openpgp/web-stream-tools'
