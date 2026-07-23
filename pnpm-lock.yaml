@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^43.272.0
-        version: 43.272.0(typanion@3.14.0)
+        specifier: ^43.272.4
+        version: 43.278.5(typanion@3.14.0)
 
 packages:
 
@@ -1773,8 +1773,8 @@ packages:
     resolution: {integrity: sha512-FYgfaA69XZ93zaXLoMNQ+ViDXGGBgR8aLh03txzcFhV+9xOXx7+8DLCULrKKpR9+GsH9ZfHm82aSUPpozX0Ztg==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
-  protobufjs@8.7.0:
-    resolution: {integrity: sha512-uu52JNxLh3vsL7tXU/h0gDaywufvuUCTbGSi0NKQKBZ2ZopkmrWQJSQO/EFqzu/5YhiwgVM8rq/a/iVpx4eZ0g==}
+  protobufjs@8.7.1:
+    resolution: {integrity: sha512-agdGHrXNTv0IrYscJPDou/PlEJk1c/hBZ9o/B5NH2i/nSPtPqacNxzgwf1CebXxFMjMrZH5sqv9uQuw96aGt/A==}
     engines: {node: '>=12.0.0'}
 
   protocols@2.0.2:
@@ -1828,8 +1828,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.272.0:
-    resolution: {integrity: sha512-RFeqkFIW4HbDD07g1lY4iJKC/6t5X7QWdk2ITBjk5zbs2QFMfE+LtZ/yZu+AxUJlBHtnMplvGMtM7aypJTiG9Q==}
+  renovate@43.278.5:
+    resolution: {integrity: sha512-FeqFT9o6XTsgFn4RupCZ//87FdYkb/tLqQh2zJ6pV3tSLVI7OE5wPdjmKBrQzkG7N1opqtz82HKHHhGGojHfzA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -4364,7 +4364,7 @@ snapshots:
   proc-log@7.0.0:
     optional: true
 
-  protobufjs@8.7.0:
+  protobufjs@8.7.1:
     dependencies:
       long: 5.3.2
 
@@ -4445,7 +4445,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.272.0(typanion@3.14.0):
+  renovate@43.278.5(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -4464,6 +4464,7 @@ snapshots:
       '@opentelemetry/instrumentation-bunyan': 0.65.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/instrumentation-http': 0.220.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/instrumentation-redis': 0.68.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/otlp-transformer': 0.220.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resource-detector-aws': 2.20.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resource-detector-azure': 0.28.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/resource-detector-gcp': 0.55.0(@opentelemetry/api@1.9.1)
@@ -4541,7 +4542,7 @@ snapshots:
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
       prettier: 3.8.1
-      protobufjs: 8.7.0
+      protobufjs: 8.7.1
       punycode: 2.3.1
       remark: 15.0.1
       remark-gfm: 4.0.1
