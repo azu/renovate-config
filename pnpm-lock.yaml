@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.2.3
+        specifier: ^44.4.5
         version: 44.6.0(typanion@3.14.0)
 
 packages:
@@ -2697,7 +2697,7 @@ snapshots:
 
   '@renovatebot/detect-tools@4.0.10':
     dependencies:
-      fs-extra: 11.3.6
+      fs-extra: 11.4.0
       toml-eslint-parser: 1.0.3
       upath: 3.0.8
       zod: 4.4.3
