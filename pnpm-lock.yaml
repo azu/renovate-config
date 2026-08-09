@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.13.2
+        specifier: ^44.13.3
         version: 44.14.12(typanion@3.14.0)
 
 packages:
@@ -1231,10 +1231,6 @@ packages:
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
-  js-yaml@4.1.0:
-    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
-    hasBin: true
 
   js-yaml@4.3.1:
     resolution: {integrity: sha512-CY6crGq313MX8GkwvB7tzgp99vjQxY1++5y10/BKN/GUfHqWaOGQMNZkBvqSzsZKWk/ijwHlWzzkLulsGHhjWQ==}
@@ -3598,10 +3594,6 @@ snapshots:
 
   js-tokens@4.0.0: {}
 
-  js-yaml@4.1.0:
-    dependencies:
-      argparse: 2.0.1
-
   js-yaml@4.3.1:
     dependencies:
       argparse: 2.0.1
@@ -4254,7 +4246,7 @@ snapshots:
 
   read-yaml-file@2.1.0:
     dependencies:
-      js-yaml: 4.1.0
+      js-yaml: 4.3.1
       strip-bom: 4.0.0
 
   regenerator-runtime@0.14.1: {}
@@ -4735,7 +4727,7 @@ snapshots:
 
   write-yaml-file@4.2.0:
     dependencies:
-      js-yaml: 4.1.0
+      js-yaml: 4.3.1
       write-file-atomic: 3.0.3
 
   xmldoc@2.0.3:
