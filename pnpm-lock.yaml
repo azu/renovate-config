@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.30.3
-        version: 44.30.3(typanion@3.14.0)
+        specifier: ^44.30.4
+        version: 44.33.2(typanion@3.14.0)
 
 packages:
 
@@ -411,8 +411,8 @@ packages:
     resolution: {integrity: sha512-91cFM32/pnOAvC7W1W1kPPI9QM2y6OrYCeomz7pop4A+3Ksh2XnZXGznUMlzR7YbOQlg7X/MNlF27s9Yt9hhTA==}
     engines: {node: ^22.11.0 || >=24.10.0, pnpm: '>=10.0.0'}
 
-  '@renovatebot/pgp@1.3.16':
-    resolution: {integrity: sha512-NUWzQDyHNfmlR3fpssNbvkQZj3abYPeGYqK+Vef84dVylZrrZgPmmRnww3FwSinV6fMTStzo/PY6mjNejiAN5w==}
+  '@renovatebot/pgp@1.3.17':
+    resolution: {integrity: sha512-iDx7AR53Xhz6PfYEdIoiPYWq5KAvVjGUk0zVJ4U6CchbbTvSKuJ3nRLKsgA8sFKZTTuSlJLkqcL8peimkiZ27g==}
     engines: {node: ^22.11.0 || >=24.10.0, pnpm: '>=10.0.0'}
 
   '@renovatebot/ruby-semver@5.0.0':
@@ -1263,11 +1263,11 @@ packages:
     resolution: {integrity: sha512-xd1uwUrKeIcJbsWhaoS3qAX4Ea8m0Mw0G5nlnAQvPT7TbZ5qaPdzBVTQia9KfyuyQm+nenfyjvzUDTRYHsC2sw==}
     engines: {node: '>= 8'}
 
-  jsonc-morph@0.3.3:
-    resolution: {integrity: sha512-YljoHRXfZacx4utaktqGlz8p9xJJaV12WxciEpf4+g+8jVk0QNmxpxStkXVwjTnJZr9EAK4TT5TzdCO5M2i7rw==}
+  jsonc-morph@0.3.5:
+    resolution: {integrity: sha512-48t3FzTaEcePC0xKtadykUy7iqMx9fpxzigbi0YtNdEiPXUr7CoM1rfyBUKg0HW167eaG0EENdjc8aowa1TMvQ==}
 
-  jsonc-weaver@0.2.4:
-    resolution: {integrity: sha512-aIKK8SOg+TdBdeML4MB++phUEdS7KWZxuaPPjxUSat8Kc/2A+2AoxmAGhvbVajNjqsgSX4dhjfCJq3QlE/NSCg==}
+  jsonc-weaver@0.3.1:
+    resolution: {integrity: sha512-a6e90+Hn5e+l7i6MC2YJ57TE6nv9gDKFyCLBIVKt0Jdv48lUBEV7StnnuwC0Y+sjnux41cnPlHJl65DH4+d9eA==}
 
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
@@ -1727,8 +1727,8 @@ packages:
     resolution: {integrity: sha512-FYgfaA69XZ93zaXLoMNQ+ViDXGGBgR8aLh03txzcFhV+9xOXx7+8DLCULrKKpR9+GsH9ZfHm82aSUPpozX0Ztg==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
-  protobufjs@8.7.1:
-    resolution: {integrity: sha512-agdGHrXNTv0IrYscJPDou/PlEJk1c/hBZ9o/B5NH2i/nSPtPqacNxzgwf1CebXxFMjMrZH5sqv9uQuw96aGt/A==}
+  protobufjs@8.7.2:
+    resolution: {integrity: sha512-oTVHV+oelUBtiu5iTuTNNZ0eLYsXSMxry4cgr30mayNkgIZL6qZ0IOQVPuSWGcyAaXKl/XgqwWHIC3a0khYVBA==}
     engines: {node: '>=12.0.0'}
 
   protocols@2.0.2:
@@ -1782,8 +1782,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.30.3:
-    resolution: {integrity: sha512-2ZHb2su4asCqmRIp1b3gdYDjyASci3xMLV7wdZHmxfq4FQh4reqFpWkXs8PfHIVZvcTioLw/B62W43Xg829nBA==}
+  renovate@44.33.2:
+    resolution: {integrity: sha512-rmMaQH4jTLrVZKCYehHr2k8baYqhtoNepLHhnQ+vva8cuFbcM7PUNOJFrlXBZE/Srqv+Ck5g4Xw7yfkEBFXvSw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2719,7 +2719,7 @@ snapshots:
 
   '@renovatebot/pep440@5.0.0': {}
 
-  '@renovatebot/pgp@1.3.16': {}
+  '@renovatebot/pgp@1.3.17': {}
 
   '@renovatebot/ruby-semver@5.0.0': {}
 
@@ -3625,11 +3625,11 @@ snapshots:
 
   jsonata@2.2.1: {}
 
-  jsonc-morph@0.3.3: {}
+  jsonc-morph@0.3.5: {}
 
-  jsonc-weaver@0.2.4:
+  jsonc-weaver@0.3.1:
     dependencies:
-      jsonc-morph: 0.3.3
+      jsonc-morph: 0.3.5
 
   jsonfile@6.1.0:
     dependencies:
@@ -4223,7 +4223,7 @@ snapshots:
   proc-log@7.0.0:
     optional: true
 
-  protobufjs@8.7.1:
+  protobufjs@8.7.2:
     dependencies:
       long: 5.3.2
 
@@ -4304,7 +4304,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.30.3(typanion@3.14.0):
+  renovate@44.33.2(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1095.0
       '@aws-sdk/client-ec2': 3.1095.0
@@ -4339,7 +4339,7 @@ snapshots:
       '@renovatebot/good-enough-parser': 2.0.1
       '@renovatebot/osv-offline': 3.0.10
       '@renovatebot/pep440': 5.0.0
-      '@renovatebot/pgp': 1.3.16
+      '@renovatebot/pgp': 1.3.17
       '@renovatebot/ruby-semver': 5.0.0
       '@sindresorhus/is': 8.1.0
       '@yarnpkg/core': 4.9.1(typanion@3.14.0)
@@ -4384,7 +4384,7 @@ snapshots:
       json-stringify-pretty-compact: 4.0.0
       json5: 2.2.3
       jsonata: 2.2.1
-      jsonc-weaver: 0.2.4
+      jsonc-weaver: 0.3.1
       klona: 2.0.6
       lru-cache: 11.5.2
       luxon: 3.7.2
@@ -4401,7 +4401,7 @@ snapshots:
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
       prettier: 3.8.1
-      protobufjs: 8.7.1
+      protobufjs: 8.7.2
       punycode: 2.3.1
       remark: 15.0.1
       remark-gfm: 4.0.1
