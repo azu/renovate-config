@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.103.7
-        version: 44.105.4(typanion@3.14.0)
+        specifier: ^44.106.0
+        version: 44.115.1(typanion@3.14.0)
 
 packages:
 
@@ -465,8 +465,8 @@ packages:
     resolution: {integrity: sha512-KmMz+X68YvrS6aN6TJWtDiH8aCIL2Igcvceh17STHxMUN3KxXsC24COoOXjMOl/Gb+okBwwduMm8PY/WY/0Cpg==}
     engines: {node: ^22.11.0 || >=24.10.0, pnpm: '>=10.0.0'}
 
-  '@renovatebot/pgp@2.0.1':
-    resolution: {integrity: sha512-aOnsCaPCF+xBCqNv9ru5Yo/e18lPMrXgXDOWkFZCmG+7syrRYaRTglE5vut1m2jAxlkYT4P6fAu4GD2MjH88Zw==}
+  '@renovatebot/pgp@2.0.2':
+    resolution: {integrity: sha512-wAQXq8yQYm94slVEMRTIyGgNF04kyg++N1hmrmDwynoW0mQyL95UXY/NnkaKYIpm7+JyoXQDUKW1Yx6lwt7U6Q==}
     engines: {node: '>=24.10.0', pnpm: '>=10.0.0'}
 
   '@renovatebot/ruby-semver@5.0.0':
@@ -830,8 +830,8 @@ packages:
     resolution: {integrity: sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.26.0:
-    resolution: {integrity: sha512-PEXTHEir/KllAWMsOQOsv3ZXjI6Y1PA1eVAEM/WhCaesAcCYHldra9pr2jkFH6r/ynbEOAPOGoWYz9NkjP0huA==}
+  cronstrue@3.27.0:
+    resolution: {integrity: sha512-AKhV4ilvx73NmicrZCGASdszUIf2ew0A/6jQQTh4pu3lIUzgWOGjT3Gv3CGIcTQ/p8Qy/tZuCmlaOftj8PXaNg==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -1145,8 +1145,8 @@ packages:
     resolution: {integrity: sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==}
     engines: {node: '>= 0.4'}
 
-  google-auth-library@11.0.2:
-    resolution: {integrity: sha512-vzpgPutxrghPsnjrjpzLX2bdv8IOL719Rh0oEjGnQu8YCIbnbMuTTQ5zU9LcKvLdOPgCxBwppbvnhgW90Qna5Q==}
+  google-auth-library@11.1.0:
+    resolution: {integrity: sha512-YIBq5KNoHQrZ9PM4PeodDBqqBGlSTIxh1zibN8u3zNIO9UJg8gvKuCpdKV7fWXhsZ2zRkU6FhGrgKNgLJ2IRgw==}
     engines: {node: '>=22'}
 
   google-logging-utils@1.1.3:
@@ -1799,8 +1799,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1867,8 +1867,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.105.4:
-    resolution: {integrity: sha512-W73OHO7vRgxgy8Tnu47MEwlvR31wa5h9MaDa6DO0dPyTHEZervPd6XXyRBXjB2A8tAgrQ8IiSX87BsnRDA1RJw==}
+  renovate@44.115.1:
+    resolution: {integrity: sha512-ro3Gg8fY0+45D3d5VQTKVb01Y9wn4nZdGyUaXaCp9JcqkIxkL9uYY8fbLSM/kMLyp/3RyNNPQSKoTDnQ85VP0Q==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2880,7 +2880,7 @@ snapshots:
 
   '@renovatebot/pep440@5.0.1': {}
 
-  '@renovatebot/pgp@2.0.1': {}
+  '@renovatebot/pgp@2.0.2': {}
 
   '@renovatebot/ruby-semver@5.0.0': {}
 
@@ -3267,7 +3267,7 @@ snapshots:
 
   croner@10.0.1: {}
 
-  cronstrue@3.26.0: {}
+  cronstrue@3.27.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -3608,7 +3608,7 @@ snapshots:
       define-properties: 1.2.1
       gopd: 1.2.0
 
-  google-auth-library@11.0.2:
+  google-auth-library@11.1.0:
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
@@ -4399,7 +4399,7 @@ snapshots:
   picomatch@4.0.2:
     optional: true
 
-  prettier@3.9.6: {}
+  prettier@3.9.8: {}
 
   proc-log@7.0.0:
     optional: true
@@ -4500,7 +4500,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.105.4(typanion@3.14.0):
+  renovate@44.115.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1117.0
       '@aws-sdk/client-ec2': 3.1117.0
@@ -4537,7 +4537,7 @@ snapshots:
       '@renovatebot/good-enough-parser': 2.0.1
       '@renovatebot/osv-offline': 3.0.11
       '@renovatebot/pep440': 5.0.1
-      '@renovatebot/pgp': 2.0.1
+      '@renovatebot/pgp': 2.0.2
       '@renovatebot/ruby-semver': 5.0.0
       '@sindresorhus/is': 8.1.0
       '@yarnpkg/core': 4.9.1(typanion@3.14.0)
@@ -4555,7 +4555,7 @@ snapshots:
       commander: 15.0.0
       common-tags: 1.8.2
       croner: 10.0.1
-      cronstrue: 3.26.0
+      cronstrue: 3.27.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
@@ -4573,7 +4573,7 @@ snapshots:
       github-url-from-git: 1.5.0
       glob: 13.0.6
       global-agent: 3.0.0
-      google-auth-library: 11.0.2
+      google-auth-library: 11.1.0
       got: 16.0.0
       graph-data-structure: 4.5.0
       handlebars: 4.7.9
@@ -4599,7 +4599,7 @@ snapshots:
       p-queue: 9.3.3
       p-throttle: 8.1.1
       parse-link-header: 2.0.0
-      prettier: 3.9.6
+      prettier: 3.9.8
       protobufjs: 8.8.0
       punycode: 2.3.1
       remark: 15.0.1
