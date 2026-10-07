@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.132.2
-        version: 44.132.2(typanion@3.14.0)
+        specifier: ^44.132.5
+        version: 44.140.0(typanion@3.14.0)
 
 packages:
 
@@ -146,6 +146,15 @@ packages:
 
   '@cdktf/hcl2json@0.21.0':
     resolution: {integrity: sha512-cwX3i/mSJI/cRrtqwEPRfawB7pXgNioriSlkvou8LWiCrrcDe9ZtTbAbu8W1tEJQpe1pnX9VEgpzf/BbM7xF8Q==}
+
+  '@containerbase/base@14.27.0':
+    resolution: {integrity: sha512-1Bdns8C6IpwHG1IPQsO6tupYYZjIuqQ5vcvyehqKOEbHsiFEINRi797UtZ+jHkrs5r3u7hF/VKfQlmPFtGkv8Q==}
+    engines: {node: '>=24.10.0'}
+    peerDependencies:
+      zod: ^4.0.0
+    peerDependenciesMeta:
+      zod:
+        optional: true
 
   '@grpc/grpc-js@1.14.4':
     resolution: {integrity: sha512-k9Dj3DV/itK9D06Y8f190Qgop7/Ui+D0njFV3LHMPwPT75DpXLQohE9Wmz0QElrJnzsjB7KPWiKJbOl7IPDArQ==}
@@ -443,6 +452,15 @@ packages:
       '@node-rs/xxhash':
         optional: true
       '@opentelemetry/api':
+        optional: true
+
+  '@renovatebot/base-image@13.114.0':
+    resolution: {integrity: sha512-QHYnw2cHsUAO9RalxH42xbAvAUhbG9wjI6ky3tQI97C21bVE0u7x27xHYsZHc2TLroaq+meAWgBvjmtG1chzYA==}
+    engines: {node: '>=24.10.0'}
+    peerDependencies:
+      zod: ^4.0.0
+    peerDependenciesMeta:
+      zod:
         optional: true
 
   '@renovatebot/detect-tools@4.0.21':
@@ -1254,8 +1272,8 @@ packages:
     resolution: {integrity: sha512-IBTdIkzZNOpqm7q3dRqJvMaldXjDHWkEDfrwGEQTs5eaQMWV+djAhR+wahyNNMAa+qpbDUhBMVt4ZKNwpPm7xQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
-  install-artifact-from-github@1.7.0:
-    resolution: {integrity: sha512-qAb91yAKVF9rFY4rVP21ZtYUyCScxAFt9udwzVWNLBE1pQcdQeB2gd1HlNPcQNYCzCDvJ/QJQPuWQ6aTmSlU8g==}
+  install-artifact-from-github@1.8.1:
+    resolution: {integrity: sha512-lV8dRlR/3i6Tk4X9agaqhMRY6ScVU3YOuKse0VRnP9+rUWfImeCjo1TeAefXEauNVF3a8QgOb6jW3CZJetVopw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1627,6 +1645,9 @@ packages:
   nan@2.28.0:
     resolution: {integrity: sha512-fTsDz99OTq2sVePhGdp4qQhggZFtKr64ZNVyVajRKtMOkJxYekplBh577PiJB12v/D3s2E5cGtOI45LWp6rnLQ==}
 
+  nan@2.29.0:
+    resolution: {integrity: sha512-GlGk3HIvitbvs+LT3g6XUP1kpirKNvmDFwF/bmo6XNWSb/eYEs/O4bfgIEIXCZ+lIOTS5xNwDvSGMw6FJdAhtA==}
+
   ncp@2.0.0:
     resolution: {integrity: sha512-zIdGUrPRFTUELUvr3Gmc7KZ2Sw/h1PiVM0Af/oHB6zgnV1ikqSfRk+TOufi79aHYCW3NiOXmr1BP5nWbzojLaA==}
     hasBin: true
@@ -1647,8 +1668,8 @@ packages:
     resolution: {integrity: sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  node-gyp@13.0.1:
-    resolution: {integrity: sha512-piOr0S10qy5THB+q5BdqkoOx65XL/tjTMUAit3vciPNp+snTOBnGunWH1Rz7XZUxf2T9uFrfT/Ty4+aC3yPeyg==}
+  node-gyp@13.1.0:
+    resolution: {integrity: sha512-FpNzOLFACKG0oRBYbZ5WOeWD1EqRTIWX90MaRIWTO18lVYPx8fqIjrdS3pihjnCkSmgop6zVGkSqg1vXZLksuw==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     hasBin: true
 
@@ -1841,8 +1862,8 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
 
-  re2@1.26.1:
-    resolution: {integrity: sha512-oi79a4h6EO3PAwNsDMWgeCcsRGQEUa52DIgOiFTZGDEZocEXG9h+oXy0qZqndo47huUeJuVWSoOJIEhOupqOcg==}
+  re2@1.27.0:
+    resolution: {integrity: sha512-z5Vascmj7lQbU3YdfYJUDkBGGTnoAObcVW/CSbpI3WbVb1vZQsSzSWcGkfKU0JKrrGfPZwPr8EVHwYXKQKLVXw==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   read-yaml-file@2.1.0:
@@ -1867,8 +1888,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.132.2:
-    resolution: {integrity: sha512-RD5+d1UPhvTj55u6wbZUY/Fhb2LRkYfo9ZqymjH8XeiKub37aNdDNJPgksnOjsyHPMzLMh6DeMTrEBRnQzBgvA==}
+  renovate@44.140.0:
+    resolution: {integrity: sha512-F83MX+BMQKpbdkfrITHSOCRUnfmRzuTJ4KkAnQnIVme+yzOOxU0lhUcr5dtx0l3sSKXmR9yHN8d52ga0dJ94AQ==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2538,6 +2559,10 @@ snapshots:
     dependencies:
       fs-extra: 11.3.0
 
+  '@containerbase/base@14.27.0(zod@4.6.5)':
+    optionalDependencies:
+      zod: 4.6.5
+
   '@grpc/grpc-js@1.14.4':
     dependencies:
       '@grpc/proto-loader': 0.8.1
@@ -2855,6 +2880,12 @@ snapshots:
       cluster-key-slot: 1.1.2
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
+
+  '@renovatebot/base-image@13.114.0(zod@4.6.5)':
+    dependencies:
+      '@containerbase/base': 14.27.0(zod@4.6.5)
+    optionalDependencies:
+      zod: 4.6.5
 
   '@renovatebot/detect-tools@4.0.21':
     dependencies:
@@ -3758,7 +3789,7 @@ snapshots:
 
   ini@6.0.0: {}
 
-  install-artifact-from-github@1.7.0:
+  install-artifact-from-github@1.8.1:
     optional: true
 
   is-arrayish@0.2.1: {}
@@ -4265,6 +4296,9 @@ snapshots:
   nan@2.28.0:
     optional: true
 
+  nan@2.29.0:
+    optional: true
+
   ncp@2.0.0:
     optional: true
 
@@ -4280,7 +4314,7 @@ snapshots:
       fetch-blob: 3.2.0
       formdata-polyfill: 4.0.10
 
-  node-gyp@13.0.1:
+  node-gyp@13.1.0:
     dependencies:
       env-paths: 2.2.1
       exponential-backoff: 3.1.2
@@ -4457,11 +4491,11 @@ snapshots:
 
   quick-lru@5.1.1: {}
 
-  re2@1.26.1:
+  re2@1.27.0:
     dependencies:
-      install-artifact-from-github: 1.7.0
-      nan: 2.28.0
-      node-gyp: 13.0.1
+      install-artifact-from-github: 1.8.1
+      nan: 2.29.0
+      node-gyp: 13.1.0
     optional: true
 
   read-yaml-file@2.1.0:
@@ -4515,7 +4549,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.132.2(typanion@3.14.0):
+  renovate@44.140.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1139.0
       '@aws-sdk/client-ec2': 3.1139.0
@@ -4548,6 +4582,7 @@ snapshots:
       '@pnpm/parse-overrides': 1001.0.4
       '@qnighy/marshal': 0.1.3
       '@redis/client': 6.2.1(@opentelemetry/api@1.9.1)
+      '@renovatebot/base-image': 13.114.0(zod@4.6.5)
       '@renovatebot/detect-tools': 4.0.21
       '@renovatebot/good-enough-parser': 2.0.1
       '@renovatebot/osv-offline': 3.0.12
@@ -4642,7 +4677,7 @@ snapshots:
       zod: 4.6.5
     optionalDependencies:
       openpgp: 6.3.2
-      re2: 1.26.1
+      re2: 1.27.0
     transitivePeerDependencies:
       - '@node-rs/xxhash'
       - '@openpgp/web-stream-tools'
