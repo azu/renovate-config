@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.155.2
+        specifier: ^44.155.8
         version: 44.164.6(typanion@3.14.0)
 
 packages:
