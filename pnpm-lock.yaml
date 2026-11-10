@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.221.6
+        specifier: ^44.222.0
         version: 44.224.1(typanion@3.14.0)
 
 packages:
@@ -149,15 +149,6 @@ packages:
 
   '@containerbase/base@14.66.12':
     resolution: {integrity: sha512-ZXKagkLn46FSx1ZHzAZxfQvHstTrcD/VHMprH5Hgy7zcZIlGYuJF+pNTtmO88uZWkNshRE7FopQtULOpiAVShg==}
-    engines: {node: '>=24.10.0'}
-    peerDependencies:
-      zod: ^4.0.0
-    peerDependenciesMeta:
-      zod:
-        optional: true
-
-  '@containerbase/base@14.66.5':
-    resolution: {integrity: sha512-5vbXTmyX+pZzIQWKc9x0E0wkSwwPLuO+tLf0IehPt+PBTdbpmmAQ9DAKW+CypEYYvFz9Pl7w65XyjXjtgqB1Hw==}
     engines: {node: '>=24.10.0'}
     peerDependencies:
       zod: ^4.0.0
@@ -2563,12 +2554,6 @@ snapshots:
     optionalDependencies:
       zod: 4.6.7
 
-  '@containerbase/base@14.66.5(zod@4.6.7)':
-    dependencies:
-      semver: 7.8.5
-    optionalDependencies:
-      zod: 4.6.7
-
   '@grpc/grpc-js@1.14.7':
     dependencies:
       '@grpc/proto-loader': 0.8.1
@@ -2884,7 +2869,7 @@ snapshots:
 
   '@renovatebot/osv-offline-db@4.5.10(zod@4.6.7)':
     dependencies:
-      '@containerbase/base': 14.66.5(zod@4.6.7)
+      '@containerbase/base': 14.66.12(zod@4.6.7)
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
