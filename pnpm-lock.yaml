@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.239.1
+        specifier: ^44.239.2
         version: 44.247.1(typanion@3.14.0)
 
 packages:
@@ -146,15 +146,6 @@ packages:
 
   '@cdktf/hcl2json@0.21.0':
     resolution: {integrity: sha512-cwX3i/mSJI/cRrtqwEPRfawB7pXgNioriSlkvou8LWiCrrcDe9ZtTbAbu8W1tEJQpe1pnX9VEgpzf/BbM7xF8Q==}
-
-  '@containerbase/base@14.66.12':
-    resolution: {integrity: sha512-ZXKagkLn46FSx1ZHzAZxfQvHstTrcD/VHMprH5Hgy7zcZIlGYuJF+pNTtmO88uZWkNshRE7FopQtULOpiAVShg==}
-    engines: {node: '>=24.10.0'}
-    peerDependencies:
-      zod: ^4.0.0
-    peerDependenciesMeta:
-      zod:
-        optional: true
 
   '@containerbase/base@14.67.0':
     resolution: {integrity: sha512-zeMBP9WqNX8ACA7+6FHINKkkeqRoLaLpJRcDPPU64m110Xx0F+gjpN86WOUiuC40TjZD+M+eK7JcHbRmU7Bucg==}
@@ -1643,9 +1634,6 @@ packages:
     resolution: {integrity: sha512-at/ZndSy3xEGJ8i0ygALh8ru9qy7gWW1cmkaqBN29JmMlIvM//MEO9y1sk/avxuwnPcfhkejkLsuPxH81BrkSg==}
     engines: {node: '>=0.8.0'}
 
-  nan@2.29.0:
-    resolution: {integrity: sha512-GlGk3HIvitbvs+LT3g6XUP1kpirKNvmDFwF/bmo6XNWSb/eYEs/O4bfgIEIXCZ+lIOTS5xNwDvSGMw6FJdAhtA==}
-
   nan@2.30.0:
     resolution: {integrity: sha512-P5mokDkSvCGBz6mZDD/2l+w9QoICRXdCyZ9ONGmTePr40oihJg3Kpn0YU3twKd6PJnwSlLBWNQeOT6yWEV2c4A==}
 
@@ -2560,12 +2548,6 @@ snapshots:
     dependencies:
       fs-extra: 11.3.0
 
-  '@containerbase/base@14.66.12(zod@4.6.7)':
-    dependencies:
-      semver: 7.8.6
-    optionalDependencies:
-      zod: 4.6.7
-
   '@containerbase/base@14.67.0(zod@4.6.7)':
     dependencies:
       semver: 7.8.6
@@ -2887,7 +2869,7 @@ snapshots:
 
   '@renovatebot/osv-offline-db@4.5.10(zod@4.6.7)':
     dependencies:
-      '@containerbase/base': 14.66.12(zod@4.6.7)
+      '@containerbase/base': 14.67.0(zod@4.6.7)
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
@@ -3383,7 +3365,7 @@ snapshots:
 
   dtrace-provider@0.8.8:
     dependencies:
-      nan: 2.29.0
+      nan: 2.30.0
     optional: true
 
   dunder-proto@1.0.1:
@@ -4280,9 +4262,6 @@ snapshots:
       mkdirp: 0.5.6
       ncp: 2.0.0
       rimraf: 2.4.5
-    optional: true
-
-  nan@2.29.0:
     optional: true
 
   nan@2.30.0:
