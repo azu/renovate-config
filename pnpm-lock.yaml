@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^44.257.5
+        specifier: ^44.257.9
         version: 44.258.3(typanion@3.14.0)
 
 packages:
@@ -146,15 +146,6 @@ packages:
 
   '@cdktf/hcl2json@0.21.0':
     resolution: {integrity: sha512-cwX3i/mSJI/cRrtqwEPRfawB7pXgNioriSlkvou8LWiCrrcDe9ZtTbAbu8W1tEJQpe1pnX9VEgpzf/BbM7xF8Q==}
-
-  '@containerbase/base@14.68.0':
-    resolution: {integrity: sha512-EweXsQMg5GkLO2jYL/8mhKVx4+8swLyjIr/RKzrOwW0OnbFFeUGbFIi1ICXOcT0uLL9vX5ibKfblIOcXok246Q==}
-    engines: {node: '>=24.10.0'}
-    peerDependencies:
-      zod: ^4.0.0
-    peerDependenciesMeta:
-      zod:
-        optional: true
 
   '@containerbase/base@14.68.3':
     resolution: {integrity: sha512-PiUE8GjftYvVZ1z+XEhGCDestdOFnpzTk8EQ3wdrH4BvpJ4kXMTsqG4BUIwi1ui9dBDFOq5ICESFNy5PA555NA==}
@@ -2557,12 +2548,6 @@ snapshots:
     dependencies:
       fs-extra: 11.3.0
 
-  '@containerbase/base@14.68.0(zod@4.6.7)':
-    dependencies:
-      semver: 7.8.6
-    optionalDependencies:
-      zod: 4.6.7
-
   '@containerbase/base@14.68.3(zod@4.6.7)':
     dependencies:
       semver: 7.8.6
@@ -2884,7 +2869,7 @@ snapshots:
 
   '@renovatebot/osv-offline-db@4.5.10(zod@4.6.7)':
     dependencies:
-      '@containerbase/base': 14.68.0(zod@4.6.7)
+      '@containerbase/base': 14.68.3(zod@4.6.7)
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
